@@ -1,0 +1,19 @@
+---
+
+const {frontmatter} = Astro.props;
+import "../styles/global.css";
+
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{frontmatter.title}</title>
+    </head>
+    <body class="imprint">
+        <main role="main" class="imprint-prose">
+            <slot />
+        </main>
+    </body>
+</html>

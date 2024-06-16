@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: var(--imprint-sans-serif);
+}
+body > main {
+    @apply m-auto;
+    @apply text-justify;
+}
+
+span.icon::before {
+    content: "-LINK-";
+}

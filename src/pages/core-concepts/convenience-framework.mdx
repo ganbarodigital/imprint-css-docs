@@ -1,0 +1,43 @@
+---
+layout: ../../layouts/default.astro
+title: Convenience Framework
+part_of: Core Concepts
+next_file: "license.html"
+---
+
+# Convenience Framework
+
+## Introduction
+
+Although it's built on top of a utility-first framework (the excellent Tailwind CSS), Imprint CSS isn't a utility-first framework. It's actually a "convenience-first" framework.
+
+What do we mean by that?
+
+## Two Classes And You're Done
+
+To style your content, all you need to do is to add two CSS classes to your HTML markup ...
+
+```html
+<html>
+    <head>
+        ...
+    </head>
+    <body class="imprint">
+        <main class="imprint-prose">
+        </main>
+    </body>
+</html>
+```
+
+... and you're done.
+
+* The `imprint` class activates the CSS rules that are common across all the supported content styles,
+* and the `imprint-prose` class activates the CSS rules that are specific for the prose content type.
+
+Publishing a different type of content? You can swap out `imprint-prose` for (say) `imprint-white-paper` to get that look instead.
+
+## Customise Via Your Tailwind Config File
+
+Whether it's CSS or code, we hate _hate_ **hate** working with "convention over configuration" frameworks that can't be adapted to suit the product or project we're working on. They're a creative straight-jacket, forcing the project to be designed around their baked-in limitations.
+
+That's why all of Imprint CSS's styles are driven by CSS variables.

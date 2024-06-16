@@ -1,0 +1,74 @@
+---
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const allColors = await getCollection("colors");
+
+  return allColors.map((colorDetails) => {
+    return {
+      params: { color: colorDetails.id },
+      props: { colorDetails }
+    };
+  });
+}
+
+// const {id} = Astro.params;
+const {colorDetails} = Astro.props;
+const luminosity = colorDetails.data.luminosity.toFixed(3);
+
+---
+
+<h1>{colorDetails.data.name}</h1>
+
+<h2>Introduction</h2>
+<p>This page contains everything we know about the color <code>{colorDetails.data.name}</code>.</p>
+
+<h2>How To Use</h2>
+<h3>Color Variables</h3>
+
+<p>This color is available as a Tailwind variable. You can use it in your own CSS:</p>
+
+<pre is:raw>
+.headline {
+  color: ${colorDetails.data.name};
+}
+</pre>
+
+<h2>Accessibility</h2>
+
+<p>Need to learn how color can affect whether people can use your web app or not?</p>
+<ul>
+  <li><a href="">Everything About Color Contrast And Why You Should Rethink It</a>, by <a href="">Cathy O'Connor</a></li>
+</ul>
+
+<h3>Color Properties</h3>
+
+<p>Here's our automated analysis of {colorDetails.data.name}, when used as a background color:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Recommended Foreground Color</td>
+      <td><code>#fff</code></td>
+    </tr>
+    <tr>
+      <td><a href="http://www.w3.org/TR/WCAG20/#relativeluminancedef" target="_blank">Luminosity</a></td>
+      <td>{luminosity}</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Notes</h2>
+<ol>
+  <li>We calculate luminosity using the <a href="http://www.w3.org/TR/WCAG20/#relativeluminancedef" target="_blank">WCAG luminosity</a>. `0` is black, `1` is white.</li>
+  <li>The sRGB relative luminosity is calculated using the <a href="http://www.w3.org/TR/WCAG20/#relativeluminancedef">WCAG 2.0 formula</a>. It maps each RGB component onto a non-linear gamma 2.2 curve.</li>
+  <li>The contrast ratio is calculated using the <a href="http://www.w3.org/TR/WCAG20/#contrast-ratiodef">WCAG 2.0 definition</a>. We share <a href="http://webaim.org/blog/wcag-2-1-feedback/">the concerns that WebAIM has</a> about the WCAG 2.0 forumla. There are some circumstances where it favours a foreground color that looks very low-contrast on modern screens.</li>
+  <li>We think a color is a good background choice if:
+    <ul>
+      <li>it is WCAG 2.0 AAA Compliant with our chosen foreground color, and<li>
+      <li>both

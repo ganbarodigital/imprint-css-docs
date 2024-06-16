@@ -1,0 +1,23 @@
+{
+  "name": "imprintcss.com",
+  "version": "1.0.0",
+  "description": "Docs website for the Imprint CSS Tailwind plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "author": "stuart@stuartherbert.com",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/mdx": "^2.0.1",
+    "@astrojs/tailwind": "^5.0.3",
+    "astro": "^4.0.4",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.0",
+    "ts-node": "^10.9"
+  }
+}
