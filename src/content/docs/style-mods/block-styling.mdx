@@ -1,11 +1,10 @@
 ---
 title: Block Styling
 navSection: Style Mods
+description: Utilities for creating notable blocks of text.
 prev: style-mods
 next: style-mods/context-styling
 ---
-
-# Block Styling
 
 ## Border Styling
 
@@ -36,7 +35,7 @@ And here is a paragraph after the example, to show how the flow spacing works.
 
 Here is an example of a paragraph before the example, to show how the flow spacing works.
 
-<div class="imprint-alert imprint-block --subtle --success">
+<div class="imprint-alert imprint-block --success">
     <h4>This Is A Heading Inside An Alert Block</h4>
     <div class="imprint-inner">
         <p>This is content inside the alert.</p>
@@ -48,7 +47,7 @@ And here is a paragraph after the example, to show how the flow spacing works.
 
 Here is an example of a paragraph before the example, to show how the flow spacing works.
 
-<div class="imprint-block --subtle">
+<div class="imprint-block">
     <div class="imprint-inner">
         <h4>This Is A Heading Inside A Block</h4>
         <p>This is the first line of content.</p>
@@ -103,6 +102,48 @@ Here is an example of a paragraph before the example, to show how the flow spaci
 </div>
 
 And here is a paragraph after the example, to show how the flow spacing works.
+
+## Tailwind Utility Overrides
+
+Use Tailwind's border classes to override the `imprint-block` block's default border color.
+
+<div class="imprint-block border-indigo">
+    <div class="imprint-inner">
+        <h4>This Is A Heading Inside A Block</h4>
+        <p>This is the first line of content.</p>
+        <p>Exercitation sint excepteur do fugiat eu esse. Ad sunt cillum enim aute ipsum sit deserunt velit incididunt. Id labore magna nulla irure laborum excepteur cillum laboris non tempor veniam irure ullamco voluptate. Elit laboris mollit incididunt dolore dolore exercitation eu sit reprehenderit exercitation dolore elit pariatur. In Lorem anim eu pariatur ipsum consectetur ea fugiat proident nostrud eiusmod. Deserunt mollit duis enim anim adipisicing aute fugiat officia elit. Aute amet sint cupidatat dolor excepteur cupidatat dolore veniam amet veniam excepteur ea. Velit ad duis laboris eiusmod nostrud minim proident eiusmod commodo incididunt id ullamco.</p>
+    </div>
+</div>
+
+Use the Tailwind class `py-0` to remove the vertical whitespace inside an `imprint-callout` block.
+
+<div class="imprint-callout">
+    <div class="py-0 imprint-inner">
+        <h4>This Is A Heading Inside A Callout</h4>
+        <p>This is the first line of content.</p>
+        <p>Exercitation sint excepteur do fugiat eu esse. Ad sunt cillum enim aute ipsum sit deserunt velit incididunt. Id labore magna nulla irure laborum excepteur cillum laboris non tempor veniam irure ullamco voluptate. Elit laboris mollit incididunt dolore dolore exercitation eu sit reprehenderit exercitation dolore elit pariatur. In Lorem anim eu pariatur ipsum consectetur ea fugiat proident nostrud eiusmod. Deserunt mollit duis enim anim adipisicing aute fugiat officia elit. Aute amet sint cupidatat dolor excepteur cupidatat dolore veniam amet veniam excepteur ea. Velit ad duis laboris eiusmod nostrud minim proident eiusmod commodo incididunt id ullamco.</p>
+    </div>
+</div>
+
+Use Tailwind's border classes to override the `imprint-callout` block's left-hand border color.
+
+<div class="imprint-callout border-indigo">
+    <div class="imprint-inner">
+        <h4>This Is A Heading Inside A Callout</h4>
+        <p>This is the first line of content.</p>
+        <p>Exercitation sint excepteur do fugiat eu esse. Ad sunt cillum enim aute ipsum sit deserunt velit incididunt. Id labore magna nulla irure laborum excepteur cillum laboris non tempor veniam irure ullamco voluptate. Elit laboris mollit incididunt dolore dolore exercitation eu sit reprehenderit exercitation dolore elit pariatur. In Lorem anim eu pariatur ipsum consectetur ea fugiat proident nostrud eiusmod. Deserunt mollit duis enim anim adipisicing aute fugiat officia elit. Aute amet sint cupidatat dolor excepteur cupidatat dolore veniam amet veniam excepteur ea. Velit ad duis laboris eiusmod nostrud minim proident eiusmod commodo incididunt id ullamco.</p>
+    </div>
+</div>
+
+Use Tailwind's border classes to override the `imprint-panel` block's border color.
+
+<div class="imprint-panel border-indigo">
+    <div class="imprint-inner">
+        <h4>This Is A Heading Inside A Panel</h4>
+        <p>This is the first line of content.</p>
+        <p>Exercitation sint excepteur do fugiat eu esse. Ad sunt cillum enim aute ipsum sit deserunt velit incididunt. Id labore magna nulla irure laborum excepteur cillum laboris non tempor veniam irure ullamco voluptate. Elit laboris mollit incididunt dolore dolore exercitation eu sit reprehenderit exercitation dolore elit pariatur. In Lorem anim eu pariatur ipsum consectetur ea fugiat proident nostrud eiusmod. Deserunt mollit duis enim anim adipisicing aute fugiat officia elit. Aute amet sint cupidatat dolor excepteur cupidatat dolore veniam amet veniam excepteur ea. Velit ad duis laboris eiusmod nostrud minim proident eiusmod commodo incididunt id ullamco.</p>
+    </div>
+</div>
 
 ## Depth Styling
 
