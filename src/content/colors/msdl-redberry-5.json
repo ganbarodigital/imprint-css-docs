@@ -1,0 +1,24 @@
+{
+  "name": "msdl-redberry-5",
+  "hsl": {
+    "h": 0,
+    "s": 100,
+    "l": 70.19607843137254
+  },
+  "hex": "#FF6767",
+  "rgb": {
+    "r": 255,
+    "g": 103,
+    "b": 103
+  },
+  "rgbChannels": "255 103 103",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.8424650346544142,
+  "darkModeContrast": 7.387953675410178,
+  "luminosity": 0.3193976837705089,
+  "shades": [
+    "red"
+  ],
+  "group": "msdl"
+}

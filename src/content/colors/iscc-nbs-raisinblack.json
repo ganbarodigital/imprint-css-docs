@@ -1,0 +1,25 @@
+{
+  "name": "iscc-nbs-raisinblack",
+  "hsl": {
+    "h": 300,
+    "s": 4.347826086956516,
+    "l": 13.529411764705884
+  },
+  "hex": "#242124",
+  "rgb": {
+    "r": 36,
+    "g": 33,
+    "b": 36
+  },
+  "rgbChannels": "36 33 36",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 15.932855450145311,
+  "darkModeContrast": 1.318031163071179,
+  "luminosity": 0.015901558153558953,
+  "shades": [
+    "gray",
+    "magenta"
+  ],
+  "group": "misc"
+}

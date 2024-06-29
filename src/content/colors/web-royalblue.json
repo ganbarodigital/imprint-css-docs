@@ -1,0 +1,24 @@
+{
+  "name": "web-royalblue",
+  "hsl": {
+    "h": 225,
+    "s": 72.72727272727272,
+    "l": 56.86274509803921
+  },
+  "hex": "#4169E1",
+  "rgb": {
+    "r": 65,
+    "g": 105,
+    "b": 225
+  },
+  "rgbChannels": "65 105 225",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.846926951168387,
+  "darkModeContrast": 4.332642148637664,
+  "luminosity": 0.16663210743188323,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

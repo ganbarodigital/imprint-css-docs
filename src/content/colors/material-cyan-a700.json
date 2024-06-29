@@ -1,0 +1,24 @@
+{
+  "name": "material-cyan-a700",
+  "hsl": {
+    "h": 187.92452830188677,
+    "s": 100,
+    "l": 41.568627450980394
+  },
+  "hex": "#00B8D4",
+  "rgb": {
+    "r": 0,
+    "g": 184,
+    "b": 212
+  },
+  "rgbChannels": "0 184 212",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.3844969179871143,
+  "darkModeContrast": 8.806889135225749,
+  "luminosity": 0.3903444567612875,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

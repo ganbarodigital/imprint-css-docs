@@ -1,0 +1,24 @@
+{
+  "name": "pantone-orange",
+  "hsl": {
+    "h": 20.70588235294116,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FF5800",
+  "rgb": {
+    "r": 255,
+    "g": 88,
+    "b": 0
+  },
+  "rgbChannels": "255 88 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.1588973121755832,
+  "darkModeContrast": 6.6478894135172,
+  "luminosity": 0.28239447067586004,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

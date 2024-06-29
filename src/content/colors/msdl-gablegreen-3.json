@@ -1,0 +1,24 @@
+{
+  "name": "msdl-gablegreen-3",
+  "hsl": {
+    "h": 165,
+    "s": 18.181818181818183,
+    "l": 34.509803921568626
+  },
+  "hex": "#486860",
+  "rgb": {
+    "r": 72,
+    "g": 104,
+    "b": 96
+  },
+  "rgbChannels": "72 104 96",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.13214786418374,
+  "darkModeContrast": 3.4245749556457152,
+  "luminosity": 0.12122874778228578,
+  "shades": [
+    "cyan"
+  ],
+  "group": "msdl"
+}

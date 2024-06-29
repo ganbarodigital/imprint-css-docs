@@ -1,0 +1,25 @@
+{
+  "name": "apple-magnesium",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 70.19607843137254
+  },
+  "hex": "#B3B3B3",
+  "rgb": {
+    "r": 179,
+    "g": 179,
+    "b": 179
+  },
+  "rgbChannels": "179 179 179",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.096704890560357,
+  "darkModeContrast": 10.015715656764469,
+  "luminosity": 0.45078578283822346,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "apple"
+}

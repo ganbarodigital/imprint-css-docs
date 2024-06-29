@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-vanilla",
+  "hsl": {
+    "h": 48.33333333333337,
+    "s": 74.99999999999997,
+    "l": 81.17647058823529
+  },
+  "hex": "#F3E5AB",
+  "rgb": {
+    "r": 243,
+    "g": 229,
+    "b": 171
+  },
+  "rgbChannels": "243 229 171",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2645485766887872,
+  "darkModeContrast": 16.60671672652416,
+  "luminosity": 0.780335836326208,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

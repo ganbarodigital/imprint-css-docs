@@ -1,0 +1,24 @@
+{
+  "name": "msdl-indiantan-2",
+  "hsl": {
+    "h": 16.25,
+    "s": 33.33333333333333,
+    "l": 28.235294117647058
+  },
+  "hex": "#603D30",
+  "rgb": {
+    "r": 96,
+    "g": 61,
+    "b": 48
+  },
+  "rgbChannels": "96 61 48",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.512865443660846,
+  "darkModeContrast": 2.2075367432001167,
+  "luminosity": 0.060376837160005845,
+  "shades": [
+    "red"
+  ],
+  "group": "msdl"
+}

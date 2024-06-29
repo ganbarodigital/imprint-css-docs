@@ -1,0 +1,24 @@
+{
+  "name": "material-cyan-100",
+  "hsl": {
+    "h": 186.5625,
+    "s": 71.11111111111109,
+    "l": 82.35294117647058
+  },
+  "hex": "#B2EBF2",
+  "rgb": {
+    "r": 178,
+    "g": 235,
+    "b": 242
+  },
+  "rgbChannels": "178 235 242",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3077195674768927,
+  "darkModeContrast": 16.058488778689217,
+  "luminosity": 0.7529244389344609,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

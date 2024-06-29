@@ -1,0 +1,25 @@
+{
+  "name": "munsell-red",
+  "hsl": {
+    "h": 345.12396694214874,
+    "s": 100,
+    "l": 47.45098039215686
+  },
+  "hex": "#F2003C",
+  "rgb": {
+    "r": 242,
+    "g": 0,
+    "b": 60
+  },
+  "rgbChannels": "242 0 60",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.338217360910541,
+  "darkModeContrast": 4.840697976367037,
+  "luminosity": 0.1920348988183518,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,130 @@
+---
+title: Syntax Highlighting
+navSection: Typography
+description: Default styles and utilities for code examples.
+prev: typography/preformatted-styles
+---
+
+## Introduction
+
+ImprintCSS assumes that any `<pre><code>...</code></pre>` HTML blocks are (possibly) syntax-highlighted code.
+
+There's quite a few tools out there for generating these syntax-highlighting blocks, such as [highlight.js](https://highlightjs.org), [prism.js](https://prismjs.com) and [shiki.js](https://shiki.style). They're all different, and they all produce different HTML output.
+
+As a result, it simply isn't safe for ImprintCSS to apply much default styling for syntax-highlighted code.
+
+## Default Styling
+
+The only default CSS that ImprintCSS adds to syntax-highlighted code is to make sure that the font-size matches the rest of the document:
+
+<div class="imprint-callout --primary">
+```css
+pre:has(code) {
+    font-size: var(--imprint-inline-mono-size);
+}
+```
+</div>
+
+You'll need to write your own additional CSS if you want to change the default look and feel of your syntax-highlighting tool of choice.
+
+That's exactly what we've done for this website.
+
+## Astro + Shiki Style Examples
+
+This website is built using [Astro](https://astro.build). Most of the web pages are generated from MDX files. The code examples are all generated from [standard Markdown <code>&grave;&grave;&grave;</code> code fence blocks](https://spec.commonmark.org/0.31.2/#fenced-code-blocks) using [shiki.js](https://shiki.style).
+
+In this section, you'll find all the additional CSS and HTML markup that this site uses to produce the code examples.
+
+### Setting The Background
+
+The background is set using this CSS in this website's main CSS file:
+
+<div class="imprint-callout --primary">
+```css
+.astro-code {
+    @apply p-4su;
+    background-image: url("/assets/blueprint-moz.png");
+    background-repeat: repeat;
+}
+```
+</div>
+
+The background image originally came from [Mozilla's MDN website](https://developer.mozilla.org) circa 2015. MDN's content is licensed under [CC-BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/).
+
+### Adding The Left-Hand Divider Line
+
+All of the code examples are wrapped in a `<div class="imprint-callout">` outer `<div>`. This adds the vertical line that you see on the left-hand side of each code example.
+
+<div class="imprint-callout --primary">
+```html
+<div class="imprint-callout --primary">
+    <!-- put your ``` code fence here if you are using Markdown / MDX -->
+</div>
+```
+</div>
+
+This is a great example of the benefits of a utility-first approach to CSS. In the past, we would have written unique CSS for this. Now, we just apply our block formatting style-mod of choice - no extra CSS required.
+
+### Phix Light Color Scheme
+
+The syntax-highlighting theme is called "Phix Light". It's designed to match the default colors of ImprintCSS.
+
+It gets loaded into the website's `astro.config.mjs` config file (no extra CSS needed 🎉), and produces results like this:
+
+<div class="imprint-callout --primary">
+```php
+/**
+ * this is an example
+ */
+
+namespace GanbaroDigital\Examples;
+
+class ExampleClass
+{
+    const EXAMPLE_CONSTANT = null;
+
+    public function __construct($arg1, $arg2)
+    {
+        // do something here
+    }
+}
+```
+</div>
+
+### Adding Line Numbers
+
+<div class="imprint-alert --shaded">
+    <h4>Shiki Does Not Support Line Numbering</h4>
+    <div class="imprint-inner">
+        <p>At the time of writing, Shiki doesn't support adding line numbers to syntax-highlighted code. For more details, see <a href="https://github.com/shikijs/shiki/issues/3">this Github issue</a>.</p>
+    </div>
+</div>
+
+There are workarounds available in pure CSS:
+
+1. make Shiki's output act like a HTML ordered list, or
+2. use CSS counters to add numbers to the `::before` pseudo element of every line.
+
+We've gone with the first option. It has a big advantage: when readers copy and paste examples, the line numbers don't get copied across. (HTML ordered list numbers cannot be selected by dragging the mouse.)
+
+ImprintCSS comes with a `--shiki-numbered` [style mod](/style-mods/), so that you don't have to write this CSS yourself.
+
+Wrap your syntax-highlighted code in a `<div class="--shiki-numbered">` outer `<div>`.
+
+<div class="imprint-callout --primary --shiki-numbered">
+```html
+<div class="imprint-callout --primary --shiki-numbered">
+<!-- start your ``` code fence if using Markdown / MDX -->
+    <div class="panel">
+    This is a basic panel component.
+    </div>
+<!-- end your ``` code fence if using Markdown / MDX -->
+</div>
+```
+</div>
+
+You can customise `--shiki-numbered` by overriding the following CSS variables in your Tailwind config file, or in your own CSS styles.
+
+CSS Variables | Description
+--------------|------------
+`--imprint-code-example-line-no-color` | Sets the color of line numbers added to syntax-highlighted code examples

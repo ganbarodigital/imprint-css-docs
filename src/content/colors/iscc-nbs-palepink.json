@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-palepink",
+  "hsl": {
+    "h": 2.5531914893617227,
+    "s": 79.66101694915257,
+    "l": 88.4313725490196
+  },
+  "hex": "#F9CCCA",
+  "rgb": {
+    "r": 249,
+    "g": 204,
+    "b": 202
+  },
+  "rgbChannels": "249 204 202",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.4464854865825907,
+  "darkModeContrast": 14.51794725546384,
+  "luminosity": 0.675897362773192,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

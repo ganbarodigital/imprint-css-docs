@@ -1,0 +1,24 @@
+{
+  "name": "msdl-christalle-3",
+  "hsl": {
+    "h": 267.8787878787879,
+    "s": 51.83246073298429,
+    "l": 37.450980392156865
+  },
+  "hex": "#5C2E91",
+  "rgb": {
+    "r": 92,
+    "g": 46,
+    "b": 145
+  },
+  "rgbChannels": "92 46 145",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.313765942910768,
+  "darkModeContrast": 2.2547270490498295,
+  "luminosity": 0.06273635245249148,
+  "shades": [
+    "blue"
+  ],
+  "group": "msdl"
+}

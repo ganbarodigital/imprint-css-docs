@@ -1,0 +1,24 @@
+{
+  "name": "cmyk-processyellow",
+  "hsl": {
+    "h": 56.23529411764707,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FFEF00",
+  "rgb": {
+    "r": 255,
+    "g": 239,
+    "b": 0
+  },
+  "rgbChannels": "255 239 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.193276684949689,
+  "darkModeContrast": 17.59860078124748,
+  "luminosity": 0.829930039062374,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

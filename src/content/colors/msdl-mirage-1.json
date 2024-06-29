@@ -1,0 +1,24 @@
+{
+  "name": "msdl-mirage-1",
+  "hsl": {
+    "h": 203.0769230769231,
+    "s": 10.236220472440948,
+    "l": 24.901960784313726
+  },
+  "hex": "#394146",
+  "rgb": {
+    "r": 57,
+    "g": 65,
+    "b": 70
+  },
+  "rgbChannels": "57 65 70",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.403613565567326,
+  "darkModeContrast": 2.0185294145779658,
+  "luminosity": 0.05092647072889829,
+  "shades": [
+    "cyan"
+  ],
+  "group": "msdl"
+}

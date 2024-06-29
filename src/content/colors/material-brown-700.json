@@ -1,0 +1,24 @@
+{
+  "name": "material-brown-700",
+  "hsl": {
+    "h": 14.21052631578948,
+    "s": 25.675675675675674,
+    "l": 29.01960784313725
+  },
+  "hex": "#5D4037",
+  "rgb": {
+    "r": 93,
+    "g": 64,
+    "b": 55
+  },
+  "rgbChannels": "93 64 55",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.316949418172365,
+  "darkModeContrast": 2.2539566393953234,
+  "luminosity": 0.06269783196976618,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

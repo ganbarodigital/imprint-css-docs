@@ -1,0 +1,24 @@
+{
+  "name": "material-lime-a700",
+  "hsl": {
+    "h": 75.38461538461536,
+    "s": 100,
+    "l": 45.88235294117647
+  },
+  "hex": "#AEEA00",
+  "rgb": {
+    "r": 174,
+    "g": 234,
+    "b": 0
+  },
+  "rgbChannels": "174 234 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.441430403345589,
+  "darkModeContrast": 14.568861563665216,
+  "luminosity": 0.6784430781832608,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

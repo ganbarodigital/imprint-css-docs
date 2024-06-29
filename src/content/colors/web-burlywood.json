@@ -1,0 +1,24 @@
+{
+  "name": "web-burlywood",
+  "hsl": {
+    "h": 33.79310344827587,
+    "s": 56.86274509803923,
+    "l": 70
+  },
+  "hex": "#DEB887",
+  "rgb": {
+    "r": 222,
+    "g": 184,
+    "b": 135
+  },
+  "rgbChannels": "222 184 135",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.8564407463510442,
+  "darkModeContrast": 11.31196890677867,
+  "luminosity": 0.5155984453389335,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

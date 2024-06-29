@@ -1,0 +1,24 @@
+{
+  "name": "material-yellow-a100",
+  "hsl": {
+    "h": 60,
+    "s": 100,
+    "l": 77.64705882352942
+  },
+  "hex": "#FFFF8D",
+  "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 141
+  },
+  "rgbChannels": "255 255 141",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.0531268656559276,
+  "darkModeContrast": 19.94061749333533,
+  "luminosity": 0.9470308746667666,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

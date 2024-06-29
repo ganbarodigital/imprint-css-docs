@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-blue-400",
+  "hsl": {
+    "h": 212.64,
+    "s": 57.6036866359447,
+    "l": 42.549019607843135
+  },
+  "hex": "#2E67AB",
+  "rgb": {
+    "r": 46,
+    "g": 103,
+    "b": 171
+  },
+  "rgbChannels": "46 103 171",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.762388021120741,
+  "darkModeContrast": 3.6443224446235156,
+  "luminosity": 0.1322161222311758,
+  "shades": [
+    "blue"
+  ],
+  "group": "ganbaro"
+}

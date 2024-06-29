@@ -1,0 +1,25 @@
+{
+  "name": "web-darkgoldenrod",
+  "hsl": {
+    "h": 42.65895953757223,
+    "s": 88.71794871794873,
+    "l": 38.23529411764706
+  },
+  "hex": "#B8860B",
+  "rgb": {
+    "r": 184,
+    "g": 134,
+    "b": 11
+  },
+  "rgbChannels": "184 134 11",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.2543302251255595,
+  "darkModeContrast": 6.45294071199851,
+  "luminosity": 0.27264703559992554,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "misc"
+}

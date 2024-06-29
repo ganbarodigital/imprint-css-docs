@@ -1,0 +1,25 @@
+{
+  "name": "resene-rocketmetallic",
+  "hsl": {
+    "h": 287.1428571428571,
+    "s": 5.785123966942152,
+    "l": 52.54901960784314
+  },
+  "hex": "#8A7F8D",
+  "rgb": {
+    "r": 138,
+    "g": 127,
+    "b": 141
+  },
+  "rgbChannels": "138 127 141",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.8174731893231875,
+  "darkModeContrast": 5.501020952480654,
+  "luminosity": 0.22505104762403272,
+  "shades": [
+    "gray",
+    "magenta"
+  ],
+  "group": "misc"
+}

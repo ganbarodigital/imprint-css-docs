@@ -1,0 +1,24 @@
+{
+  "name": "pantone-champagnepink",
+  "hsl": {
+    "h": 24.705882352941217,
+    "s": 54.83870967741934,
+    "l": 87.84313725490196
+  },
+  "hex": "#F1DDCF",
+  "rgb": {
+    "r": 241,
+    "g": 221,
+    "b": 207
+  },
+  "rgbChannels": "241 221 207",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3138356945336094,
+  "darkModeContrast": 15.98373380124572,
+  "luminosity": 0.749186690062286,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

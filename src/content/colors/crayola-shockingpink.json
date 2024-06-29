@@ -1,0 +1,24 @@
+{
+  "name": "crayola-shockingpink",
+  "hsl": {
+    "h": 300,
+    "s": 100,
+    "l": 71.76470588235294
+  },
+  "hex": "#FF6FFF",
+  "rgb": {
+    "r": 255,
+    "g": 111,
+    "b": 255
+  },
+  "rgbChannels": "255 111 255",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.3411956445773074,
+  "darkModeContrast": 8.969775784710832,
+  "luminosity": 0.39848878923554165,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-tan-800",
+  "hsl": {
+    "h": 33.33333333333337,
+    "s": 11.68831168831169,
+    "l": 15.098039215686276
+  },
+  "hex": "#2B2722",
+  "rgb": {
+    "r": 43,
+    "g": 39,
+    "b": 34
+  },
+  "rgbChannels": "43 39 34",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 14.83025180697681,
+  "darkModeContrast": 1.416024506753194,
+  "luminosity": 0.020801225337659702,
+  "shades": [
+    "yellow"
+  ],
+  "group": "ganbaro"
+}

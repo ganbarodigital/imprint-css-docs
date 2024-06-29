@@ -1,0 +1,25 @@
+{
+  "name": "web-silver",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 75.29411764705883
+  },
+  "hex": "#C0C0C0",
+  "rgb": {
+    "r": 192,
+    "g": 192,
+    "b": 192
+  },
+  "rgbChannels": "192 192 192",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.8193943517176883,
+  "darkModeContrast": 11.542302514116262,
+  "luminosity": 0.5271151257058131,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "misc"
+}

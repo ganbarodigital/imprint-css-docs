@@ -1,0 +1,25 @@
+{
+  "name": "web-crimson",
+  "hsl": {
+    "h": 348,
+    "s": 83.33333333333334,
+    "l": 47.05882352941176
+  },
+  "hex": "#DC143C",
+  "rgb": {
+    "r": 220,
+    "g": 20,
+    "b": 60
+  },
+  "rgbChannels": "220 20 60",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.989972542528873,
+  "darkModeContrast": 4.2084399906051155,
+  "luminosity": 0.1604219995302558,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "misc"
+}

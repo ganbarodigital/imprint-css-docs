@@ -1,0 +1,24 @@
+{
+  "name": "material-lightgreen-a200",
+  "hsl": {
+    "h": 87.8313253012048,
+    "s": 100,
+    "l": 67.45098039215686
+  },
+  "hex": "#B2FF59",
+  "rgb": {
+    "r": 178,
+    "g": 255,
+    "b": 89
+  },
+  "rgbChannels": "178 255 89",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2109854201463774,
+  "darkModeContrast": 17.341249242671832,
+  "luminosity": 0.8170624621335917,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

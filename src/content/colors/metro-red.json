@@ -1,0 +1,24 @@
+{
+  "name": "metro-red",
+  "hsl": {
+    "h": 5.240174672489104,
+    "s": 100,
+    "l": 44.90196078431373
+  },
+  "hex": "#E51400",
+  "rgb": {
+    "r": 229,
+    "g": 20,
+    "b": 0
+  },
+  "rgbChannels": "229 20 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.738625285350201,
+  "darkModeContrast": 4.4316650368880195,
+  "luminosity": 0.17158325184440096,
+  "shades": [
+    "red"
+  ],
+  "group": "metro"
+}

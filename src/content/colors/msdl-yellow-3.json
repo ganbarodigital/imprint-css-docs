@@ -1,0 +1,24 @@
+{
+  "name": "msdl-yellow-3",
+  "hsl": {
+    "h": 51.121076233183885,
+    "s": 100,
+    "l": 43.72549019607843
+  },
+  "hex": "#DFBE00",
+  "rgb": {
+    "r": 223,
+    "g": 190,
+    "b": 0
+  },
+  "rgbChannels": "223 190 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.8256143059863865,
+  "darkModeContrast": 11.502977343647412,
+  "luminosity": 0.5251488671823706,
+  "shades": [
+    "yellow"
+  ],
+  "group": "msdl"
+}

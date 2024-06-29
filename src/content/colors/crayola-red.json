@@ -1,0 +1,25 @@
+{
+  "name": "crayola-red",
+  "hsl": {
+    "h": 346.8932038834952,
+    "s": 85.83333333333334,
+    "l": 52.94117647058824
+  },
+  "hex": "#EE204D",
+  "rgb": {
+    "r": 238,
+    "g": 32,
+    "b": 77
+  },
+  "rgbChannels": "238 32 77",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.24311196834048,
+  "darkModeContrast": 4.949197701283686,
+  "luminosity": 0.1974598850641843,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "misc"
+}

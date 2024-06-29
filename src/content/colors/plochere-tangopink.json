@@ -1,0 +1,24 @@
+{
+  "name": "plochere-tangopink",
+  "hsl": {
+    "h": 355.304347826087,
+    "s": 68.04733727810651,
+    "l": 66.86274509803923
+  },
+  "hex": "#E4717A",
+  "rgb": {
+    "r": 228,
+    "g": 113,
+    "b": 122
+  },
+  "rgbChannels": "228 113 122",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.025119237664053,
+  "darkModeContrast": 6.941875129595174,
+  "luminosity": 0.2970937564797587,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

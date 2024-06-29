@@ -1,0 +1,24 @@
+{
+  "name": "msdl-bilbao-4",
+  "hsl": {
+    "h": 84.73933649289097,
+    "s": 100,
+    "l": 41.37254901960784
+  },
+  "hex": "#7CD300",
+  "rgb": {
+    "r": 124,
+    "g": 211,
+    "b": 0
+  },
+  "rgbChannels": "124 211 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.8792411404028484,
+  "darkModeContrast": 11.17472342878694,
+  "luminosity": 0.508736171439347,
+  "shades": [
+    "yellow"
+  ],
+  "group": "msdl"
+}

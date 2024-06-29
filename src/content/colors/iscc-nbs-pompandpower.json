@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-pompandpower",
+  "hsl": {
+    "h": 289.5652173913044,
+    "s": 19.327731092436977,
+    "l": 46.666666666666664
+  },
+  "hex": "#86608E",
+  "rgb": {
+    "r": 134,
+    "g": 96,
+    "b": 142
+  },
+  "rgbChannels": "134 96 142",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.150323566060079,
+  "darkModeContrast": 4.0774137256903815,
+  "luminosity": 0.1538706862845191,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

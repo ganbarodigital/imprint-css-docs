@@ -1,0 +1,24 @@
+{
+  "name": "msdl-prussianblue-4",
+  "hsl": {
+    "h": 206.51162790697674,
+    "s": 100,
+    "l": 42.15686274509804
+  },
+  "hex": "#0078D7",
+  "rgb": {
+    "r": 0,
+    "g": 120,
+    "b": 215
+  },
+  "rgbChannels": "0 120 215",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.498861479739532,
+  "darkModeContrast": 4.667847653139083,
+  "luminosity": 0.18339238265695418,
+  "shades": [
+    "cyan"
+  ],
+  "group": "msdl"
+}

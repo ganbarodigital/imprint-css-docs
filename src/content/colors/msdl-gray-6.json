@@ -1,0 +1,25 @@
+{
+  "name": "msdl-gray-6",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 90.19607843137256
+  },
+  "hex": "#E6E6E6",
+  "rgb": {
+    "r": 230,
+    "g": 230,
+    "b": 230
+  },
+  "rgbChannels": "230 230 230",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2480715209939224,
+  "darkModeContrast": 16.825958806652604,
+  "luminosity": 0.7912979403326302,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "msdl"
+}

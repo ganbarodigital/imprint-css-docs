@@ -1,0 +1,24 @@
+{
+  "name": "spanish-blue",
+  "hsl": {
+    "h": 204.0641711229946,
+    "s": 100,
+    "l": 36.666666666666664
+  },
+  "hex": "#0070BB",
+  "rgb": {
+    "r": 0,
+    "g": 112,
+    "b": 187
+  },
+  "rgbChannels": "0 112 187",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.204152155881542,
+  "darkModeContrast": 4.035239434009739,
+  "luminosity": 0.151761971700487,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

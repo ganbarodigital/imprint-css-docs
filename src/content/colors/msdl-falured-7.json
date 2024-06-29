@@ -1,0 +1,24 @@
+{
+  "name": "msdl-falured-7",
+  "hsl": {
+    "h": 6.818181818181813,
+    "s": 56.41025641025642,
+    "l": 84.70588235294117
+  },
+  "hex": "#EEC7C2",
+  "rgb": {
+    "r": 238,
+    "g": 199,
+    "b": 194
+  },
+  "rgbChannels": "238 199 194",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.5459584160455047,
+  "darkModeContrast": 13.583806512543267,
+  "luminosity": 0.6291903256271634,
+  "shades": [
+    "red"
+  ],
+  "group": "msdl"
+}

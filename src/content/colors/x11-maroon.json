@@ -1,0 +1,24 @@
+{
+  "name": "x11-maroon",
+  "hsl": {
+    "h": 337.5,
+    "s": 57.14285714285714,
+    "l": 43.92156862745098
+  },
+  "hex": "#B03060",
+  "rgb": {
+    "r": 176,
+    "g": 48,
+    "b": 96
+  },
+  "rgbChannels": "176 48 96",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.108721515710701,
+  "darkModeContrast": 3.4377078650567388,
+  "luminosity": 0.12188539325283694,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ncs-red",
+  "hsl": {
+    "h": 344.84536082474233,
+    "s": 97.979797979798,
+    "l": 38.82352941176471
+  },
+  "hex": "#C40233",
+  "rgb": {
+    "r": 196,
+    "g": 2,
+    "b": 51
+  },
+  "rgbChannels": "196 2 51",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.169866903286251,
+  "darkModeContrast": 3.403639062102748,
+  "luminosity": 0.12018195310513739,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

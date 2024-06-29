@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-myrtlegreen",
+  "hsl": {
+    "h": 175.7746478873239,
+    "s": 42.01183431952663,
+    "l": 33.13725490196078
+  },
+  "hex": "#317873",
+  "rgb": {
+    "r": 49,
+    "g": 120,
+    "b": 115
+  },
+  "rgbChannels": "49 120 115",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.166378496931982,
+  "darkModeContrast": 4.064742839199781,
+  "luminosity": 0.15323714195998905,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "crayola-greenblue",
+  "hsl": {
+    "h": 209.44785276073617,
+    "s": 82.74111675126903,
+    "l": 38.62745098039216
+  },
+  "hex": "#1164B4",
+  "rgb": {
+    "r": 17,
+    "g": 100,
+    "b": 180
+  },
+  "rgbChannels": "17 100 180",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.990141555766441,
+  "darkModeContrast": 3.505760223610115,
+  "luminosity": 0.12528801118050575,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

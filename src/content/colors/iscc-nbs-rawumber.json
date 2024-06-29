@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-rawumber",
+  "hsl": {
+    "h": 32.903225806451644,
+    "s": 31.313131313131315,
+    "l": 38.8235294117647
+  },
+  "hex": "#826644",
+  "rgb": {
+    "r": 130,
+    "g": 102,
+    "b": 68
+  },
+  "rgbChannels": "130 102 68",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.33918469029813,
+  "darkModeContrast": 3.933184787212783,
+  "luminosity": 0.14665923936063915,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

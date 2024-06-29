@@ -1,0 +1,24 @@
+{
+  "name": "trad-flax",
+  "hsl": {
+    "h": 50,
+    "s": 76.05633802816902,
+    "l": 72.15686274509804
+  },
+  "hex": "#EEDC82",
+  "rgb": {
+    "r": 238,
+    "g": 220,
+    "b": 130
+  },
+  "rgbChannels": "238 220 130",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3820290550146697,
+  "darkModeContrast": 15.195049571354412,
+  "luminosity": 0.7097524785677206,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

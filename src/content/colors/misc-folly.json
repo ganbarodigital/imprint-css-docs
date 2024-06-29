@@ -1,0 +1,24 @@
+{
+  "name": "misc-folly",
+  "hsl": {
+    "h": 341.41176470588243,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FF004F",
+  "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 79
+  },
+  "rgbChannels": "255 0 79",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.914330123128509,
+  "darkModeContrast": 5.364902637086689,
+  "luminosity": 0.21824513185433447,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "metro-mauve",
+  "hsl": {
+    "h": 271.42857142857144,
+    "s": 17.948717948717945,
+    "l": 45.88235294117647
+  },
+  "hex": "#76608A",
+  "rgb": {
+    "r": 118,
+    "g": 96,
+    "b": 138
+  },
+  "rgbChannels": "118 96 138",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.511153702994094,
+  "darkModeContrast": 3.810454422381858,
+  "luminosity": 0.14052272111909292,
+  "shades": [
+    "violet",
+    "magenta"
+  ],
+  "group": "metro"
+}

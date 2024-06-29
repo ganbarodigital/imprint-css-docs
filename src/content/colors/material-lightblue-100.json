@@ -1,0 +1,24 @@
+{
+  "name": "material-lightblue-100",
+  "hsl": {
+    "h": 198.90410958904113,
+    "s": 92.40506329113927,
+    "l": 84.50980392156863
+  },
+  "hex": "#B3E5FC",
+  "rgb": {
+    "r": 179,
+    "g": 229,
+    "b": 252
+  },
+  "rgbChannels": "179 229 252",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3522109957408288,
+  "darkModeContrast": 15.530120717954107,
+  "luminosity": 0.7265060358977053,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

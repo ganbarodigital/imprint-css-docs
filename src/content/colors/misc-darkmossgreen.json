@@ -1,0 +1,24 @@
+{
+  "name": "misc-darkmossgreen",
+  "hsl": {
+    "h": 76.36363636363637,
+    "s": 42.3076923076923,
+    "l": 30.58823529411765
+  },
+  "hex": "#5D6F2D",
+  "rgb": {
+    "r": 93,
+    "g": 111,
+    "b": 45
+  },
+  "rgbChannels": "93 111 45",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.559822052160353,
+  "darkModeContrast": 3.7770993033563247,
+  "luminosity": 0.13885496516781626,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

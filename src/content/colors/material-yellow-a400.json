@@ -1,0 +1,24 @@
+{
+  "name": "material-yellow-a400",
+  "hsl": {
+    "h": 55.05882352941177,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FFEA00",
+  "rgb": {
+    "r": 255,
+    "g": 234,
+    "b": 0
+  },
+  "rgbChannels": "255 234 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2337608119833465,
+  "darkModeContrast": 17.021127430884437,
+  "luminosity": 0.8010563715442219,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

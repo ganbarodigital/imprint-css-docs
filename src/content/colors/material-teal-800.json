@@ -1,0 +1,24 @@
+{
+  "name": "material-teal-800",
+  "hsl": {
+    "h": 172.57142857142856,
+    "s": 100,
+    "l": 20.588235294117645
+  },
+  "hex": "#00695C",
+  "rgb": {
+    "r": 0,
+    "g": 105,
+    "b": 92
+  },
+  "rgbChannels": "0 105 92",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.6138160256812535,
+  "darkModeContrast": 3.1751714771710637,
+  "luminosity": 0.1087585738585532,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

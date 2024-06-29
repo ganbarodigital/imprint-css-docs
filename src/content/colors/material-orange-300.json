@@ -1,0 +1,24 @@
+{
+  "name": "material-orange-300",
+  "hsl": {
+    "h": 35.7303370786517,
+    "s": 100,
+    "l": 65.09803921568627
+  },
+  "hex": "#FFB74D",
+  "rgb": {
+    "r": 255,
+    "g": 183,
+    "b": 77
+  },
+  "rgbChannels": "255 183 77",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.7308797055489444,
+  "darkModeContrast": 12.132558913642066,
+  "luminosity": 0.5566279456821033,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

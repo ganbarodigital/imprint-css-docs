@@ -1,0 +1,25 @@
+{
+  "name": "material-gray-900",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 12.941176470588237
+  },
+  "hex": "#212121",
+  "rgb": {
+    "r": 33,
+    "g": 33,
+    "b": 33
+  },
+  "rgbChannels": "33 33 33",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 16.102191704447957,
+  "darkModeContrast": 1.3041702884582542,
+  "luminosity": 0.015208514422912708,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "material-design"
+}

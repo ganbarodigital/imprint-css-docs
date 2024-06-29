@@ -1,0 +1,24 @@
+{
+  "name": "misc-olivedrabcamouflage",
+  "hsl": {
+    "h": 46.95652173913044,
+    "s": 15.86206896551724,
+    "l": 28.431372549019606
+  },
+  "hex": "#544F3D",
+  "rgb": {
+    "r": 84,
+    "g": 79,
+    "b": 61
+  },
+  "rgbChannels": "84 79 61",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 8.194351861032644,
+  "darkModeContrast": 2.5627408190589467,
+  "luminosity": 0.07813704095294734,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

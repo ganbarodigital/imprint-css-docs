@@ -1,0 +1,24 @@
+{
+  "name": "social-hackernews",
+  "hsl": {
+    "h": 24,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FF6600",
+  "rgb": {
+    "r": 255,
+    "g": 102,
+    "b": 0
+  },
+  "rgbChannels": "255 102 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 2.936016453947765,
+  "darkModeContrast": 7.152548471505812,
+  "luminosity": 0.3076274235752906,
+  "shades": [
+    "red"
+  ],
+  "group": "social"
+}

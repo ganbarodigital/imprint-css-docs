@@ -1,0 +1,24 @@
+{
+  "name": "material-deeppurple-300",
+  "hsl": {
+    "h": 261.81818181818176,
+    "s": 46.80851063829788,
+    "l": 63.13725490196078
+  },
+  "hex": "#9575CD",
+  "rgb": {
+    "r": 149,
+    "g": 117,
+    "b": 205
+  },
+  "rgbChannels": "149 117 205",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.68163743615606,
+  "darkModeContrast": 5.703983720332269,
+  "luminosity": 0.23519918601661347,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

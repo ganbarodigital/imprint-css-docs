@@ -1,0 +1,24 @@
+{
+  "name": "web-slategray",
+  "hsl": {
+    "h": 210,
+    "s": 12.598425196850393,
+    "l": 50.19607843137255
+  },
+  "hex": "#708090",
+  "rgb": {
+    "r": 112,
+    "g": 128,
+    "b": 144
+  },
+  "rgbChannels": "112 128 144",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.054570021330855,
+  "darkModeContrast": 5.179340815307228,
+  "luminosity": 0.2089670407653614,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

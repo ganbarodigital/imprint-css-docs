@@ -1,0 +1,24 @@
+{
+  "name": "misc-canaryyellow",
+  "hsl": {
+    "h": 60,
+    "s": 100,
+    "l": 80
+  },
+  "hex": "#FFFF99",
+  "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 153
+  },
+  "rgbChannels": "255 255 153",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.0491616386659157,
+  "darkModeContrast": 20.015981547612633,
+  "luminosity": 0.9507990773806316,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

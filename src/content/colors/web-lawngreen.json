@@ -1,0 +1,22 @@
+{
+  "name": "web-lawngreen",
+  "hsl": {
+    "h": 90.47619047619048,
+    "s": 100,
+    "l": 49.411764705882355
+  },
+  "hex": "#7CFC00",
+  "rgb": {
+    "r": 124,
+    "g": 252,
+    "b": 0
+  },
+  "rgbChannels": "124 252 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3306990877564924,
+  "darkModeContrast": 15.781178624992668,
+  "luminosity": 0.7390589312496334,
+  "shades": [],
+  "group": "misc"
+}

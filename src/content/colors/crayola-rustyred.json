@@ -1,0 +1,25 @@
+{
+  "name": "crayola-rustyred",
+  "hsl": {
+    "h": 352.0689655172414,
+    "s": 70.16129032258065,
+    "l": 51.37254901960784
+  },
+  "hex": "#DA2C43",
+  "rgb": {
+    "r": 218,
+    "g": 44,
+    "b": 67
+  },
+  "rgbChannels": "218 44 67",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.748544635481667,
+  "darkModeContrast": 4.422407624240405,
+  "luminosity": 0.17112038121202025,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "misc"
+}

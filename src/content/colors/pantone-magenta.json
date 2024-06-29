@@ -1,0 +1,24 @@
+{
+  "name": "pantone-magenta",
+  "hsl": {
+    "h": 334.40559440559446,
+    "s": 60.337552742616026,
+    "l": 53.529411764705884
+  },
+  "hex": "#D0417E",
+  "rgb": {
+    "r": 208,
+    "g": 65,
+    "b": 126
+  },
+  "rgbChannels": "208 65 126",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.430968972926656,
+  "darkModeContrast": 4.7393696792531355,
+  "luminosity": 0.1869684839626568,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

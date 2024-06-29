@@ -1,0 +1,24 @@
+{
+  "name": "encycolorpedia-bottlegreen",
+  "hsl": {
+    "h": 164.15094339622647,
+    "s": 100,
+    "l": 20.784313725490197
+  },
+  "hex": "#006A4E",
+  "rgb": {
+    "r": 0,
+    "g": 106,
+    "b": 78
+  },
+  "rgbChannels": "0 106 78",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.621210818412289,
+  "darkModeContrast": 3.171625338012667,
+  "luminosity": 0.10858126690063334,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

@@ -26,24 +26,24 @@ const luminosity = colorDetails.data.luminosity.toFixed(3);
 <h2>How To Use</h2>
 <h3>Color Variables</h3>
 
-<p>This color is available as a Tailwind variable. You can use it in your own CSS:</p>
+<p>This color is available as a Tailwind variable. You can use it just like any other Tailwind color:</p>
 
 <pre is:raw>
-.headline {
-  color: ${colorDetails.data.name};
-}
+  <div class="bg-{colorDetails.data.name}"></div>
+  <p class="text-{colorDetails.data.name}">...</p>
 </pre>
 
 <h2>Accessibility</h2>
 
 <p>Need to learn how color can affect whether people can use your web app or not?</p>
 <ul>
-  <li><a href="">Everything About Color Contrast And Why You Should Rethink It</a>, by <a href="">Cathy O'Connor</a></li>
+  <li><a href="https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/">Everything About Color Contrast And Why You Should Rethink It</a>, by <a href="http://www.twitter.com/cagocon">Cathy O'Connor</a></li>
 </ul>
+<p>Let me know of any other articles that I should recommend, please!</p>
 
 <h3>Color Properties</h3>
 
-<p>Here's our automated analysis of {colorDetails.data.name}, when used as a background color:</p>
+<p>Here's an automated analysis of {colorDetails.data.name}, when used as a background color:</p>
 <table>
   <thead>
     <tr>

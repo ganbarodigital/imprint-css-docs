@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-huntergreen",
+  "hsl": {
+    "h": 128.78048780487802,
+    "s": 27.89115646258503,
+    "l": 28.82352941176471
+  },
+  "hex": "#355E3B",
+  "rgb": {
+    "r": 53,
+    "g": 94,
+    "b": 59
+  },
+  "rgbChannels": "53 94 59",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 7.458415018714734,
+  "darkModeContrast": 2.815611620874754,
+  "luminosity": 0.09078058104373771,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

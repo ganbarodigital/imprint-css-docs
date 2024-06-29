@@ -15,9 +15,9 @@
   "dependencies": {
     "@astrojs/mdx": "^2.0.1",
     "@astrojs/tailwind": "^5.0.3",
-    "astro": "^4.0.4",
+    "astro": "^4.11.3",
     "tailwindcss": "^3.3.6",
-    "typescript": "^5.0",
-    "ts-node": "^10.9"
+    "ts-node": "^10.9",
+    "typescript": "^5.0"
   }
 }

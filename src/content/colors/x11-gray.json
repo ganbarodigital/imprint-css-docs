@@ -1,0 +1,25 @@
+{
+  "name": "x11-gray",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 74.50980392156863
+  },
+  "hex": "#BEBEBE",
+  "rgb": {
+    "r": 190,
+    "g": 190,
+    "b": 190
+  },
+  "rgbChannels": "190 190 190",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.858677935483161,
+  "darkModeContrast": 11.298353307530428,
+  "luminosity": 0.5149176653765214,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "misc"
+}

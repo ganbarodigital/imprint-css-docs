@@ -1,0 +1,25 @@
+{
+  "name": "material-purple-800",
+  "hsl": {
+    "h": 277.3228346456692,
+    "s": 70.1657458563536,
+    "l": 35.49019607843137
+  },
+  "hex": "#6A1B9A",
+  "rgb": {
+    "r": 106,
+    "g": 27,
+    "b": 154
+  },
+  "rgbChannels": "106 27 154",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.390820863829939,
+  "darkModeContrast": 2.2362262367163703,
+  "luminosity": 0.06181131183581852,
+  "shades": [
+    "purple",
+    "magenta"
+  ],
+  "group": "material-design"
+}

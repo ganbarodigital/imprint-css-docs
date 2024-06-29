@@ -1,0 +1,24 @@
+{
+  "name": "web-orchid",
+  "hsl": {
+    "h": 302.2641509433962,
+    "s": 58.88888888888889,
+    "l": 64.70588235294117
+  },
+  "hex": "#DA70D6",
+  "rgb": {
+    "r": 218,
+    "g": 112,
+    "b": 214
+  },
+  "rgbChannels": "218 112 214",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.8886780435222184,
+  "darkModeContrast": 7.269761352287746,
+  "luminosity": 0.3134880676143873,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

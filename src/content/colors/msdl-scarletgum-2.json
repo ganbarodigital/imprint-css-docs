@@ -1,0 +1,24 @@
+{
+  "name": "msdl-scarletgum-2",
+  "hsl": {
+    "h": 289.8876404494382,
+    "s": 71.2,
+    "l": 24.50980392156863
+  },
+  "hex": "#5C126B",
+  "rgb": {
+    "r": 92,
+    "g": 18,
+    "b": 107
+  },
+  "rgbChannels": "92 18 107",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 11.973370442479624,
+  "darkModeContrast": 1.7538921142450685,
+  "luminosity": 0.03769460571225342,
+  "shades": [
+    "magenta"
+  ],
+  "group": "msdl"
+}

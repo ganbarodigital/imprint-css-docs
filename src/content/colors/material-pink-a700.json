@@ -1,0 +1,24 @@
+{
+  "name": "material-pink-a700",
+  "hsl": {
+    "h": 333,
+    "s": 84.11214953271029,
+    "l": 41.96078431372549
+  },
+  "hex": "#C51162",
+  "rgb": {
+    "r": 197,
+    "g": 17,
+    "b": 98
+  },
+  "rgbChannels": "197 17 98",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.78414998999181,
+  "darkModeContrast": 3.630611245617048,
+  "luminosity": 0.13153056228085241,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

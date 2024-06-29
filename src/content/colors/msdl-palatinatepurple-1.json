@@ -1,0 +1,24 @@
+{
+  "name": "msdl-palatinatepurple-1",
+  "hsl": {
+    "h": 300,
+    "s": 100,
+    "l": 18.03921568627451
+  },
+  "hex": "#5C005C",
+  "rgb": {
+    "r": 92,
+    "g": 0,
+    "b": 92
+  },
+  "rgbChannels": "92 0 92",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 13.046690545994704,
+  "darkModeContrast": 1.6096035945642122,
+  "luminosity": 0.03048017972821062,
+  "shades": [
+    "magenta"
+  ],
+  "group": "msdl"
+}

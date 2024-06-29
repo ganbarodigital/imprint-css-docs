@@ -1,0 +1,24 @@
+{
+  "name": "web-darkseagreen",
+  "hsl": {
+    "h": 120,
+    "s": 25.13966480446928,
+    "l": 64.90196078431373
+  },
+  "hex": "#8FBC8F",
+  "rgb": {
+    "r": 143,
+    "g": 188,
+    "b": 143
+  },
+  "rgbChannels": "143 188 143",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.1521134563575184,
+  "darkModeContrast": 9.757849865193812,
+  "luminosity": 0.43789249325969065,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

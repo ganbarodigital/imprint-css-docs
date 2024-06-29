@@ -1,0 +1,24 @@
+{
+  "name": "tiffany-blue",
+  "hsl": {
+    "h": 174.48275862068965,
+    "s": 52.727272727272734,
+    "l": 67.64705882352942
+  },
+  "hex": "#81D8D0",
+  "rgb": {
+    "r": 129,
+    "g": 216,
+    "b": 208
+  },
+  "rgbChannels": "129 216 208",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.6579053716234806,
+  "darkModeContrast": 12.66658541520741,
+  "luminosity": 0.5833292707603704,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

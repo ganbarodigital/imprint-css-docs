@@ -1,0 +1,25 @@
+{
+  "name": "apple-tungsten",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 20
+  },
+  "hex": "#333333",
+  "rgb": {
+    "r": 51,
+    "g": 51,
+    "b": 51
+  },
+  "rgbChannels": "51 51 51",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 12.63465434445799,
+  "darkModeContrast": 1.6620953314177012,
+  "luminosity": 0.033104766570885055,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "apple"
+}

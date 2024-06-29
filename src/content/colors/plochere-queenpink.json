@@ -1,0 +1,24 @@
+{
+  "name": "plochere-queenpink",
+  "hsl": {
+    "h": 336.42857142857144,
+    "s": 37.83783783783781,
+    "l": 85.49019607843138
+  },
+  "hex": "#E8CCD7",
+  "rgb": {
+    "r": 232,
+    "g": 204,
+    "b": 215
+  },
+  "rgbChannels": "232 204 215",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.4947080309778535,
+  "darkModeContrast": 14.049566580746596,
+  "luminosity": 0.6524783290373298,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

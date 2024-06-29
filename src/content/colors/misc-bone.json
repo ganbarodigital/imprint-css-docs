@@ -1,0 +1,25 @@
+{
+  "name": "misc-bone",
+  "hsl": {
+    "h": 39.230769230769226,
+    "s": 31.707317073170714,
+    "l": 83.92156862745097
+  },
+  "hex": "#E3DAC9",
+  "rgb": {
+    "r": 227,
+    "g": 218,
+    "b": 201
+  },
+  "rgbChannels": "227 218 201",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3872237272049495,
+  "darkModeContrast": 15.13814937574049,
+  "luminosity": 0.7069074687870245,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "misc"
+}

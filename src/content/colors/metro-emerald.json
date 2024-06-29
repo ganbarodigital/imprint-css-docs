@@ -1,0 +1,24 @@
+{
+  "name": "metro-emerald",
+  "hsl": {
+    "h": 120,
+    "s": 100,
+    "l": 27.058823529411764
+  },
+  "hex": "#008A00",
+  "rgb": {
+    "r": 0,
+    "g": 138,
+    "b": 0
+  },
+  "rgbChannels": "0 138 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.530361618942731,
+  "darkModeContrast": 4.635391557308146,
+  "luminosity": 0.1817695778654073,
+  "shades": [
+    "green"
+  ],
+  "group": "metro"
+}

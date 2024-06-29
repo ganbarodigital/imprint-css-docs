@@ -1,0 +1,24 @@
+{
+  "name": "web-brown",
+  "hsl": {
+    "h": 0,
+    "s": 59.420289855072475,
+    "l": 40.588235294117645
+  },
+  "hex": "#A52A2A",
+  "rgb": {
+    "r": 165,
+    "g": 42,
+    "b": 42
+  },
+  "rgbChannels": "165 42 42",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 7.083859298921239,
+  "darkModeContrast": 2.9644857575302166,
+  "luminosity": 0.09822428787651084,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

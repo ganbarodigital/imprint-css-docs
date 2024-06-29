@@ -1,0 +1,24 @@
+{
+  "name": "social-facebook",
+  "hsl": {
+    "h": 220.85106382978722,
+    "s": 44.339622641509436,
+    "l": 41.56862745098039
+  },
+  "hex": "#3B5999",
+  "rgb": {
+    "r": 59,
+    "g": 89,
+    "b": 153
+  },
+  "rgbChannels": "59 89 153",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.8295030479996095,
+  "darkModeContrast": 3.0748943008600005,
+  "luminosity": 0.10374471504300004,
+  "shades": [
+    "blue"
+  ],
+  "group": "social"
+}

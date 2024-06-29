@@ -1,0 +1,24 @@
+{
+  "name": "misc-midmossgreen",
+  "hsl": {
+    "h": 65,
+    "s": 20.224719101123593,
+    "l": 34.90196078431372
+  },
+  "hex": "#686B47",
+  "rgb": {
+    "r": 104,
+    "g": 107,
+    "b": 71
+  },
+  "rgbChannels": "104 107 71",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.551625779101505,
+  "darkModeContrast": 3.7826757125907573,
+  "luminosity": 0.13913378562953788,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

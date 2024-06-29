@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-russiangreen",
+  "hsl": {
+    "h": 120,
+    "s": 17.269076305220878,
+    "l": 48.8235294117647
+  },
+  "hex": "#679267",
+  "rgb": {
+    "r": 103,
+    "g": 146,
+    "b": 103
+  },
+  "rgbChannels": "103 146 103",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.568927173155751,
+  "darkModeContrast": 5.884121188561878,
+  "luminosity": 0.24420605942809392,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

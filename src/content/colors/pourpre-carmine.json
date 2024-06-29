@@ -1,0 +1,25 @@
+{
+  "name": "pourpre-carmine",
+  "hsl": {
+    "h": 350.4,
+    "s": 100,
+    "l": 29.411764705882355
+  },
+  "hex": "#960018",
+  "rgb": {
+    "r": 150,
+    "g": 0,
+    "b": 24
+  },
+  "rgbChannels": "150 0 24",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.090926248788136,
+  "darkModeContrast": 2.3099956401911634,
+  "luminosity": 0.06549978200955817,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "misc"
+}

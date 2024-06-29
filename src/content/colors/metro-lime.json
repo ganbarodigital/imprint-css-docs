@@ -1,0 +1,24 @@
+{
+  "name": "metro-lime",
+  "hsl": {
+    "h": 69.79591836734693,
+    "s": 100,
+    "l": 38.43137254901961
+  },
+  "hex": "#A4C400",
+  "rgb": {
+    "r": 164,
+    "g": 196,
+    "b": 0
+  },
+  "rgbChannels": "164 196 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.004874000568649,
+  "darkModeContrast": 10.47447370460373,
+  "luminosity": 0.47372368523018654,
+  "shades": [
+    "yellow"
+  ],
+  "group": "metro"
+}

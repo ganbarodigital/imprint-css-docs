@@ -1,0 +1,24 @@
+{
+  "name": "web-palegoldenrod",
+  "hsl": {
+    "h": 54.70588235294116,
+    "s": 66.66666666666667,
+    "l": 80
+  },
+  "hex": "#EEE8AA",
+  "rgb": {
+    "r": 238,
+    "g": 232,
+    "b": 170
+  },
+  "rgbChannels": "238 232 170",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.253093232485378,
+  "darkModeContrast": 16.758529577522907,
+  "luminosity": 0.7879264788761454,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

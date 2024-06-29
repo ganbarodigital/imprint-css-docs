@@ -1,0 +1,24 @@
+{
+  "name": "web-greenyellow",
+  "hsl": {
+    "h": 83.65384615384613,
+    "s": 100,
+    "l": 59.21568627450981
+  },
+  "hex": "#ADFF2F",
+  "rgb": {
+    "r": 173,
+    "g": 255,
+    "b": 47
+  },
+  "rgbChannels": "173 255 47",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2264997878979167,
+  "darkModeContrast": 17.121894522290663,
+  "luminosity": 0.8060947261145331,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

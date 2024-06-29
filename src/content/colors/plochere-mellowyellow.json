@@ -1,0 +1,24 @@
+{
+  "name": "plochere-mellowyellow",
+  "hsl": {
+    "h": 47.21311475409834,
+    "s": 89.70588235294119,
+    "l": 73.33333333333334
+  },
+  "hex": "#F8DE7E",
+  "rgb": {
+    "r": 248,
+    "g": 222,
+    "b": 126
+  },
+  "rgbChannels": "248 222 126",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3340894203260674,
+  "darkModeContrast": 15.741073784145106,
+  "luminosity": 0.7370536892072553,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

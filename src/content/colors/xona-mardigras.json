@@ -1,0 +1,24 @@
+{
+  "name": "xona-mardigras",
+  "hsl": {
+    "h": 301.32352941176464,
+    "s": 100,
+    "l": 26.666666666666668
+  },
+  "hex": "#880085",
+  "rgb": {
+    "r": 136,
+    "g": 0,
+    "b": 133
+  },
+  "rgbChannels": "136 0 133",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 8.803041694095864,
+  "darkModeContrast": 2.3855390818022078,
+  "luminosity": 0.0692769540901104,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

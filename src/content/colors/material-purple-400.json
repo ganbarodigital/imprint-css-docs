@@ -1,0 +1,24 @@
+{
+  "name": "material-purple-400",
+  "hsl": {
+    "h": 291.28205128205127,
+    "s": 46.61354581673308,
+    "l": 50.78431372549019
+  },
+  "hex": "#AB47BC",
+  "rgb": {
+    "r": 171,
+    "g": 71,
+    "b": 188
+  },
+  "rgbChannels": "171 71 188",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.81756487576529,
+  "darkModeContrast": 4.3590487189161236,
+  "luminosity": 0.16795243594580622,
+  "shades": [
+    "magenta"
+  ],
+  "group": "material-design"
+}

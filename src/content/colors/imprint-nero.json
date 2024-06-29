@@ -1,0 +1,25 @@
+{
+  "name": "imprint-nero",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 13.333333333333334
+  },
+  "hex": "#222222",
+  "rgb": {
+    "r": 34,
+    "g": 34,
+    "b": 34
+  },
+  "rgbChannels": "34 34 34",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 15.909984431773273,
+  "darkModeContrast": 1.3199258673101926,
+  "luminosity": 0.01599629336550963,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "imprint"
+}

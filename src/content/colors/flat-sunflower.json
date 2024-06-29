@@ -1,0 +1,24 @@
+{
+  "name": "flat-sunflower",
+  "hsl": {
+    "h": 48.053097345132755,
+    "s": 88.9763779527559,
+    "l": 50.19607843137255
+  },
+  "hex": "#F1C40F",
+  "rgb": {
+    "r": 241,
+    "g": 196,
+    "b": 15
+  },
+  "rgbChannels": "241 196 15",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.66099510139244,
+  "darkModeContrast": 12.643023439620832,
+  "luminosity": 0.5821511719810416,
+  "shades": [
+    "yellow"
+  ],
+  "group": "flat"
+}

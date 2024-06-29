@@ -1,0 +1,24 @@
+{
+  "name": "x11-cream",
+  "hsl": {
+    "h": 57.446808510638334,
+    "s": 100,
+    "l": 90.7843137254902
+  },
+  "hex": "#FFFDD0",
+  "rgb": {
+    "r": 255,
+    "g": 253,
+    "b": 208
+  },
+  "rgbChannels": "255 253 208",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.038939184520049,
+  "darkModeContrast": 20.212925176848742,
+  "luminosity": 0.9606462588424372,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

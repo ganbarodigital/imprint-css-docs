@@ -1,0 +1,24 @@
+{
+  "name": "misc-jade",
+  "hsl": {
+    "h": 158.21428571428578,
+    "s": 100,
+    "l": 32.94117647058823
+  },
+  "hex": "#00A86B",
+  "rgb": {
+    "r": 0,
+    "g": 168,
+    "b": 107
+  },
+  "rgbChannels": "0 168 107",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.0821796747222856,
+  "darkModeContrast": 6.813360094554568,
+  "luminosity": 0.2906680047277284,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

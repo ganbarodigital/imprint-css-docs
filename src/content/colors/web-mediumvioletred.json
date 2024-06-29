@@ -1,0 +1,24 @@
+{
+  "name": "web-mediumvioletred",
+  "hsl": {
+    "h": 322.24719101123594,
+    "s": 80.90909090909089,
+    "l": 43.13725490196079
+  },
+  "hex": "#C71585",
+  "rgb": {
+    "r": 199,
+    "g": 21,
+    "b": 133
+  },
+  "rgbChannels": "199 21 133",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.4202221163911375,
+  "darkModeContrast": 3.8743799698714385,
+  "luminosity": 0.14371899849357195,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

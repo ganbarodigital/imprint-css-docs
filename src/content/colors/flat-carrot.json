@@ -1,0 +1,24 @@
+{
+  "name": "flat-carrot",
+  "hsl": {
+    "h": 28.16326530612247,
+    "s": 79.67479674796746,
+    "l": 51.76470588235295
+  },
+  "hex": "#E67E22",
+  "rgb": {
+    "r": 230,
+    "g": 126,
+    "b": 34
+  },
+  "rgbChannels": "230 126 34",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.8486012080304337,
+  "darkModeContrast": 7.372039280471878,
+  "luminosity": 0.3186019640235939,
+  "shades": [
+    "red"
+  ],
+  "group": "flat"
+}

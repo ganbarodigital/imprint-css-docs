@@ -1,0 +1,24 @@
+{
+  "name": "crayola-blue",
+  "hsl": {
+    "h": 216.8609865470852,
+    "s": 99.11111111111111,
+    "l": 55.88235294117647
+  },
+  "hex": "#1F75FE",
+  "rgb": {
+    "r": 31,
+    "g": 117,
+    "b": 254
+  },
+  "rgbChannels": "31 117 254",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.17169207600907,
+  "darkModeContrast": 5.033928587579277,
+  "luminosity": 0.20169642937896387,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

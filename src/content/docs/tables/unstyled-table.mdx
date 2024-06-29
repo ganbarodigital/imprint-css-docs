@@ -1,0 +1,135 @@
+---
+title: Unstyled Table
+navSection: Tables
+prev: tables/grid-table
+---
+
+# The Unstyled Table
+
+## Introduction
+
+If you want to disable all of ImprintCSS's default table styling, add the `table-unstyled` CSS class.
+
+### How To Use
+
+There are two ways to remove ImprintCSS's styling from a table:
+
+1. Add `table-unstyled` to your `<table>` HTML tag, or
+2. Add `table-unstyled` to your `<body>` tag (or any other suitable parent tag) to make all your tables have this style
+
+## Example Tables
+
+### Basic Table
+
+This is a basic table with minimal content.
+
+<table class="table-unstyled">
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1, column 1</td>
+            <td>Row 1, column 2</td>
+            <td>Row 1, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, column 1</td>
+            <td>Row 2, column 2</td>
+            <td>Row 2, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, column 1</td>
+            <td>Row 3, column 2</td>
+            <td>Row 3, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, column 1</td>
+            <td>Row 4, column 2</td>
+            <td>Row 4, column 3</td>
+        </tr>
+    </tbody>
+</table>
+
+### Basic Table With Footer
+
+This is the same table, with an added footer:
+
+<table class="table-unstyled">
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1, column 1</td>
+            <td>Row 1, column 2</td>
+            <td>Row 1, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, column 1</td>
+            <td>Row 2, column 2</td>
+            <td>Row 2, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, column 1</td>
+            <td>Row 3, column 2</td>
+            <td>Row 3, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, column 1</td>
+            <td>Row 4, column 2</td>
+            <td>Row 4, column 3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total 1</td>
+            <td>Total 2</td>
+            <td>Total 3</td>
+        </tr>
+    </tfoot>
+</table>
+
+### Basic Table (Striped)
+
+The `table--striped` modifer still works on unstyled tables.
+
+<table class="table-unstyled table--striped">
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1, column 1</td>
+            <td>Row 1, column 2</td>
+            <td>Row 1, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, column 1</td>
+            <td>Row 2, column 2</td>
+            <td>Row 2, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, column 1</td>
+            <td>Row 3, column 2</td>
+            <td>Row 3, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, column 1</td>
+            <td>Row 4, column 2</td>
+            <td>Row 4, column 3</td>
+        </tr>
+    </tbody>
+</table>

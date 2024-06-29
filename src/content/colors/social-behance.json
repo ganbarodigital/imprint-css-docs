@@ -1,0 +1,25 @@
+{
+  "name": "social-behance",
+  "hsl": {
+    "h": 228,
+    "s": 11.627906976744185,
+    "l": 8.431372549019608
+  },
+  "hex": "#131418",
+  "rgb": {
+    "r": 19,
+    "g": 20,
+    "b": 24
+  },
+  "rgbChannels": "19 20 24",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 18.40585426971319,
+  "darkModeContrast": 1.1409413381347626,
+  "luminosity": 0.00704706690673813,
+  "shades": [
+    "black",
+    "blue"
+  ],
+  "group": "social"
+}

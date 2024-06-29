@@ -1,0 +1,25 @@
+{
+  "name": "ganbaro-slate-700",
+  "hsl": {
+    "h": 210,
+    "s": 5.479452054794521,
+    "l": 28.627450980392155
+  },
+  "hex": "#45494D",
+  "rgb": {
+    "r": 69,
+    "g": 73,
+    "b": 77
+  },
+  "rgbChannels": "69 73 77",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.078240411247258,
+  "darkModeContrast": 2.313223603770459,
+  "luminosity": 0.06566118018852297,
+  "shades": [
+    "gray",
+    "cyan"
+  ],
+  "group": "ganbaro"
+}

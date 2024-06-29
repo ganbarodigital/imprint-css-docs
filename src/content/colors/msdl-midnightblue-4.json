@@ -1,0 +1,24 @@
+{
+  "name": "msdl-midnightblue-4",
+  "hsl": {
+    "h": 241.69014084507046,
+    "s": 65.1376146788991,
+    "l": 57.25490196078431
+  },
+  "hex": "#4F4BD9",
+  "rgb": {
+    "r": 79,
+    "g": 75,
+    "b": 217
+  },
+  "rgbChannels": "79 75 217",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.285854533593496,
+  "darkModeContrast": 3.3408345496653933,
+  "luminosity": 0.11704172748326966,
+  "shades": [
+    "blue"
+  ],
+  "group": "msdl"
+}

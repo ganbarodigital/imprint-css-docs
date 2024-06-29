@@ -1,0 +1,24 @@
+{
+  "name": "material-pink-200",
+  "hsl": {
+    "h": 339.8019801980198,
+    "s": 82.11382113821142,
+    "l": 75.88235294117646
+  },
+  "hex": "#F48FB1",
+  "rgb": {
+    "r": 244,
+    "g": 143,
+    "b": 177
+  },
+  "rgbChannels": "244 143 177",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.2315573237671837,
+  "darkModeContrast": 9.410468544249197,
+  "luminosity": 0.42052342721245983,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

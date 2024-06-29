@@ -1,0 +1,24 @@
+{
+  "name": "social-stumbleupon",
+  "hsl": {
+    "h": 11.155778894472348,
+    "s": 83.2635983263598,
+    "l": 53.13725490196079
+  },
+  "hex": "#EB4924",
+  "rgb": {
+    "r": 235,
+    "g": 73,
+    "b": 36
+  },
+  "rgbChannels": "235 73 36",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.810611916579244,
+  "darkModeContrast": 5.510925924687585,
+  "luminosity": 0.22554629623437927,
+  "shades": [
+    "red"
+  ],
+  "group": "social"
+}

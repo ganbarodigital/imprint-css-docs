@@ -1,0 +1,24 @@
+{
+  "name": "apple-strawberry",
+  "hsl": {
+    "h": 329.88235294117646,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FF0080",
+  "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 128
+  },
+  "rgbChannels": "255 0 128",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.7744648937218312,
+  "darkModeContrast": 5.563702562164471,
+  "luminosity": 0.22818512810822353,
+  "shades": [
+    "magenta"
+  ],
+  "group": "apple"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "msdl-red-7",
+  "hsl": {
+    "h": 347.67123287671234,
+    "s": 76.84210526315795,
+    "l": 81.37254901960785
+  },
+  "hex": "#F4ABBA",
+  "rgb": {
+    "r": 244,
+    "g": 171,
+    "b": 186
+  },
+  "rgbChannels": "244 171 186",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.8452101672722132,
+  "darkModeContrast": 11.380817411733885,
+  "luminosity": 0.5190408705866942,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "msdl"
+}

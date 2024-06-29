@@ -1,0 +1,22 @@
+{
+  "name": "iscc-nbs-cafenoir",
+  "hsl": {
+    "h": 30,
+    "s": 38.888888888888886,
+    "l": 21.176470588235297
+  },
+  "hex": "#4B3621",
+  "rgb": {
+    "r": 75,
+    "g": 54,
+    "b": 33
+  },
+  "rgbChannels": "75 54 33",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 11.35872580290083,
+  "darkModeContrast": 1.8487989202659465,
+  "luminosity": 0.042439946013297335,
+  "shades": [],
+  "group": "misc"
+}

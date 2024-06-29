@@ -1,0 +1,24 @@
+{
+  "name": "pantone-magentahaze",
+  "hsl": {
+    "h": 327.33333333333326,
+    "s": 39.47368421052632,
+    "l": 44.705882352941174
+  },
+  "hex": "#9F4576",
+  "rgb": {
+    "r": 159,
+    "g": 69,
+    "b": 118
+  },
+  "rgbChannels": "159 69 118",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.85441644158368,
+  "darkModeContrast": 3.587035567001667,
+  "luminosity": 0.12935177835008335,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

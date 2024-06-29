@@ -1,0 +1,24 @@
+{
+  "name": "material-deeppurple-50",
+  "hsl": {
+    "h": 264,
+    "s": 45.45454545454551,
+    "l": 93.52941176470588
+  },
+  "hex": "#EDE7F6",
+  "rgb": {
+    "r": 237,
+    "g": 231,
+    "b": 246
+  },
+  "rgbChannels": "237 231 246",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.209535651088414,
+  "darkModeContrast": 17.362034745402433,
+  "luminosity": 0.8181017372701217,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

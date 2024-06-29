@@ -1,0 +1,24 @@
+{
+  "name": "material-indigo-800",
+  "hsl": {
+    "h": 232.71028037383178,
+    "s": 57.21925133689839,
+    "l": 36.666666666666664
+  },
+  "hex": "#283593",
+  "rgb": {
+    "r": 40,
+    "g": 53,
+    "b": 147
+  },
+  "rgbChannels": "40 53 147",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.392020369557773,
+  "darkModeContrast": 2.0207812584275797,
+  "luminosity": 0.05103906292137899,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

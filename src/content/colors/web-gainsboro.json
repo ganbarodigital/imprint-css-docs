@@ -1,0 +1,25 @@
+{
+  "name": "web-gainsboro",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 86.27450980392157
+  },
+  "hex": "#DCDCDC",
+  "rgb": {
+    "r": 220,
+    "g": 220,
+    "b": 220
+  },
+  "rgbChannels": "220 220 220",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3713058806238527,
+  "darkModeContrast": 15.313870010129614,
+  "luminosity": 0.7156935005064807,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "misc"
+}

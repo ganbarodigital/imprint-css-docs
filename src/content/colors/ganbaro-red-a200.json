@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-red-a200",
+  "hsl": {
+    "h": 0.8888888888889142,
+    "s": 83.85093167701862,
+    "l": 68.43137254901961
+  },
+  "hex": "#F26D6B",
+  "rgb": {
+    "r": 242,
+    "g": 109,
+    "b": 107
+  },
+  "rgbChannels": "242 109 107",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.9267427312570966,
+  "darkModeContrast": 7.175212148209578,
+  "luminosity": 0.30876060741047895,
+  "shades": [
+    "red"
+  ],
+  "group": "ganbaro"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "crayola-oynx",
+  "hsl": {
+    "h": 195,
+    "s": 3.6363636363636362,
+    "l": 21.568627450980394
+  },
+  "hex": "#353839",
+  "rgb": {
+    "r": 53,
+    "g": 56,
+    "b": 57
+  },
+  "rgbChannels": "53 56 57",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 11.823474281895624,
+  "darkModeContrast": 1.776127684580469,
+  "luminosity": 0.038806384229023445,
+  "shades": [
+    "gray",
+    "cyan"
+  ],
+  "group": "misc"
+}

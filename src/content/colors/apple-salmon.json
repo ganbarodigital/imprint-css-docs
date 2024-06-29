@@ -1,0 +1,24 @@
+{
+  "name": "apple-salmon",
+  "hsl": {
+    "h": 0,
+    "s": 100,
+    "l": 70
+  },
+  "hex": "#FF6666",
+  "rgb": {
+    "r": 255,
+    "g": 102,
+    "b": 102
+  },
+  "rgbChannels": "255 102 102",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.859317366899635,
+  "darkModeContrast": 7.344410327829524,
+  "luminosity": 0.31722051639147625,
+  "shades": [
+    "red"
+  ],
+  "group": "apple"
+}

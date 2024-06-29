@@ -1,0 +1,24 @@
+{
+  "name": "trad-ruby",
+  "hsl": {
+    "h": 337.391304347826,
+    "s": 85.89211618257262,
+    "l": 47.25490196078431
+  },
+  "hex": "#E0115F",
+  "rgb": {
+    "r": 224,
+    "g": 17,
+    "b": 95
+  },
+  "rgbChannels": "224 17 95",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.756638052011528,
+  "darkModeContrast": 4.414882900564472,
+  "luminosity": 0.17074414502822366,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "material-deeporange-a100",
+  "hsl": {
+    "h": 14.17322834645671,
+    "s": 100,
+    "l": 75.09803921568627
+  },
+  "hex": "#FF9E80",
+  "rgb": {
+    "r": 255,
+    "g": 158,
+    "b": 128
+  },
+  "rgbChannels": "255 158 128",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.008714665852318,
+  "darkModeContrast": 10.454446496057958,
+  "luminosity": 0.4727223248028979,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

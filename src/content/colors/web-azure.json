@@ -1,0 +1,24 @@
+{
+  "name": "web-azure",
+  "hsl": {
+    "h": 180,
+    "s": 100,
+    "l": 97.05882352941177
+  },
+  "hex": "#F0FFFF",
+  "rgb": {
+    "r": 240,
+    "g": 255,
+    "b": 255
+  },
+  "rgbChannels": "240 255 255",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.0267415827559752,
+  "darkModeContrast": 20.453052990833285,
+  "luminosity": 0.9726526495416643,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

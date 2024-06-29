@@ -1,0 +1,24 @@
+{
+  "name": "material-lightgreen-300",
+  "hsl": {
+    "h": 87.85714285714289,
+    "s": 50.00000000000002,
+    "l": 67.05882352941177
+  },
+  "hex": "#AED581",
+  "rgb": {
+    "r": 174,
+    "g": 213,
+    "b": 129
+  },
+  "rgbChannels": "174 213 129",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.6621248603819139,
+  "darkModeContrast": 12.634429879819459,
+  "luminosity": 0.581721493990973,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

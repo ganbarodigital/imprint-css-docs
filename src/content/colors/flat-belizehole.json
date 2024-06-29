@@ -1,0 +1,24 @@
+{
+  "name": "flat-belizehole",
+  "hsl": {
+    "h": 203.75,
+    "s": 63.716814159292035,
+    "l": 44.31372549019608
+  },
+  "hex": "#2980B9",
+  "rgb": {
+    "r": 41,
+    "g": 128,
+    "b": 185
+  },
+  "rgbChannels": "41 128 185",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.30106781168471,
+  "darkModeContrast": 4.8825084652116635,
+  "luminosity": 0.19412542326058316,
+  "shades": [
+    "cyan"
+  ],
+  "group": "flat"
+}

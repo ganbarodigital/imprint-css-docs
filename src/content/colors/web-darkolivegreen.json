@@ -1,0 +1,24 @@
+{
+  "name": "web-darkolivegreen",
+  "hsl": {
+    "h": 82,
+    "s": 38.96103896103896,
+    "l": 30.196078431372552
+  },
+  "hex": "#556B2F",
+  "rgb": {
+    "r": 85,
+    "g": 107,
+    "b": 47
+  },
+  "rgbChannels": "85 107 47",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.9483611265154,
+  "darkModeContrast": 3.530384176977832,
+  "luminosity": 0.1265192088488916,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

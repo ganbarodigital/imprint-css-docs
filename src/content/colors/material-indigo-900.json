@@ -1,0 +1,24 @@
+{
+  "name": "material-indigo-900",
+  "hsl": {
+    "h": 234.60000000000002,
+    "s": 65.78947368421053,
+    "l": 29.80392156862745
+  },
+  "hex": "#1A237E",
+  "rgb": {
+    "r": 26,
+    "g": 35,
+    "b": 126
+  },
+  "rgbChannels": "26 35 126",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 13.244141392344606,
+  "darkModeContrast": 1.585606750781024,
+  "luminosity": 0.02928033753905121,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

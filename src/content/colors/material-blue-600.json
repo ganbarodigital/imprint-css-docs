@@ -1,0 +1,24 @@
+{
+  "name": "material-blue-600",
+  "hsl": {
+    "h": 208.0402010050251,
+    "s": 79.2828685258964,
+    "l": 50.78431372549019
+  },
+  "hex": "#1E88E5",
+  "rgb": {
+    "r": 30,
+    "g": 136,
+    "b": 229
+  },
+  "rgbChannels": "30 136 229",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.678856047046611,
+  "darkModeContrast": 5.7082962017116206,
+  "luminosity": 0.23541481008558107,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

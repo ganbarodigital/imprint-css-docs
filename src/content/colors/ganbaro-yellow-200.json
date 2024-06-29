@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-yellow-200",
+  "hsl": {
+    "h": 53.25,
+    "s": 97.56097560975611,
+    "l": 67.84313725490196
+  },
+  "hex": "#FDEB5D",
+  "rgb": {
+    "r": 253,
+    "g": 235,
+    "b": 93
+  },
+  "rgbChannels": "253 235 93",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2196592081282336,
+  "darkModeContrast": 17.217924367764937,
+  "luminosity": 0.8108962183882469,
+  "shades": [
+    "yellow"
+  ],
+  "group": "ganbaro"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "web-papayawhip",
+  "hsl": {
+    "h": 37.14285714285711,
+    "s": 100,
+    "l": 91.76470588235294
+  },
+  "hex": "#FFEFD5",
+  "rgb": {
+    "r": 255,
+    "g": 239,
+    "b": 213
+  },
+  "rgbChannels": "255 239 213",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.1315008742071258,
+  "darkModeContrast": 18.55942003996708,
+  "luminosity": 0.877971001998354,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "misc"
+}

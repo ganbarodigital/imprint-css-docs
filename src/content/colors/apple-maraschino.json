@@ -1,0 +1,24 @@
+{
+  "name": "apple-maraschino",
+  "hsl": {
+    "h": 0,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FF0000",
+  "rgb": {
+    "r": 255,
+    "g": 0,
+    "b": 0
+  },
+  "rgbChannels": "255 0 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.9984767707539985,
+  "darkModeContrast": 5.252,
+  "luminosity": 0.2126,
+  "shades": [
+    "red"
+  ],
+  "group": "apple"
+}

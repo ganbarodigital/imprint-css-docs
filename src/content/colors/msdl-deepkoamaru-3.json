@@ -1,0 +1,24 @@
+{
+  "name": "msdl-deepkoamaru-3",
+  "hsl": {
+    "h": 246.5454545454545,
+    "s": 45.08196721311476,
+    "l": 52.156862745098046
+  },
+  "hex": "#5A4EBC",
+  "rgb": {
+    "r": 90,
+    "g": 78,
+    "b": 188
+  },
+  "rgbChannels": "90 78 188",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.46023530049178,
+  "darkModeContrast": 3.2506555911982637,
+  "luminosity": 0.11253277955991317,
+  "shades": [
+    "blue"
+  ],
+  "group": "msdl"
+}

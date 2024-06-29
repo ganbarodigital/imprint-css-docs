@@ -1,0 +1,24 @@
+{
+  "name": "misc-fern",
+  "hsl": {
+    "h": 105.81818181818181,
+    "s": 29.411764705882344,
+    "l": 36.66666666666667
+  },
+  "hex": "#4F7942",
+  "rgb": {
+    "r": 79,
+    "g": 121,
+    "b": 66
+  },
+  "rgbChannels": "79 121 66",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.065035897104612,
+  "darkModeContrast": 4.146071306622819,
+  "luminosity": 0.15730356533114095,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

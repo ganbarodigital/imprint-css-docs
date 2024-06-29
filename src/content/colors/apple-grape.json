@@ -1,0 +1,24 @@
+{
+  "name": "apple-grape",
+  "hsl": {
+    "h": 270.11764705882354,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#8000FF",
+  "rgb": {
+    "r": 128,
+    "g": 0,
+    "b": 255
+  },
+  "rgbChannels": "128 0 255",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.246581397547092,
+  "darkModeContrast": 3.3618388464842996,
+  "luminosity": 0.11809194232421498,
+  "shades": [
+    "violet"
+  ],
+  "group": "apple"
+}

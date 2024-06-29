@@ -1,0 +1,24 @@
+{
+  "name": "material-lightgreen-900",
+  "hsl": {
+    "h": 103.19999999999999,
+    "s": 55.55555555555555,
+    "l": 26.47058823529412
+  },
+  "hex": "#33691E",
+  "rgb": {
+    "r": 51,
+    "g": 105,
+    "b": 30
+  },
+  "rgbChannels": "51 105 30",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.603484770427079,
+  "darkModeContrast": 3.1801390826319462,
+  "luminosity": 0.10900695413159732,
+  "shades": [
+    "green"
+  ],
+  "group": "material-design"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "web-honeydew",
+  "hsl": {
+    "h": 120,
+    "s": 100,
+    "l": 97.05882352941177
+  },
+  "hex": "#F0FFF0",
+  "rgb": {
+    "r": 240,
+    "g": 255,
+    "b": 240
+  },
+  "rgbChannels": "240 255 240",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.0361514672389587,
+  "darkModeContrast": 20.26730711095635,
+  "luminosity": 0.9633653555478174,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

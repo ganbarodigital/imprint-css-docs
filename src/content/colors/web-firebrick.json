@@ -1,0 +1,24 @@
+{
+  "name": "web-firebrick",
+  "hsl": {
+    "h": 0,
+    "s": 67.9245283018868,
+    "l": 41.56862745098039
+  },
+  "hex": "#B22222",
+  "rgb": {
+    "r": 178,
+    "g": 34,
+    "b": 34
+  },
+  "rgbChannels": "178 34 34",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.6774669776958895,
+  "darkModeContrast": 3.1449051070030465,
+  "luminosity": 0.10724525535015232,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

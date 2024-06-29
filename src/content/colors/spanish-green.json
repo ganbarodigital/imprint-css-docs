@@ -1,0 +1,24 @@
+{
+  "name": "spanish-green",
+  "hsl": {
+    "h": 153.1034482758621,
+    "s": 100,
+    "l": 28.431372549019606
+  },
+  "hex": "#009150",
+  "rgb": {
+    "r": 0,
+    "g": 145,
+    "b": 80
+  },
+  "rgbChannels": "0 145 80",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.0650430081907025,
+  "darkModeContrast": 5.165997003644699,
+  "luminosity": 0.20829985018223496,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

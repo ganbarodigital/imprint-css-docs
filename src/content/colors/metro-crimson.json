@@ -1,0 +1,25 @@
+{
+  "name": "metro-crimson",
+  "hsl": {
+    "h": 346.2962962962963,
+    "s": 100,
+    "l": 31.76470588235294
+  },
+  "hex": "#A20025",
+  "rgb": {
+    "r": 162,
+    "g": 0,
+    "b": 37
+  },
+  "rgbChannels": "162 0 37",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 8.193552800310007,
+  "darkModeContrast": 2.562990745504863,
+  "luminosity": 0.07814953727524314,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "metro"
+}

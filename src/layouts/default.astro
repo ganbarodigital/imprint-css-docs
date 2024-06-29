@@ -1,5 +1,7 @@
 ---
 
+import Navigation from "../components/Navigation.astro";
+
 const {frontmatter} = Astro.props;
 import "../styles/global.css";
 
@@ -11,9 +13,21 @@ import "../styles/global.css";
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{frontmatter.title}</title>
     </head>
-    <body class="imprint">
-        <main role="main" class="imprint-prose">
-            <slot />
-        </main>
+    <body class="">
+        <div class="hidden c:block d:block fixed inset-0 right-auto w-[19rem] pl-8 pr-6 overflow-y-auto border-r border-imprint-graphite pb-8su">
+            <Navigation/>
+        </div>
+        <div class="imprint c:pl-[21rem] d:pl-[21rem] pb-8su pt-2su">
+            <main role="main" class="imprint-container a:mx-auto b:mx-auto">
+                <div class="imprint-prose">
+                    <header class="mt-2su">
+                        <p class="p--leader">{frontmatter.navSection}</p>
+                        <h1 class="mt-2su">{frontmatter.title}</h1>
+                        {frontmatter.description && <p class="longprimer-block longprimer-fonts mt-2su">{frontmatter.description}</p>}
+                    </header>
+                    <slot />
+                </div>
+            </main>
+        </div>
     </body>
 </html>

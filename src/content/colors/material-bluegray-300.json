@@ -1,0 +1,24 @@
+{
+  "name": "material-bluegray-300",
+  "hsl": {
+    "h": 200,
+    "s": 15.625000000000004,
+    "l": 62.35294117647059
+  },
+  "hex": "#90A4AE",
+  "rgb": {
+    "r": 144,
+    "g": 164,
+    "b": 174
+  },
+  "rgbChannels": "144 164 174",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.590277107026175,
+  "darkModeContrast": 8.107240705265513,
+  "luminosity": 0.3553620352632757,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

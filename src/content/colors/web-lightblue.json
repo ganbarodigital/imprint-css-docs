@@ -1,0 +1,24 @@
+{
+  "name": "web-lightblue",
+  "hsl": {
+    "h": 194.73684210526312,
+    "s": 53.27102803738316,
+    "l": 79.01960784313727
+  },
+  "hex": "#ADD8E6",
+  "rgb": {
+    "r": 173,
+    "g": 216,
+    "b": 230
+  },
+  "rgbChannels": "173 216 230",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.5281809384122078,
+  "darkModeContrast": 13.741828256161321,
+  "luminosity": 0.637091412808066,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

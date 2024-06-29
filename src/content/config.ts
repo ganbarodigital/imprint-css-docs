@@ -1,7 +1,8 @@
 // Import utilities from `astro:content`
 import { z, defineCollection } from "astro:content";
+import { docsSchema } from "../schemas/doc";
 
-const colorsCollection = defineCollection({
+const colors = defineCollection({
     type: 'data',
     schema: z.object({
         name: z.string(),
@@ -27,16 +28,9 @@ const colorsCollection = defineCollection({
     }),
 });
 
-const docsCollection = defineCollection({
+const docs = defineCollection({
     type: 'content',
-    schema: z.object({
-        title: z.string(),
-        description: z.string(),
-        belongsTo: z.string(),
-    }),
+    schema: docsSchema,
 });
 
-export const collections = {
-    colors: colorsCollection,
-    docs: docsCollection,
-};
+export const collections = { colors, docs, };

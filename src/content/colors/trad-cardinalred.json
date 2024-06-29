@@ -1,0 +1,25 @@
+{
+  "name": "trad-cardinalred",
+  "hsl": {
+    "h": 349.8795180722891,
+    "s": 73.45132743362831,
+    "l": 44.313725490196084
+  },
+  "hex": "#C41E3A",
+  "rgb": {
+    "r": 196,
+    "g": 30,
+    "b": 58
+  },
+  "rgbChannels": "196 30 58",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.843137711360682,
+  "darkModeContrast": 3.5939594507879167,
+  "luminosity": 0.12969797253939583,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "misc"
+}

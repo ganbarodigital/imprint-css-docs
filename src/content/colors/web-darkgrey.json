@@ -1,0 +1,25 @@
+{
+  "name": "web-darkgrey",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 66.27450980392156
+  },
+  "hex": "#A9A9A9",
+  "rgb": {
+    "r": 169,
+    "g": 169,
+    "b": 169
+  },
+  "rgbChannels": "169 169 169",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.3502802603890585,
+  "darkModeContrast": 8.935104614512536,
+  "luminosity": 0.3967552307256268,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "misc"
+}

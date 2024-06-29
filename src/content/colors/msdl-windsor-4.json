@@ -1,0 +1,24 @@
+{
+  "name": "msdl-windsor-4",
+  "hsl": {
+    "h": 254,
+    "s": 68.96551724137932,
+    "l": 65.88235294117646
+  },
+  "hex": "#886CE4",
+  "rgb": {
+    "r": 136,
+    "g": 108,
+    "b": 228
+  },
+  "rgbChannels": "136 108 228",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.9531940634199354,
+  "darkModeContrast": 5.31216015786302,
+  "luminosity": 0.21560800789315104,
+  "shades": [
+    "blue"
+  ],
+  "group": "msdl"
+}

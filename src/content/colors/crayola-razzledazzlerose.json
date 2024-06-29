@@ -1,0 +1,24 @@
+{
+  "name": "crayola-razzledazzlerose",
+  "hsl": {
+    "h": 315,
+    "s": 100,
+    "l": 60
+  },
+  "hex": "#FF33CC",
+  "rgb": {
+    "r": 255,
+    "g": 51,
+    "b": 204
+  },
+  "rgbChannels": "255 51 204",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.1830444939166234,
+  "darkModeContrast": 6.597457258337047,
+  "luminosity": 0.27987286291685237,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-blue-a700",
+  "hsl": {
+    "h": 208.6010362694301,
+    "s": 100,
+    "l": 37.84313725490196
+  },
+  "hex": "#0065C1",
+  "rgb": {
+    "r": 0,
+    "g": 101,
+    "b": 193
+  },
+  "rgbChannels": "0 101 193",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.782697320983634,
+  "darkModeContrast": 3.63152328997014,
+  "luminosity": 0.131576164498507,
+  "shades": [
+    "cyan"
+  ],
+  "group": "ganbaro"
+}

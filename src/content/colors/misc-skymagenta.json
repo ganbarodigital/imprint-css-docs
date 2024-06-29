@@ -1,0 +1,24 @@
+{
+  "name": "misc-skymagenta",
+  "hsl": {
+    "h": 320.42553191489355,
+    "s": 49.47368421052632,
+    "l": 62.745098039215684
+  },
+  "hex": "#CF71AF",
+  "rgb": {
+    "r": 207,
+    "g": 113,
+    "b": 175
+  },
+  "rgbChannels": "207 113 175",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.165434863298726,
+  "darkModeContrast": 6.634159572664757,
+  "luminosity": 0.2817079786332379,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

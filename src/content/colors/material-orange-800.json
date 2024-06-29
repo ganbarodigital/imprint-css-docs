@@ -1,0 +1,24 @@
+{
+  "name": "material-orange-800",
+  "hsl": {
+    "h": 27.112970711297066,
+    "s": 100,
+    "l": 46.86274509803921
+  },
+  "hex": "#EF6C00",
+  "rgb": {
+    "r": 239,
+    "g": 108,
+    "b": 0
+  },
+  "rgbChannels": "239 108 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.0813614541336674,
+  "darkModeContrast": 6.815169305057787,
+  "luminosity": 0.2907584652528894,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

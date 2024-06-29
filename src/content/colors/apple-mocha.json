@@ -1,0 +1,22 @@
+{
+  "name": "apple-mocha",
+  "hsl": {
+    "h": 30,
+    "s": 100,
+    "l": 25.098039215686274
+  },
+  "hex": "#804000",
+  "rgb": {
+    "r": 128,
+    "g": 64,
+    "b": 0
+  },
+  "rgbChannels": "128 64 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 7.920949888530472,
+  "darkModeContrast": 2.6511971790666142,
+  "luminosity": 0.0825598589533307,
+  "shades": [],
+  "group": "apple"
+}

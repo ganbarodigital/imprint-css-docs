@@ -1,0 +1,24 @@
+{
+  "name": "misc-cerulean",
+  "hsl": {
+    "h": 195.80838323353294,
+    "s": 100,
+    "l": 32.745098039215684
+  },
+  "hex": "#007BA7",
+  "rgb": {
+    "r": 0,
+    "g": 123,
+    "b": 167
+  },
+  "rgbChannels": "0 123 167",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.782305307083311,
+  "darkModeContrast": 4.3911876493740065,
+  "luminosity": 0.16955938246870034,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

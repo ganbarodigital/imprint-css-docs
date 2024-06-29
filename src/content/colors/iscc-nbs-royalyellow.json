@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-royalyellow",
+  "hsl": {
+    "h": 47.69230769230768,
+    "s": 93.97590361445783,
+    "l": 67.45098039215686
+  },
+  "hex": "#FADA5E",
+  "rgb": {
+    "r": 250,
+    "g": 218,
+    "b": 94
+  },
+  "rgbChannels": "250 218 94",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3765986862845072,
+  "darkModeContrast": 15.254990586021703,
+  "luminosity": 0.7127495293010851,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "xona-newyorkpink",
+  "hsl": {
+    "h": 2.727272727272691,
+    "s": 52.380952380952394,
+    "l": 67.05882352941177
+  },
+  "hex": "#D7837F",
+  "rgb": {
+    "r": 215,
+    "g": 131,
+    "b": 127
+  },
+  "rgbChannels": "215 131 127",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.821672078404997,
+  "darkModeContrast": 7.442395649274257,
+  "luminosity": 0.32211978246371287,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "material-amber-200",
+  "hsl": {
+    "h": 45.120000000000005,
+    "s": 100,
+    "l": 75.49019607843137
+  },
+  "hex": "#FFE082",
+  "rgb": {
+    "r": 255,
+    "g": 224,
+    "b": 130
+  },
+  "rgbChannels": "255 224 130",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2933739909247652,
+  "darkModeContrast": 16.236602983631172,
+  "luminosity": 0.7618301491815587,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "xona-mantis",
+  "hsl": {
+    "h": 110.42553191489361,
+    "s": 43.9252336448598,
+    "l": 58.0392156862745
+  },
+  "hex": "#74C365",
+  "rgb": {
+    "r": 116,
+    "g": 195,
+    "b": 101
+  },
+  "rgbChannels": "116 195 101",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.1568191292338317,
+  "darkModeContrast": 9.736560528123581,
+  "luminosity": 0.4368280264061791,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

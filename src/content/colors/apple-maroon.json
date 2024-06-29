@@ -1,0 +1,24 @@
+{
+  "name": "apple-maroon",
+  "hsl": {
+    "h": 330,
+    "s": 100,
+    "l": 25.098039215686274
+  },
+  "hex": "#800040",
+  "rgb": {
+    "r": 128,
+    "g": 0,
+    "b": 64
+  },
+  "rgbChannels": "128 0 64",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.542846421070672,
+  "darkModeContrast": 1.9918719443764181,
+  "luminosity": 0.0495935972188209,
+  "shades": [
+    "magenta"
+  ],
+  "group": "apple"
+}

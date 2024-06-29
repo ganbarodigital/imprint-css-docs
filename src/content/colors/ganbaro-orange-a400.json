@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-orange-a400",
+  "hsl": {
+    "h": 34.28571428571428,
+    "s": 100,
+    "l": 45.294117647058826
+  },
+  "hex": "#E78400",
+  "rgb": {
+    "r": 231,
+    "g": 132,
+    "b": 0
+  },
+  "rgbChannels": "231 132 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.727878353065281,
+  "darkModeContrast": 7.698290496129557,
+  "luminosity": 0.3349145248064779,
+  "shades": [
+    "yellow"
+  ],
+  "group": "ganbaro"
+}

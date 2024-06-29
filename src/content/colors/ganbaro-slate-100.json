@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-slate-100",
+  "hsl": {
+    "h": 208.57142857142856,
+    "s": 14.893617021276581,
+    "l": 72.35294117647058
+  },
+  "hex": "#AEB9C3",
+  "rgb": {
+    "r": 174,
+    "g": 185,
+    "b": 195
+  },
+  "rgbChannels": "174 185 195",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.9948049584073306,
+  "darkModeContrast": 10.527344997561356,
+  "luminosity": 0.47636724987806783,
+  "shades": [
+    "cyan"
+  ],
+  "group": "ganbaro"
+}

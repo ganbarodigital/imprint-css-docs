@@ -1,0 +1,24 @@
+{
+  "name": "x11-mintgreen",
+  "hsl": {
+    "h": 120,
+    "s": 92.5233644859813,
+    "l": 79.01960784313725
+  },
+  "hex": "#98FB98",
+  "rgb": {
+    "r": 152,
+    "g": 251,
+    "b": 152
+  },
+  "rgbChannels": "152 251 152",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2660248755555723,
+  "darkModeContrast": 16.587351801270515,
+  "luminosity": 0.7793675900635257,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

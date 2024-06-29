@@ -1,0 +1,24 @@
+{
+  "name": "material-brown-200",
+  "hsl": {
+    "h": 14.999999999999943,
+    "s": 15.189873417721522,
+    "l": 69.01960784313725
+  },
+  "hex": "#BCAAA4",
+  "rgb": {
+    "r": 188,
+    "g": 170,
+    "b": 164
+  },
+  "rgbChannels": "188 170 164",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.2282986173818773,
+  "darkModeContrast": 9.42423059287888,
+  "luminosity": 0.42121152964394404,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

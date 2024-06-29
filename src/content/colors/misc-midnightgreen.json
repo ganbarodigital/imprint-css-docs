@@ -1,0 +1,24 @@
+{
+  "name": "misc-midnightgreen",
+  "hsl": {
+    "h": 187.2289156626506,
+    "s": 100,
+    "l": 16.274509803921568
+  },
+  "hex": "#004953",
+  "rgb": {
+    "r": 0,
+    "g": 73,
+    "b": 83
+  },
+  "rgbChannels": "0 73 83",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.1062401967777,
+  "darkModeContrast": 2.077924093541305,
+  "luminosity": 0.05389620467706526,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

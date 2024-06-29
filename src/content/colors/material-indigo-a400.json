@@ -1,0 +1,24 @@
+{
+  "name": "material-indigo-a400",
+  "hsl": {
+    "h": 230.98445595854923,
+    "s": 98.97435897435898,
+    "l": 61.76470588235294
+  },
+  "hex": "#3D5AFE",
+  "rgb": {
+    "r": 61,
+    "g": 90,
+    "b": 254
+  },
+  "rgbChannels": "61 90 254",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.13191824910398,
+  "darkModeContrast": 4.092037125428985,
+  "luminosity": 0.1546018562714493,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

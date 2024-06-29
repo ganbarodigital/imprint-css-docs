@@ -1,0 +1,24 @@
+{
+  "name": "misc-purpleglove",
+  "hsl": {
+    "h": 261.68067226890753,
+    "s": 48.57142857142857,
+    "l": 51.96078431372548
+  },
+  "hex": "#7449C0",
+  "rgb": {
+    "r": 116,
+    "g": 73,
+    "b": 192
+  },
+  "rgbChannels": "116 73 192",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.075031097952172,
+  "darkModeContrast": 3.4567724282232692,
+  "luminosity": 0.12283862141116345,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

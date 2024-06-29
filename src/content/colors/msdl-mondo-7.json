@@ -1,0 +1,25 @@
+{
+  "name": "msdl-mondo-7",
+  "hsl": {
+    "h": 17.142857142857167,
+    "s": 6.306306306306282,
+    "l": 78.23529411764706
+  },
+  "hex": "#CBC6C4",
+  "rgb": {
+    "r": 203,
+    "g": 198,
+    "b": 196
+  },
+  "rgbChannels": "203 198 196",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.691633043017541,
+  "darkModeContrast": 12.41403984550936,
+  "luminosity": 0.5707019922754679,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "msdl"
+}

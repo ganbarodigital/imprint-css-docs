@@ -1,0 +1,25 @@
+{
+  "name": "material-amber-600",
+  "hsl": {
+    "h": 42.117647058823536,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FFB300",
+  "rgb": {
+    "r": 255,
+    "g": 179,
+    "b": 0
+  },
+  "rgbChannels": "255 179 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.7948656834741148,
+  "darkModeContrast": 11.70003983771795,
+  "luminosity": 0.5350019918858975,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "material-design"
+}

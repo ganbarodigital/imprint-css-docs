@@ -1,0 +1,24 @@
+{
+  "name": "material-deeporange-a200",
+  "hsl": {
+    "h": 14.45026178010471,
+    "s": 100,
+    "l": 62.549019607843135
+  },
+  "hex": "#FF6E40",
+  "rgb": {
+    "r": 255,
+    "g": 110,
+    "b": 64
+  },
+  "rgbChannels": "255 110 64",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.779099234034436,
+  "darkModeContrast": 7.5564052347688815,
+  "luminosity": 0.3278202617384441,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

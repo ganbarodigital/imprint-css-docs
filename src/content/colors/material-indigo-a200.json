@@ -1,0 +1,24 @@
+{
+  "name": "material-indigo-a200",
+  "hsl": {
+    "h": 230.8771929824561,
+    "s": 98.84393063583815,
+    "l": 66.07843137254902
+  },
+  "hex": "#536DFE",
+  "rgb": {
+    "r": 83,
+    "g": 109,
+    "b": 254
+  },
+  "rgbChannels": "83 109 254",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.211449185984161,
+  "darkModeContrast": 4.986407070964711,
+  "luminosity": 0.19932035354823557,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "hexcode-brightgreen",
+  "hsl": {
+    "h": 96,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#66FF00",
+  "rgb": {
+    "r": 102,
+    "g": 255,
+    "b": 0
+  },
+  "rgbChannels": "102 255 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3233384643179738,
+  "darkModeContrast": 15.868956103246834,
+  "luminosity": 0.7434478051623417,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

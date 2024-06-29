@@ -1,0 +1,24 @@
+{
+  "name": "web-darkred",
+  "hsl": {
+    "h": 0,
+    "s": 100,
+    "l": 27.254901960784313
+  },
+  "hex": "#8B0000",
+  "rgb": {
+    "r": 139,
+    "g": 0,
+    "b": 0
+  },
+  "rgbChannels": "139 0 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.010518239222488,
+  "darkModeContrast": 2.097793490622625,
+  "luminosity": 0.05488967453113127,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

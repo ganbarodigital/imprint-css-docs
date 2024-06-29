@@ -1,0 +1,25 @@
+{
+  "name": "trad-lavender",
+  "hsl": {
+    "h": 275.10638297872333,
+    "s": 57.31707317073172,
+    "l": 67.84313725490196
+  },
+  "hex": "#B57EDC",
+  "rgb": {
+    "r": 181,
+    "g": 126,
+    "b": 220
+  },
+  "rgbChannels": "181 126 220",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.00749527636812,
+  "darkModeContrast": 6.982554607819634,
+  "luminosity": 0.2991277303909817,
+  "shades": [
+    "purple",
+    "magenta"
+  ],
+  "group": "misc"
+}

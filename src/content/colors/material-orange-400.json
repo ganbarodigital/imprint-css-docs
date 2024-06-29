@@ -1,0 +1,24 @@
+{
+  "name": "material-orange-400",
+  "hsl": {
+    "h": 35.66820276497697,
+    "s": 100,
+    "l": 57.45098039215686
+  },
+  "hex": "#FFA726",
+  "rgb": {
+    "r": 255,
+    "g": 167,
+    "b": 38
+  },
+  "rgbChannels": "255 167 38",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.9430996125882996,
+  "darkModeContrast": 10.807474750111764,
+  "luminosity": 0.4903737375055882,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

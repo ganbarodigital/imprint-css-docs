@@ -1,0 +1,24 @@
+{
+  "name": "xona-deeppinklight",
+  "hsl": {
+    "h": 318.4049079754601,
+    "s": 100,
+    "l": 68.03921568627452
+  },
+  "hex": "#FF5CCD",
+  "rgb": {
+    "r": 255,
+    "g": 92,
+    "b": 205
+  },
+  "rgbChannels": "255 92 205",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.739935474553669,
+  "darkModeContrast": 7.664414069247695,
+  "luminosity": 0.3332207034623848,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

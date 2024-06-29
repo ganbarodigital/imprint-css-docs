@@ -1,0 +1,24 @@
+{
+  "name": "pantone-green",
+  "hsl": {
+    "h": 165.43352601156073,
+    "s": 100,
+    "l": 33.92156862745098
+  },
+  "hex": "#00AD83",
+  "rgb": {
+    "r": 0,
+    "g": 173,
+    "b": 131
+  },
+  "rgbChannels": "0 173 131",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.8746776969631807,
+  "darkModeContrast": 7.305166774760339,
+  "luminosity": 0.315258338738017,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

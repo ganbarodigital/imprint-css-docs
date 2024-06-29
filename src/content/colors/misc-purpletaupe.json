@@ -1,0 +1,24 @@
+{
+  "name": "misc-purpletaupe",
+  "hsl": {
+    "h": 311.25,
+    "s": 11.11111111111111,
+    "l": 28.235294117647058
+  },
+  "hex": "#50404D",
+  "rgb": {
+    "r": 80,
+    "g": 64,
+    "b": 77
+  },
+  "rgbChannels": "80 64 77",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.6258858164052,
+  "darkModeContrast": 2.1816174013003695,
+  "luminosity": 0.059080870065018484,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "iscc-nbs-battleshipgray",
+  "hsl": {
+    "h": 60,
+    "s": 0.8064516129032343,
+    "l": 51.37254901960784
+  },
+  "hex": "#848482",
+  "rgb": {
+    "r": 132,
+    "g": 132,
+    "b": 130
+  },
+  "rgbChannels": "132 132 130",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.7473544274753845,
+  "darkModeContrast": 5.603953510783294,
+  "luminosity": 0.2301976755391647,
+  "shades": [
+    "gray",
+    "yellow"
+  ],
+  "group": "misc"
+}

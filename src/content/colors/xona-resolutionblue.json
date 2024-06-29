@@ -1,0 +1,24 @@
+{
+  "name": "xona-resolutionblue",
+  "hsl": {
+    "h": 224.44444444444446,
+    "s": 100,
+    "l": 26.47058823529412
+  },
+  "hex": "#002387",
+  "rgb": {
+    "r": 0,
+    "g": 35,
+    "b": 135
+  },
+  "rgbChannels": "0 35 135",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 13.205332630466629,
+  "darkModeContrast": 1.5902666436095625,
+  "luminosity": 0.029513332180478115,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

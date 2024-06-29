@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-glaucous",
+  "hsl": {
+    "h": 216.2790697674419,
+    "s": 37.06896551724139,
+    "l": 54.50980392156863
+  },
+  "hex": "#6082B6",
+  "rgb": {
+    "r": 96,
+    "g": 130,
+    "b": 182
+  },
+  "rgbChannels": "96 130 182",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.913608557864791,
+  "darkModeContrast": 5.365891782354774,
+  "luminosity": 0.21829458911773872,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

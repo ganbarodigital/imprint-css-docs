@@ -1,0 +1,24 @@
+{
+  "name": "misc-hookersgreen",
+  "hsl": {
+    "h": 162.5,
+    "s": 24.742268041237114,
+    "l": 38.03921568627451
+  },
+  "hex": "#49796B",
+  "rgb": {
+    "r": 73,
+    "g": 121,
+    "b": 107
+  },
+  "rgbChannels": "73 121 107",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.963893895850441,
+  "darkModeContrast": 4.230549733860129,
+  "luminosity": 0.16152748669300648,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "flat-orange",
+  "hsl": {
+    "h": 36.80000000000001,
+    "s": 90.36144578313252,
+    "l": 51.17647058823529
+  },
+  "hex": "#F39C12",
+  "rgb": {
+    "r": 243,
+    "g": 156,
+    "b": 18
+  },
+  "rgbChannels": "243 156 18",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.193198069926287,
+  "darkModeContrast": 9.575058581328134,
+  "luminosity": 0.4287529290664068,
+  "shades": [
+    "yellow"
+  ],
+  "group": "flat"
+}

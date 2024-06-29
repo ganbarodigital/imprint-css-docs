@@ -1,0 +1,25 @@
+{
+  "name": "web-pink",
+  "hsl": {
+    "h": 349.5238095238095,
+    "s": 100,
+    "l": 87.6470588235294
+  },
+  "hex": "#FFC0CB",
+  "rgb": {
+    "r": 255,
+    "g": 192,
+    "b": 203
+  },
+  "rgbChannels": "255 192 203",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.5379867185268434,
+  "darkModeContrast": 13.654214140493226,
+  "luminosity": 0.6327107070246613,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "social-soundcloud",
+  "hsl": {
+    "h": 12,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FF3300",
+  "rgb": {
+    "r": 255,
+    "g": 51,
+    "b": 0
+  },
+  "rgbChannels": "255 51 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.667782348343061,
+  "darkModeContrast": 5.725530581029939,
+  "luminosity": 0.236276529051497,
+  "shades": [
+    "red"
+  ],
+  "group": "social"
+}

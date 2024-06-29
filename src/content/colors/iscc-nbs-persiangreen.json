@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-persiangreen",
+  "hsl": {
+    "h": 173.132530120482,
+    "s": 100,
+    "l": 32.549019607843135
+  },
+  "hex": "#00A693",
+  "rgb": {
+    "r": 0,
+    "g": 166,
+    "b": 147
+  },
+  "rgbChannels": "0 166 147",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.0541882429668883,
+  "darkModeContrast": 6.87580408586743,
+  "luminosity": 0.29379020429337155,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

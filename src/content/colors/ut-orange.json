@@ -1,0 +1,22 @@
+{
+  "name": "ut-orange",
+  "hsl": {
+    "h": 30.588235294117624,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FF8200",
+  "rgb": {
+    "r": 255,
+    "g": 130,
+    "b": 0
+  },
+  "rgbChannels": "255 130 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.486662989843793,
+  "darkModeContrast": 8.445052701459629,
+  "luminosity": 0.37225263507298145,
+  "shades": [],
+  "group": "misc"
+}

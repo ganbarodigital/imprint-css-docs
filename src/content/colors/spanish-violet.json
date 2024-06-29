@@ -1,0 +1,24 @@
+{
+  "name": "spanish-violet",
+  "hsl": {
+    "h": 264,
+    "s": 52.94117647058824,
+    "l": 33.33333333333333
+  },
+  "hex": "#4C2882",
+  "rgb": {
+    "r": 76,
+    "g": 40,
+    "b": 130
+  },
+  "rgbChannels": "76 40 130",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.863055234185536,
+  "darkModeContrast": 1.93315780388504,
+  "luminosity": 0.04665789019425201,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

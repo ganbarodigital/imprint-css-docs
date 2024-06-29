@@ -1,0 +1,24 @@
+{
+  "name": "trad-apricot",
+  "hsl": {
+    "h": 23.513513513513544,
+    "s": 90.2439024390244,
+    "l": 83.92156862745097
+  },
+  "hex": "#FBCEB1",
+  "rgb": {
+    "r": 251,
+    "g": 206,
+    "b": 177
+  },
+  "rgbChannels": "251 206 177",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.4417894448621507,
+  "darkModeContrast": 14.56523355392424,
+  "luminosity": 0.678261677696212,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

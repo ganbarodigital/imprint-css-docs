@@ -1,0 +1,24 @@
+{
+  "name": "ridgeway-woodbrown",
+  "hsl": {
+    "h": 32.790697674418595,
+    "s": 40.95238095238095,
+    "l": 58.82352941176471
+  },
+  "hex": "#C19A6B",
+  "rgb": {
+    "r": 193,
+    "g": 154,
+    "b": 107
+  },
+  "rgbChannels": "193 154 107",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.591940093808875,
+  "darkModeContrast": 8.102039105826842,
+  "luminosity": 0.35510195529134214,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "material-indigo-50",
+  "hsl": {
+    "h": 231.42857142857144,
+    "s": 43.750000000000064,
+    "l": 93.72549019607843
+  },
+  "hex": "#E8EAF6",
+  "rgb": {
+    "r": 232,
+    "g": 234,
+    "b": 246
+  },
+  "rgbChannels": "232 234 246",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.197874448389687,
+  "darkModeContrast": 17.531052630958513,
+  "luminosity": 0.8265526315479256,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

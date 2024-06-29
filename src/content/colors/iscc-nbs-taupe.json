@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-taupe",
+  "hsl": {
+    "h": 27.272727272727252,
+    "s": 18.0327868852459,
+    "l": 23.921568627450977
+  },
+  "hex": "#483C32",
+  "rgb": {
+    "r": 72,
+    "g": 60,
+    "b": 50
+  },
+  "rgbChannels": "72 60 50",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.671030858018147,
+  "darkModeContrast": 1.967944829268367,
+  "luminosity": 0.048397241463418346,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "apple-lead",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 9.803921568627452
+  },
+  "hex": "#191919",
+  "rgb": {
+    "r": 25,
+    "g": 25,
+    "b": 25
+  },
+  "rgbChannels": "25 25 25",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 17.581691183046004,
+  "darkModeContrast": 1.194424346404757,
+  "luminosity": 0.009721217320237847,
+  "shades": [
+    "gray",
+    "black",
+    "red"
+  ],
+  "group": "apple"
+}

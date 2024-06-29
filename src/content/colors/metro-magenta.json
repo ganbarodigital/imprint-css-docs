@@ -1,0 +1,24 @@
+{
+  "name": "metro-magenta",
+  "hsl": {
+    "h": 328.05555555555554,
+    "s": 100,
+    "l": 42.35294117647059
+  },
+  "hex": "#D80073",
+  "rgb": {
+    "r": 216,
+    "g": 0,
+    "b": 115
+  },
+  "rgbChannels": "216 0 115",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.03917732656603,
+  "darkModeContrast": 4.1673468979331485,
+  "luminosity": 0.15836734489665744,
+  "shades": [
+    "magenta"
+  ],
+  "group": "metro"
+}

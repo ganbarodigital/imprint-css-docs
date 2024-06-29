@@ -1,0 +1,24 @@
+{
+  "name": "web-bisque",
+  "hsl": {
+    "h": 32.54237288135596,
+    "s": 100,
+    "l": 88.4313725490196
+  },
+  "hex": "#FFE4C4",
+  "rgb": {
+    "r": 255,
+    "g": 228,
+    "b": 196
+  },
+  "rgbChannels": "255 228 196",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2247422088892694,
+  "darkModeContrast": 17.146465474595754,
+  "luminosity": 0.8073232737297877,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

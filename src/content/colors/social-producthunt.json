@@ -1,0 +1,24 @@
+{
+  "name": "social-producthunt",
+  "hsl": {
+    "h": 13.333333333333314,
+    "s": 69.79591836734694,
+    "l": 51.96078431372548
+  },
+  "hex": "#DA552F",
+  "rgb": {
+    "r": 218,
+    "g": 85,
+    "b": 47
+  },
+  "rgbChannels": "218 85 47",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.946231815562877,
+  "darkModeContrast": 5.321532282310849,
+  "luminosity": 0.21607661411554244,
+  "shades": [
+    "red"
+  ],
+  "group": "social"
+}

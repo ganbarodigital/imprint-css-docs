@@ -1,0 +1,24 @@
+{
+  "name": "web-mediumseagreen",
+  "hsl": {
+    "h": 146.72268907563023,
+    "s": 49.79079497907949,
+    "l": 46.86274509803921
+  },
+  "hex": "#3CB371",
+  "rgb": {
+    "r": 60,
+    "g": 179,
+    "b": 113
+  },
+  "rgbChannels": "60 179 113",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.665440574959685,
+  "darkModeContrast": 7.878622467626248,
+  "luminosity": 0.34393112338131243,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

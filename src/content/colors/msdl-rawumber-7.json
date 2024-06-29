@@ -1,0 +1,24 @@
+{
+  "name": "msdl-rawumber-7",
+  "hsl": {
+    "h": 27.35294117647061,
+    "s": 100,
+    "l": 86.66666666666667
+  },
+  "hex": "#FFDABB",
+  "rgb": {
+    "r": 255,
+    "g": 218,
+    "b": 187
+  },
+  "rgbChannels": "255 218 187",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.312653194251237,
+  "darkModeContrast": 15.998132707077144,
+  "luminosity": 0.7499066353538572,
+  "shades": [
+    "red"
+  ],
+  "group": "msdl"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ral-telemagenta",
+  "hsl": {
+    "h": 334.45161290322585,
+    "s": 61.75298804780876,
+    "l": 50.78431372549019
+  },
+  "hex": "#CF3476",
+  "rgb": {
+    "r": 207,
+    "g": 52,
+    "b": 118
+  },
+  "rgbChannels": "207 52 118",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.766360551709024,
+  "darkModeContrast": 4.405877350690612,
+  "luminosity": 0.1702938675345306,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

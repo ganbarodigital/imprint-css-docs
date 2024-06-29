@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-coralpink",
+  "hsl": {
+    "h": 4.7244094488189035,
+    "s": 90.07092198581562,
+    "l": 72.35294117647058
+  },
+  "hex": "#F88379",
+  "rgb": {
+    "r": 248,
+    "g": 131,
+    "b": 121
+  },
+  "rgbChannels": "248 131 121",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.4665527223228634,
+  "darkModeContrast": 8.513906801969089,
+  "luminosity": 0.37569534009845446,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

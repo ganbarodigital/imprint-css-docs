@@ -1,0 +1,24 @@
+{
+  "name": "flat-clouds",
+  "hsl": {
+    "h": 192,
+    "s": 15.151515151515099,
+    "l": 93.52941176470588
+  },
+  "hex": "#ECF0F1",
+  "rgb": {
+    "r": 236,
+    "g": 240,
+    "b": 241
+  },
+  "rgbChannels": "236 240 241",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.14749186016681,
+  "darkModeContrast": 18.300783412047252,
+  "luminosity": 0.8650391706023626,
+  "shades": [
+    "cyan"
+  ],
+  "group": "flat"
+}

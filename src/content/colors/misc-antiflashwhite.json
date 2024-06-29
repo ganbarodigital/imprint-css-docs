@@ -1,0 +1,24 @@
+{
+  "name": "misc-antiflashwhite",
+  "hsl": {
+    "h": 210.00000000000045,
+    "s": 8.333333333333432,
+    "l": 95.29411764705881
+  },
+  "hex": "#F2F3F4",
+  "rgb": {
+    "r": 242,
+    "g": 243,
+    "b": 244
+  },
+  "rgbChannels": "242 243 244",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.1109925662221172,
+  "darkModeContrast": 18.902016663720445,
+  "luminosity": 0.8951008331860223,
+  "shades": [
+    "gray"
+  ],
+  "group": "misc"
+}

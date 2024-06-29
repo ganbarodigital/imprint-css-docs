@@ -1,0 +1,24 @@
+{
+  "name": "imprint-red",
+  "hsl": {
+    "h": 344.8148148148148,
+    "s": 68.64406779661016,
+    "l": 46.27450980392157
+  },
+  "hex": "#C7254E",
+  "rgb": {
+    "r": 199,
+    "g": 37,
+    "b": 78
+  },
+  "rgbChannels": "199 37 78",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.521866887497653,
+  "darkModeContrast": 3.8030616144599927,
+  "luminosity": 0.14015308072299962,
+  "shades": [
+    "red"
+  ],
+  "group": "imprint"
+}

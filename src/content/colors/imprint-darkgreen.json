@@ -1,0 +1,24 @@
+{
+  "name": "imprint-darkgreen",
+  "hsl": {
+    "h": 121.0344827586207,
+    "s": 32.58426966292136,
+    "l": 34.90196078431372
+  },
+  "hex": "#3C763D",
+  "rgb": {
+    "r": 60,
+    "g": 118,
+    "b": 61
+  },
+  "rgbChannels": "60 118 61",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.453285567861167,
+  "darkModeContrast": 3.8508894754683474,
+  "luminosity": 0.14254447377341736,
+  "shades": [
+    "green"
+  ],
+  "group": "imprint"
+}

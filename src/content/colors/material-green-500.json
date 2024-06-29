@@ -1,0 +1,24 @@
+{
+  "name": "material-green-500",
+  "hsl": {
+    "h": 122.42424242424238,
+    "s": 39.44223107569721,
+    "l": 49.21568627450981
+  },
+  "hex": "#4CAF50",
+  "rgb": {
+    "r": 76,
+    "g": 175,
+    "b": 80
+  },
+  "rgbChannels": "76 175 80",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.779569720344226,
+  "darkModeContrast": 7.555126193200626,
+  "luminosity": 0.32775630966003133,
+  "shades": [
+    "green"
+  ],
+  "group": "material-design"
+}

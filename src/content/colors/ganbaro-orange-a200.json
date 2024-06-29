@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-orange-a200",
+  "hsl": {
+    "h": 34.23728813559319,
+    "s": 100,
+    "l": 65.29411764705883
+  },
+  "hex": "#FFB34E",
+  "rgb": {
+    "r": 255,
+    "g": 179,
+    "b": 78
+  },
+  "rgbChannels": "255 179 78",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.778146348403814,
+  "darkModeContrast": 11.810051528576958,
+  "luminosity": 0.5405025764288479,
+  "shades": [
+    "yellow"
+  ],
+  "group": "ganbaro"
+}

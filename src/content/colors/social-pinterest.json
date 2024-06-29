@@ -1,0 +1,25 @@
+{
+  "name": "social-pinterest",
+  "hsl": {
+    "h": 353.3701657458564,
+    "s": 91.87817258883248,
+    "l": 38.62745098039216
+  },
+  "hex": "#BD081C",
+  "rgb": {
+    "r": 189,
+    "g": 8,
+    "b": 28
+  },
+  "rgbChannels": "189 8 28",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.531344145223318,
+  "darkModeContrast": 3.2152646580961894,
+  "luminosity": 0.11076323290480947,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "social"
+}

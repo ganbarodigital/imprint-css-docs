@@ -1,0 +1,25 @@
+{
+  "name": "iscc-nbs-russianviolet",
+  "hsl": {
+    "h": 270,
+    "s": 53.99999999999999,
+    "l": 19.607843137254903
+  },
+  "hex": "#32174D",
+  "rgb": {
+    "r": 50,
+    "g": 23,
+    "b": 77
+  },
+  "rgbChannels": "50 23 77",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 15.380730266143344,
+  "darkModeContrast": 1.3653447942082444,
+  "luminosity": 0.018267239710412223,
+  "shades": [
+    "violet",
+    "blue"
+  ],
+  "group": "misc"
+}

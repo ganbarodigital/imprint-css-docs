@@ -1,0 +1,24 @@
+{
+  "name": "material-lightgreen-a400",
+  "hsl": {
+    "h": 92.61904761904759,
+    "s": 100,
+    "l": 50.588235294117645
+  },
+  "hex": "#76FF03",
+  "rgb": {
+    "r": 118,
+    "g": 255,
+    "b": 3
+  },
+  "rgbChannels": "118 255 3",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3063255506004499,
+  "darkModeContrast": 16.07562524544314,
+  "luminosity": 0.7537812622721569,
+  "shades": [
+    "green"
+  ],
+  "group": "material-design"
+}

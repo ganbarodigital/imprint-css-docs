@@ -1,0 +1,24 @@
+{
+  "name": "material-lime-600",
+  "hsl": {
+    "h": 63.973509933774835,
+    "s": 59.68379446640315,
+    "l": 49.6078431372549
+  },
+  "hex": "#C0CA33",
+  "rgb": {
+    "r": 192,
+    "g": 202,
+    "b": 51
+  },
+  "rgbChannels": "192 202 51",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.7891665406811934,
+  "darkModeContrast": 11.73730869793967,
+  "luminosity": 0.5368654348969835,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

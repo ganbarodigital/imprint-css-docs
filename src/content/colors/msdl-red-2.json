@@ -1,0 +1,24 @@
+{
+  "name": "msdl-red-2",
+  "hsl": {
+    "h": 0,
+    "s": 100,
+    "l": 32.94117647058823
+  },
+  "hex": "#A80000",
+  "rgb": {
+    "r": 168,
+    "g": 0,
+    "b": 0
+  },
+  "rgbChannels": "168 0 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 7.880024967638631,
+  "darkModeContrast": 2.6649661753918235,
+  "luminosity": 0.08324830876959118,
+  "shades": [
+    "red"
+  ],
+  "group": "msdl"
+}

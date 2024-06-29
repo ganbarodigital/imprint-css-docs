@@ -1,0 +1,22 @@
+{
+  "name": "material-orange-700",
+  "hsl": {
+    "h": 30.367346938775484,
+    "s": 100,
+    "l": 48.03921568627451
+  },
+  "hex": "#F57C00",
+  "rgb": {
+    "r": 245,
+    "g": 124,
+    "b": 0
+  },
+  "rgbChannels": "245 124 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.7042493378311914,
+  "darkModeContrast": 7.765556121700673,
+  "luminosity": 0.33827780608503366,
+  "shades": [],
+  "group": "material-design"
+}

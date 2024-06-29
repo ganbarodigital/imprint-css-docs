@@ -1,0 +1,24 @@
+{
+  "name": "msdl-eggplant-3",
+  "hsl": {
+    "h": 322.61780104712034,
+    "s": 100,
+    "l": 37.450980392156865
+  },
+  "hex": "#BF0077",
+  "rgb": {
+    "r": 191,
+    "g": 0,
+    "b": 119
+  },
+  "rgbChannels": "191 0 119",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.03161415529887,
+  "darkModeContrast": 3.4816550693235513,
+  "luminosity": 0.12408275346617756,
+  "shades": [
+    "magenta"
+  ],
+  "group": "msdl"
+}

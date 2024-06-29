@@ -1,0 +1,24 @@
+{
+  "name": "web-limegreen",
+  "hsl": {
+    "h": 120,
+    "s": 60.7843137254902,
+    "l": 50
+  },
+  "hex": "#32CD32",
+  "rgb": {
+    "r": 50,
+    "g": 205,
+    "b": 50
+  },
+  "rgbChannels": "50 205 50",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.1181721271609018,
+  "darkModeContrast": 9.91420844921957,
+  "luminosity": 0.44571042246097853,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

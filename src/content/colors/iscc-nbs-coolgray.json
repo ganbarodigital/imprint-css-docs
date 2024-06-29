@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-coolgray",
+  "hsl": {
+    "h": 240,
+    "s": 27.586206896551722,
+    "l": 65.88235294117646
+  },
+  "hex": "#9090C0",
+  "rgb": {
+    "r": 144,
+    "g": 144,
+    "b": 192
+  },
+  "rgbChannels": "144 144 192",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.027543642887015,
+  "darkModeContrast": 6.936316194594887,
+  "luminosity": 0.29681580972974436,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

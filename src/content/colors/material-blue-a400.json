@@ -1,0 +1,24 @@
+{
+  "name": "material-blue-a400",
+  "hsl": {
+    "h": 217.57009345794393,
+    "s": 100,
+    "l": 58.03921568627452
+  },
+  "hex": "#2979FF",
+  "rgb": {
+    "r": 41,
+    "g": 121,
+    "b": 255
+  },
+  "rgbChannels": "41 121 255",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.9823772388084,
+  "darkModeContrast": 5.273232228065763,
+  "luminosity": 0.21366161140328815,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "flat-silver",
+  "hsl": {
+    "h": 204.0000000000001,
+    "s": 8.196721311475402,
+    "l": 76.07843137254902
+  },
+  "hex": "#BDC3C7",
+  "rgb": {
+    "r": 189,
+    "g": 195,
+    "b": 199
+  },
+  "rgbChannels": "189 195 199",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.7804893480542288,
+  "darkModeContrast": 11.794510325461603,
+  "luminosity": 0.5397255162730802,
+  "shades": [
+    "gray",
+    "cyan"
+  ],
+  "group": "flat"
+}

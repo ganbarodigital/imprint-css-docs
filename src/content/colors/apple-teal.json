@@ -1,0 +1,24 @@
+{
+  "name": "apple-teal",
+  "hsl": {
+    "h": 180,
+    "s": 100,
+    "l": 25.098039215686274
+  },
+  "hex": "#008080",
+  "rgb": {
+    "r": 0,
+    "g": 128,
+    "b": 128
+  },
+  "rgbChannels": "0 128 128",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.77340948429513,
+  "darkModeContrast": 4.399371155793684,
+  "luminosity": 0.16996855778968423,
+  "shades": [
+    "cyan"
+  ],
+  "group": "apple"
+}

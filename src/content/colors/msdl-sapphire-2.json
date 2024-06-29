@@ -1,0 +1,24 @@
+{
+  "name": "msdl-sapphire-2",
+  "hsl": {
+    "h": 227.58620689655174,
+    "s": 69.87951807228916,
+    "l": 32.549019607843135
+  },
+  "hex": "#19318D",
+  "rgb": {
+    "r": 25,
+    "g": 49,
+    "b": 141
+  },
+  "rgbChannels": "25 49 141",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 11.258380204228647,
+  "darkModeContrast": 1.8652772085377256,
+  "luminosity": 0.043263860426886284,
+  "shades": [
+    "blue"
+  ],
+  "group": "msdl"
+}

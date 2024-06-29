@@ -1,0 +1,24 @@
+{
+  "name": "web-mistyrose",
+  "hsl": {
+    "h": 6.000000000000057,
+    "s": 100,
+    "l": 94.11764705882352
+  },
+  "hex": "#FFE4E1",
+  "rgb": {
+    "r": 255,
+    "g": 228,
+    "b": 225
+  },
+  "rgbChannels": "255 228 225",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2043625748160562,
+  "darkModeContrast": 17.43660957183708,
+  "luminosity": 0.8218304785918541,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "material-cyan-800",
+  "hsl": {
+    "h": 185.034965034965,
+    "s": 100,
+    "l": 28.03921568627451
+  },
+  "hex": "#00838F",
+  "rgb": {
+    "r": 0,
+    "g": 131,
+    "b": 143
+  },
+  "rgbChannels": "0 131 143",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.522787846917201,
+  "darkModeContrast": 4.643153893303642,
+  "luminosity": 0.1821576946651821,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

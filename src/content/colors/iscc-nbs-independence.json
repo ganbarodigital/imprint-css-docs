@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-independence",
+  "hsl": {
+    "h": 230.90909090909088,
+    "s": 17.837837837837835,
+    "l": 36.27450980392157
+  },
+  "hex": "#4C516D",
+  "rgb": {
+    "r": 76,
+    "g": 81,
+    "b": 109
+  },
+  "rgbChannels": "76 81 109",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 7.763122396121107,
+  "darkModeContrast": 2.7050971153685253,
+  "luminosity": 0.08525485576842629,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

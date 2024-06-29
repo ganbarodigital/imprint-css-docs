@@ -1,0 +1,24 @@
+{
+  "name": "web-slateblue",
+  "hsl": {
+    "h": 248.3478260869565,
+    "s": 53.48837209302326,
+    "l": 57.84313725490197
+  },
+  "hex": "#6A5ACD",
+  "rgb": {
+    "r": 106,
+    "g": 90,
+    "b": 205
+  },
+  "rgbChannels": "106 90 205",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.307244452904905,
+  "darkModeContrast": 3.956855612427219,
+  "luminosity": 0.14784278062136097,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

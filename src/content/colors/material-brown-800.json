@@ -1,0 +1,24 @@
+{
+  "name": "material-brown-800",
+  "hsl": {
+    "h": 11.25,
+    "s": 25.80645161290323,
+    "l": 24.31372549019608
+  },
+  "hex": "#4E342E",
+  "rgb": {
+    "r": 78,
+    "g": 52,
+    "b": 46
+  },
+  "rgbChannels": "78 52 46",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 11.323268383816512,
+  "darkModeContrast": 1.854588206176735,
+  "luminosity": 0.04272941030883675,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "web-orangered",
+  "hsl": {
+    "h": 16.235294117647072,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#FF4500",
+  "rgb": {
+    "r": 255,
+    "g": 69,
+    "b": 0
+  },
+  "rgbChannels": "255 69 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.440790447488965,
+  "darkModeContrast": 6.103248750683283,
+  "luminosity": 0.2551624375341642,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "web-floralwhite",
+  "hsl": {
+    "h": 39.99999999999994,
+    "s": 100,
+    "l": 97.05882352941177
+  },
+  "hex": "#FFFAF0",
+  "rgb": {
+    "r": 255,
+    "g": 250,
+    "b": 240
+  },
+  "rgbChannels": "255 250 240",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.0404024453229228,
+  "darkModeContrast": 20.18449696500085,
+  "luminosity": 0.9592248482500426,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "misc"
+}

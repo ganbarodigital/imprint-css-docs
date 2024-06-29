@@ -1,0 +1,24 @@
+{
+  "name": "metro-steel",
+  "hsl": {
+    "h": 209.1428571428571,
+    "s": 14.893617021276595,
+    "l": 46.07843137254902
+  },
+  "hex": "#647687",
+  "rgb": {
+    "r": 100,
+    "g": 118,
+    "b": 135
+  },
+  "rgbChannels": "100 118 135",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.684266697665445,
+  "darkModeContrast": 4.483092307802634,
+  "luminosity": 0.17415461539013172,
+  "shades": [
+    "cyan"
+  ],
+  "group": "metro"
+}

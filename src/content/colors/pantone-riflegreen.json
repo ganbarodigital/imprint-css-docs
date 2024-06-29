@@ -1,0 +1,24 @@
+{
+  "name": "pantone-riflegreen",
+  "hsl": {
+    "h": 84,
+    "s": 15.151515151515152,
+    "l": 25.882352941176467
+  },
+  "hex": "#444C38",
+  "rgb": {
+    "r": 68,
+    "g": 76,
+    "b": 56
+  },
+  "rgbChannels": "68 76 56",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 8.987148358312547,
+  "darkModeContrast": 2.336670005071889,
+  "luminosity": 0.06683350025359446,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

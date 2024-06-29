@@ -1,0 +1,24 @@
+{
+  "name": "trad-carrotorange",
+  "hsl": {
+    "h": 32.94117647058823,
+    "s": 85.00000000000001,
+    "l": 52.94117647058824
+  },
+  "hex": "#ED9121",
+  "rgb": {
+    "r": 237,
+    "g": 145,
+    "b": 33
+  },
+  "rgbChannels": "237 145 33",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.421300342846506,
+  "darkModeContrast": 8.67302565831721,
+  "luminosity": 0.3836512829158605,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

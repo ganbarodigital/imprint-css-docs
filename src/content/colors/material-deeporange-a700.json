@@ -1,0 +1,24 @@
+{
+  "name": "material-deeporange-a700",
+  "hsl": {
+    "h": 11.945701357466078,
+    "s": 100,
+    "l": 43.333333333333336
+  },
+  "hex": "#DD2C00",
+  "rgb": {
+    "r": 221,
+    "g": 44,
+    "b": 0
+  },
+  "rgbChannels": "221 44 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.735378857224882,
+  "darkModeContrast": 4.434703248285993,
+  "luminosity": 0.1717351624142997,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

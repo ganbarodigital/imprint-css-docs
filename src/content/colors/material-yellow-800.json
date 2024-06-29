@@ -1,0 +1,25 @@
+{
+  "name": "material-yellow-800",
+  "hsl": {
+    "h": 37.07547169811323,
+    "s": 94.64285714285715,
+    "l": 56.07843137254902
+  },
+  "hex": "#F9A825",
+  "rgb": {
+    "r": 249,
+    "g": 168,
+    "b": 37
+  },
+  "rgbChannels": "249 168 37",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.9707735347536621,
+  "darkModeContrast": 10.655714433786988,
+  "luminosity": 0.4827857216893494,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "material-design"
+}

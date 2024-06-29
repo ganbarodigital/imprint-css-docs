@@ -1,0 +1,24 @@
+{
+  "name": "spanish-orange",
+  "hsl": {
+    "h": 25.086206896551744,
+    "s": 100,
+    "l": 45.490196078431374
+  },
+  "hex": "#E86100",
+  "rgb": {
+    "r": 232,
+    "g": 97,
+    "b": 0
+  },
+  "rgbChannels": "232 97 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.4196169599829958,
+  "darkModeContrast": 6.141038673554953,
+  "luminosity": 0.2570519336777477,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

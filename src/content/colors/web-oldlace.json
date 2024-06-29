@@ -1,0 +1,25 @@
+{
+  "name": "web-oldlace",
+  "hsl": {
+    "h": 39.13043478260869,
+    "s": 85.18518518518523,
+    "l": 94.70588235294117
+  },
+  "hex": "#FDF5E6",
+  "rgb": {
+    "r": 253,
+    "g": 245,
+    "b": 230
+  },
+  "rgbChannels": "253 245 230",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.0835842482118099,
+  "darkModeContrast": 19.3801266811098,
+  "luminosity": 0.91900633405549,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "misc"
+}

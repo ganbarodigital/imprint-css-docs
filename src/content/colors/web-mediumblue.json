@@ -1,0 +1,24 @@
+{
+  "name": "web-mediumblue",
+  "hsl": {
+    "h": 240,
+    "s": 100,
+    "l": 40.19607843137255
+  },
+  "hex": "#0000CD",
+  "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 205
+  },
+  "rgbChannels": "0 0 205",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 11.160977625430935,
+  "darkModeContrast": 1.8815556042465567,
+  "luminosity": 0.04407778021232783,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

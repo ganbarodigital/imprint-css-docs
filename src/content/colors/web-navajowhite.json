@@ -1,0 +1,24 @@
+{
+  "name": "web-navajowhite",
+  "hsl": {
+    "h": 35.853658536585385,
+    "s": 100,
+    "l": 83.92156862745098
+  },
+  "hex": "#FFDEAD",
+  "rgb": {
+    "r": 255,
+    "g": 222,
+    "b": 173
+  },
+  "rgbChannels": "255 222 173",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2880324969677992,
+  "darkModeContrast": 16.30393646855713,
+  "luminosity": 0.7651968234278564,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

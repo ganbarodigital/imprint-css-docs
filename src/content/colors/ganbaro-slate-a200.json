@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-slate-a200",
+  "hsl": {
+    "h": 222.85714285714278,
+    "s": 12.13872832369941,
+    "l": 66.07843137254902
+  },
+  "hex": "#9EA4B3",
+  "rgb": {
+    "r": 158,
+    "g": 164,
+    "b": 179
+  },
+  "rgbChannels": "158 164 179",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.4955618848318215,
+  "darkModeContrast": 8.41493858663225,
+  "luminosity": 0.3707469293316125,
+  "shades": [
+    "blue"
+  ],
+  "group": "ganbaro"
+}

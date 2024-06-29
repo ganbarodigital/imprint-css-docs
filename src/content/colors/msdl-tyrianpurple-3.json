@@ -1,0 +1,24 @@
+{
+  "name": "msdl-tyrianpurple-3",
+  "hsl": {
+    "h": 334.7692307692307,
+    "s": 100,
+    "l": 38.23529411764706
+  },
+  "hex": "#C30052",
+  "rgb": {
+    "r": 195,
+    "g": 0,
+    "b": 82
+  },
+  "rgbChannels": "195 0 82",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.100643786060061,
+  "darkModeContrast": 3.442259659215784,
+  "luminosity": 0.12211298296078922,
+  "shades": [
+    "red"
+  ],
+  "group": "msdl"
+}

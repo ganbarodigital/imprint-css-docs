@@ -1,0 +1,24 @@
+{
+  "name": "web-chartreuse",
+  "hsl": {
+    "h": 172.96875,
+    "s": 100,
+    "l": 74.90196078431373
+  },
+  "hex": "#7FFFF0",
+  "rgb": {
+    "r": 127,
+    "g": 255,
+    "b": 240
+  },
+  "rgbChannels": "127 255 240",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.202428266048183,
+  "darkModeContrast": 17.464659300647625,
+  "luminosity": 0.8232329650323813,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

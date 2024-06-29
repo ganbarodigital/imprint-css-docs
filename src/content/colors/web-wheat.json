@@ -1,0 +1,25 @@
+{
+  "name": "web-wheat",
+  "hsl": {
+    "h": 39.09090909090912,
+    "s": 76.74418604651167,
+    "l": 83.13725490196077
+  },
+  "hex": "#F5DEB3",
+  "rgb": {
+    "r": 245,
+    "g": 222,
+    "b": 179
+  },
+  "rgbChannels": "245 222 179",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3139831121119725,
+  "darkModeContrast": 15.98194056409643,
+  "luminosity": 0.7490970282048215,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "misc"
+}

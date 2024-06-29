@@ -1,0 +1,25 @@
+{
+  "name": "apple-tin",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 49.80392156862745
+  },
+  "hex": "#7F7F7F",
+  "rgb": {
+    "r": 127,
+    "g": 127,
+    "b": 127
+  },
+  "rgbChannels": "127 127 127",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.0041069566148515,
+  "darkModeContrast": 5.244615148281104,
+  "luminosity": 0.2122307574140552,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "apple"
+}

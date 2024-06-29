@@ -1,0 +1,24 @@
+{
+  "name": "crayola-cottoncandy",
+  "hsl": {
+    "h": 334.0298507462687,
+    "s": 100,
+    "l": 86.86274509803921
+  },
+  "hex": "#FFBCD9",
+  "rgb": {
+    "r": 255,
+    "g": 188,
+    "b": 217
+  },
+  "rgbChannels": "255 188 217",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.5616588980697592,
+  "darkModeContrast": 13.447238719003495,
+  "luminosity": 0.6223619359501747,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

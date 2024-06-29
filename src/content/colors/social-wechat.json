@@ -1,0 +1,24 @@
+{
+  "name": "social-wechat",
+  "hsl": {
+    "h": 138.17142857142858,
+    "s": 90.67357512953367,
+    "l": 37.84313725490196
+  },
+  "hex": "#09B83E",
+  "rgb": {
+    "r": 9,
+    "g": 184,
+    "b": 62
+  },
+  "rgbChannels": "9 184 62",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.6457121614203936,
+  "darkModeContrast": 7.937371383864301,
+  "luminosity": 0.34686856919321507,
+  "shades": [
+    "green"
+  ],
+  "group": "social"
+}

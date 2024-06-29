@@ -1,0 +1,24 @@
+{
+  "name": "social-linkedin",
+  "hsl": {
+    "h": 200.55248618784526,
+    "s": 100,
+    "l": 35.490196078431374
+  },
+  "hex": "#0077B5",
+  "rgb": {
+    "r": 0,
+    "g": 119,
+    "b": 181
+  },
+  "rgbChannels": "0 119 181",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.8769504653739,
+  "darkModeContrast": 4.305969508835271,
+  "luminosity": 0.16529847544176357,
+  "shades": [
+    "cyan"
+  ],
+  "group": "social"
+}

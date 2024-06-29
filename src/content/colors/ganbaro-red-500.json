@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-red-500",
+  "hsl": {
+    "h": 0.3370786516853741,
+    "s": 70.07874015748031,
+    "l": 49.80392156862745
+  },
+  "hex": "#D82726",
+  "rgb": {
+    "r": 216,
+    "g": 39,
+    "b": 38
+  },
+  "rgbChannels": "216 39 38",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.955188947836214,
+  "darkModeContrast": 4.237981683659124,
+  "luminosity": 0.1618990841829562,
+  "shades": [
+    "red"
+  ],
+  "group": "ganbaro"
+}

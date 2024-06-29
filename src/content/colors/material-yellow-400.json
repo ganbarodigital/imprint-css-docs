@@ -1,0 +1,24 @@
+{
+  "name": "material-yellow-400",
+  "hsl": {
+    "h": 53.8922155688623,
+    "s": 100,
+    "l": 67.25490196078432
+  },
+  "hex": "#FFEE58",
+  "rgb": {
+    "r": 255,
+    "g": 238,
+    "b": 88
+  },
+  "rgbChannels": "255 238 88",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.191642811769243,
+  "darkModeContrast": 17.62273039588189,
+  "luminosity": 0.8311365197940945,
+  "shades": [
+    "yellow"
+  ],
+  "group": "material-design"
+}

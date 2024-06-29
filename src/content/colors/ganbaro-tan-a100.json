@@ -1,0 +1,25 @@
+{
+  "name": "ganbaro-tan-a100",
+  "hsl": {
+    "h": 323.9999999999999,
+    "s": 7.042253521126775,
+    "l": 86.07843137254902
+  },
+  "hex": "#DED9DC",
+  "rgb": {
+    "r": 222,
+    "g": 217,
+    "b": 220
+  },
+  "rgbChannels": "222 217 220",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3940037250280817,
+  "darkModeContrast": 15.064522155116165,
+  "luminosity": 0.7032261077558083,
+  "shades": [
+    "gray",
+    "magenta"
+  ],
+  "group": "ganbaro"
+}

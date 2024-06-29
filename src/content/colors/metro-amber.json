@@ -1,0 +1,25 @@
+{
+  "name": "metro-amber",
+  "hsl": {
+    "h": 39.913043478260875,
+    "s": 92,
+    "l": 49.01960784313725
+  },
+  "hex": "#F0A30A",
+  "rgb": {
+    "r": 240,
+    "g": 163,
+    "b": 10
+  },
+  "rgbChannels": "240 163 10",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.1109106537803877,
+  "darkModeContrast": 9.94831304792153,
+  "luminosity": 0.44741565239607656,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "metro"
+}

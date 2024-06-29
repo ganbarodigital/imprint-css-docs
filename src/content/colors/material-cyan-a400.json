@@ -1,0 +1,24 @@
+{
+  "name": "material-cyan-a400",
+  "hsl": {
+    "h": 186.11764705882354,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#00E5FF",
+  "rgb": {
+    "r": 0,
+    "g": 229,
+    "b": 255
+  },
+  "rgbChannels": "0 229 255",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.5382671905176262,
+  "darkModeContrast": 13.651724569990673,
+  "luminosity": 0.6325862284995336,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

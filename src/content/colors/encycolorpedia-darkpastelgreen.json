@@ -1,0 +1,24 @@
+{
+  "name": "encycolorpedia-darkpastelgreen",
+  "hsl": {
+    "h": 138.09523809523807,
+    "s": 96.92307692307693,
+    "l": 38.23529411764706
+  },
+  "hex": "#03C03C",
+  "rgb": {
+    "r": 3,
+    "g": 192,
+    "b": 60
+  },
+  "rgbChannels": "3 192 60",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.439314663750477,
+  "darkModeContrast": 8.608975427431012,
+  "luminosity": 0.3804487713715507,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

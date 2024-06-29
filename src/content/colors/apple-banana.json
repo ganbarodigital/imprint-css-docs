@@ -1,0 +1,24 @@
+{
+  "name": "apple-banana",
+  "hsl": {
+    "h": 60,
+    "s": 100,
+    "l": 70
+  },
+  "hex": "#FFFF66",
+  "rgb": {
+    "r": 255,
+    "g": 255,
+    "b": 102
+  },
+  "rgbChannels": "255 255 102",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.063406264069815,
+  "darkModeContrast": 19.747861856323713,
+  "luminosity": 0.9373930928161857,
+  "shades": [
+    "yellow"
+  ],
+  "group": "apple"
+}

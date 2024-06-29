@@ -1,0 +1,24 @@
+{
+  "name": "msdl-green-5",
+  "hsl": {
+    "h": 117.4825174825175,
+    "s": 60.337552742616026,
+    "l": 53.529411764705884
+  },
+  "hex": "#47D041",
+  "rgb": {
+    "r": 71,
+    "g": 208,
+    "b": 65
+  },
+  "rgbChannels": "71 208 65",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.025736607846291,
+  "darkModeContrast": 10.366599447658023,
+  "luminosity": 0.46832997238290125,
+  "shades": [
+    "green"
+  ],
+  "group": "msdl"
+}

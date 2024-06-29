@@ -1,0 +1,25 @@
+{
+  "name": "iscc-nbs-graygreen",
+  "hsl": {
+    "h": 157.8947368421052,
+    "s": 9.178743961352652,
+    "l": 40.588235294117645
+  },
+  "hex": "#5E716A",
+  "rgb": {
+    "r": 94,
+    "g": 113,
+    "b": 106
+  },
+  "rgbChannels": "94 113 106",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.1901714594986315,
+  "darkModeContrast": 4.046109105233412,
+  "luminosity": 0.15230545526167058,
+  "shades": [
+    "gray",
+    "cyan"
+  ],
+  "group": "misc"
+}

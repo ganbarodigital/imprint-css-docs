@@ -1,0 +1,24 @@
+{
+  "name": "msdl-bluelagoon-2",
+  "hsl": {
+    "h": 195,
+    "s": 100,
+    "l": 29.01960784313726
+  },
+  "hex": "#006F94",
+  "rgb": {
+    "r": 0,
+    "g": 111,
+    "b": 148
+  },
+  "rgbChannels": "0 111 148",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.673529781499726,
+  "darkModeContrast": 3.7013994477436083,
+  "luminosity": 0.13506997238718044,
+  "shades": [
+    "cyan"
+  ],
+  "group": "msdl"
+}

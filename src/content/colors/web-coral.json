@@ -1,0 +1,24 @@
+{
+  "name": "web-coral",
+  "hsl": {
+    "h": 16.1142857142857,
+    "s": 100,
+    "l": 65.68627450980392
+  },
+  "hex": "#FF7F50",
+  "rgb": {
+    "r": 255,
+    "g": 127,
+    "b": 80
+  },
+  "rgbChannels": "255 127 80",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.498933141604598,
+  "darkModeContrast": 8.403586174584737,
+  "luminosity": 0.3701793087292369,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "material-red-900",
+  "hsl": {
+    "h": 0,
+    "s": 73.45971563981044,
+    "l": 41.37254901960784
+  },
+  "hex": "#B71C1C",
+  "rgb": {
+    "r": 183,
+    "g": 28,
+    "b": 28
+  },
+  "rgbChannels": "183 28 28",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.570044137951514,
+  "darkModeContrast": 3.1963255587119432,
+  "luminosity": 0.10981627793559716,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

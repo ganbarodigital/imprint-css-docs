@@ -1,0 +1,24 @@
+{
+  "name": "msdl-brown-1",
+  "hsl": {
+    "h": 32.27848101265823,
+    "s": 85.8695652173913,
+    "l": 36.07843137254902
+  },
+  "hex": "#AB620D",
+  "rgb": {
+    "r": 171,
+    "g": 98,
+    "b": 13
+  },
+  "rgbChannels": "171 98 13",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.682827551650135,
+  "darkModeContrast": 4.484470070353118,
+  "luminosity": 0.17422350351765592,
+  "shades": [
+    "yellow"
+  ],
+  "group": "msdl"
+}

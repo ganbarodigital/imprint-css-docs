@@ -1,0 +1,24 @@
+{
+  "name": "material-purple-a400",
+  "hsl": {
+    "h": 291.3253012048192,
+    "s": 100,
+    "l": 48.8235294117647
+  },
+  "hex": "#D500F9",
+  "rgb": {
+    "r": 213,
+    "g": 0,
+    "b": 249
+  },
+  "rgbChannels": "213 0 249",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.040685911703835,
+  "darkModeContrast": 5.1971374313389616,
+  "luminosity": 0.2098568715669481,
+  "shades": [
+    "magenta"
+  ],
+  "group": "material-design"
+}

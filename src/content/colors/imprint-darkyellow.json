@@ -1,0 +1,24 @@
+{
+  "name": "imprint-darkyellow",
+  "hsl": {
+    "h": 50.47619047619048,
+    "s": 80.42553191489361,
+    "l": 53.92156862745098
+  },
+  "hex": "#E8CA2B",
+  "rgb": {
+    "r": 232,
+    "g": 202,
+    "b": 43
+  },
+  "rgbChannels": "232 202 43",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.6261098705327013,
+  "darkModeContrast": 12.914256521375496,
+  "luminosity": 0.5957128260687747,
+  "shades": [
+    "yellow"
+  ],
+  "group": "imprint"
+}

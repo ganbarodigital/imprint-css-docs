@@ -1,0 +1,24 @@
+{
+  "name": "msdl-teal-3",
+  "hsl": {
+    "h": 182.92682926829275,
+    "s": 100,
+    "l": 32.15686274509804
+  },
+  "hex": "#009CA4",
+  "rgb": {
+    "r": 0,
+    "g": 156,
+    "b": 164
+  },
+  "rgbChannels": "0 156 164",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.3378611756614167,
+  "darkModeContrast": 6.29145398650042,
+  "luminosity": 0.26457269932502103,
+  "shades": [
+    "cyan"
+  ],
+  "group": "msdl"
+}

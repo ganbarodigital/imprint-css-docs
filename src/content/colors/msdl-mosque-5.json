@@ -1,0 +1,24 @@
+{
+  "name": "msdl-mosque-5",
+  "hsl": {
+    "h": 168.23529411764707,
+    "s": 67.40088105726872,
+    "l": 55.490196078431374
+  },
+  "hex": "#41DABC",
+  "rgb": {
+    "r": 65,
+    "g": 218,
+    "b": 188
+  },
+  "rgbChannels": "65 218 188",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.7529957267181249,
+  "darkModeContrast": 11.979492978750837,
+  "luminosity": 0.5489746489375419,
+  "shades": [
+    "cyan"
+  ],
+  "group": "msdl"
+}

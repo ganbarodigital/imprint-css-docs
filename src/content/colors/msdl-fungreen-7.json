@@ -1,0 +1,24 @@
+{
+  "name": "msdl-fungreen-7",
+  "hsl": {
+    "h": 145.57377049180332,
+    "s": 53.98230088495575,
+    "l": 77.84313725490196
+  },
+  "hex": "#A8E5C2",
+  "rgb": {
+    "r": 168,
+    "g": 229,
+    "b": 194
+  },
+  "rgbChannels": "168 229 194",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.4332808650542022,
+  "darkModeContrast": 14.651699127515977,
+  "luminosity": 0.6825849563757989,
+  "shades": [
+    "green"
+  ],
+  "group": "msdl"
+}

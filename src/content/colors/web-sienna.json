@@ -1,0 +1,24 @@
+{
+  "name": "web-sienna",
+  "hsl": {
+    "h": 19.30434782608694,
+    "s": 56.09756097560975,
+    "l": 40.19607843137255
+  },
+  "hex": "#A0522D",
+  "rgb": {
+    "r": 160,
+    "g": 82,
+    "b": 45
+  },
+  "rgbChannels": "160 82 45",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.615684580948558,
+  "darkModeContrast": 3.739526267419536,
+  "luminosity": 0.13697631337097682,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

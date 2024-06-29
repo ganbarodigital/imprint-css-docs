@@ -1,0 +1,24 @@
+{
+  "name": "web-mediumorchid",
+  "hsl": {
+    "h": 288.0952380952381,
+    "s": 58.87850467289718,
+    "l": 58.0392156862745
+  },
+  "hex": "#BA55D3",
+  "rgb": {
+    "r": 186,
+    "g": 85,
+    "b": 211
+  },
+  "rgbChannels": "186 85 211",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.9415522378573624,
+  "darkModeContrast": 5.327850230754687,
+  "luminosity": 0.21639251153773434,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

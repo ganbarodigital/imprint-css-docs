@@ -1,0 +1,24 @@
+{
+  "name": "crayola-plum",
+  "hsl": {
+    "h": 307.3972602739726,
+    "s": 34.597156398104275,
+    "l": 41.37254901960784
+  },
+  "hex": "#8E4585",
+  "rgb": {
+    "r": 142,
+    "g": 69,
+    "b": 133
+  },
+  "rgbChannels": "142 69 133",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.287243687967263,
+  "darkModeContrast": 3.3400963987113306,
+  "luminosity": 0.11700481993556652,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

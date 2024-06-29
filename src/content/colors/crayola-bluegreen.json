@@ -1,0 +1,24 @@
+{
+  "name": "crayola-bluegreen",
+  "hsl": {
+    "h": 191.79190751445083,
+    "s": 86.93467336683416,
+    "l": 39.01960784313726
+  },
+  "hex": "#0D98BA",
+  "rgb": {
+    "r": 13,
+    "g": 152,
+    "b": 186
+  },
+  "rgbChannels": "13 152 186",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.3775949675749475,
+  "darkModeContrast": 6.2174417600691845,
+  "luminosity": 0.26087208800345923,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

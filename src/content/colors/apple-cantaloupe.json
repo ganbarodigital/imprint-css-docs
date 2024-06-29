@@ -1,0 +1,25 @@
+{
+  "name": "apple-cantaloupe",
+  "hsl": {
+    "h": 40,
+    "s": 100,
+    "l": 70
+  },
+  "hex": "#FFCC66",
+  "rgb": {
+    "r": 255,
+    "g": 204,
+    "b": 102
+  },
+  "rgbChannels": "255 204 102",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.4913704923677946,
+  "darkModeContrast": 14.081008111310465,
+  "luminosity": 0.6540504055655233,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "apple"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "web-darkmagenta",
+  "hsl": {
+    "h": 300,
+    "s": 100,
+    "l": 27.254901960784313
+  },
+  "hex": "#8B008B",
+  "rgb": {
+    "r": 139,
+    "g": 0,
+    "b": 139
+  },
+  "rgbChannels": "139 0 139",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 8.499926735872357,
+  "darkModeContrast": 2.4706095302414095,
+  "luminosity": 0.07353047651207048,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

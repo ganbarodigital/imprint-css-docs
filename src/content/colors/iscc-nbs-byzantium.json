@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-byzantium",
+  "hsl": {
+    "h": 310.9859154929577,
+    "s": 46.40522875816993,
+    "l": 30
+  },
+  "hex": "#702963",
+  "rgb": {
+    "r": 112,
+    "g": 41,
+    "b": 99
+  },
+  "rgbChannels": "112 41 99",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.605292646396585,
+  "darkModeContrast": 2.1862946578601252,
+  "luminosity": 0.059314732893006275,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

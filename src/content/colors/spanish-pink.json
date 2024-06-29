@@ -1,0 +1,24 @@
+{
+  "name": "spanish-pink",
+  "hsl": {
+    "h": 1.0526315789473415,
+    "s": 78.08219178082196,
+    "l": 85.68627450980392
+  },
+  "hex": "#F7BFBE",
+  "rgb": {
+    "r": 247,
+    "g": 191,
+    "b": 190
+  },
+  "rgbChannels": "247 191 190",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.5968740010981424,
+  "darkModeContrast": 13.150693157731084,
+  "luminosity": 0.6075346578865541,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

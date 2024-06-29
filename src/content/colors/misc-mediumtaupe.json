@@ -1,0 +1,24 @@
+{
+  "name": "misc-mediumtaupe",
+  "hsl": {
+    "h": 9.375,
+    "s": 18.39080459770115,
+    "l": 34.11764705882353
+  },
+  "hex": "#674C47",
+  "rgb": {
+    "r": 103,
+    "g": 76,
+    "b": 71
+  },
+  "rgbChannels": "103 76 71",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 7.773528435047231,
+  "darkModeContrast": 2.7014759353449778,
+  "luminosity": 0.08507379676724888,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

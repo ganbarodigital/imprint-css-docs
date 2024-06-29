@@ -1,0 +1,24 @@
+{
+  "name": "web-plum",
+  "hsl": {
+    "h": 300,
+    "s": 47.28682170542637,
+    "l": 74.70588235294117
+  },
+  "hex": "#DDA0DD",
+  "rgb": {
+    "r": 221,
+    "g": 160,
+    "b": 221
+  },
+  "rgbChannels": "221 160 221",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.0696089683358663,
+  "darkModeContrast": 10.146844317593823,
+  "luminosity": 0.45734221587969115,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

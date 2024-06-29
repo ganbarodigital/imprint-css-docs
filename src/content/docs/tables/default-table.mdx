@@ -1,0 +1,72 @@
+---
+title: Default Table Styling
+navSection: Tables
+prev: tables
+next: tables/modern-table
+---
+
+# Default Table Styling
+
+## Introduction
+
+ImprintCSS adds default styling for HTML tables. You don't need to add any CSS classes to your table to achieve this.
+
+## Example Tables
+
+### Basic Table
+
+This is a basic table with minimal content.
+
+Column 1        | Column 2        | Column 3
+----------------|-----------------|----------------
+Row 1, column 1 | Row 1, column 2 | Row 1, column 3
+Row 2, column 1 | Row 2, column 2 | Row 2, column 3
+Row 3, column 1 | Row 3, column 2 | Row 3, column 3
+Row 4, column 1 | Row 4, column 2 | Row 4, column 3
+
+### Basic Table With Footer
+
+This is the same table, with an added footer:
+
+<table>
+    <thead>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Row 1, column 1</td>
+            <td>Row 1, column 2</td>
+            <td>Row 1, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, column 1</td>
+            <td>Row 2, column 2</td>
+            <td>Row 2, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, column 1</td>
+            <td>Row 3, column 2</td>
+            <td>Row 3, column 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, column 1</td>
+            <td>Row 4, column 2</td>
+            <td>Row 4, column 3</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total 1</td>
+            <td>Total 2</td>
+            <td>Total 3</td>
+        </tr>
+    </tfoot>
+</table>
+
+## Additional CSS Classes Removes The Styling
+
+If you want to add any additional CSS classes to a `<table>`, you **must** also add one of the `table-<style>` CSS classes too. Otherwise, your table will have none of the ImprintCSS table styling applied.

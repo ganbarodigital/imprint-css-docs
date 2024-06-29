@@ -1,0 +1,25 @@
+{
+  "name": "misc-nickel",
+  "hsl": {
+    "h": 120,
+    "s": 0.8695652173913012,
+    "l": 45.09803921568628
+  },
+  "hex": "#727472",
+  "rgb": {
+    "r": 114,
+    "g": 116,
+    "b": 114
+  },
+  "rgbChannels": "114 116 114",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.712092320025542,
+  "darkModeContrast": 4.456618965369967,
+  "luminosity": 0.17283094826849835,
+  "shades": [
+    "gray",
+    "green"
+  ],
+  "group": "misc"
+}

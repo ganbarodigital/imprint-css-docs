@@ -1,0 +1,24 @@
+{
+  "name": "encycolorpedia-celadongreen",
+  "hsl": {
+    "h": 174.3529411764706,
+    "s": 47.486033519553075,
+    "l": 35.09803921568628
+  },
+  "hex": "#2F847C",
+  "rgb": {
+    "r": 47,
+    "g": 132,
+    "b": 124
+  },
+  "rgbChannels": "47 132 124",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.456308690062894,
+  "darkModeContrast": 4.712420404544196,
+  "luminosity": 0.18562102022720983,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "web-rosybrown",
+  "hsl": {
+    "h": 0,
+    "s": 25.13966480446928,
+    "l": 64.90196078431373
+  },
+  "hex": "#BC8F8F",
+  "rgb": {
+    "r": 188,
+    "g": 143,
+    "b": 143
+  },
+  "rgbChannels": "188 143 143",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.8135457108302364,
+  "darkModeContrast": 7.46389152988142,
+  "luminosity": 0.323194576494071,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

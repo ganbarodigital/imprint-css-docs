@@ -1,0 +1,24 @@
+{
+  "name": "crayola-blackleatherjacket",
+  "hsl": {
+    "h": 135,
+    "s": 17.777777777777775,
+    "l": 17.647058823529413
+  },
+  "hex": "#253529",
+  "rgb": {
+    "r": 37,
+    "g": 53,
+    "b": 41
+  },
+  "rgbChannels": "37 53 41",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 12.963577263679062,
+  "darkModeContrast": 1.6199232335998128,
+  "luminosity": 0.03099616167999064,
+  "shades": [
+    "green"
+  ],
+  "group": "misc"
+}

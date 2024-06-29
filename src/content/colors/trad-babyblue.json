@@ -1,0 +1,24 @@
+{
+  "name": "trad-babyblue",
+  "hsl": {
+    "h": 199.22330097087377,
+    "s": 77.44360902255639,
+    "l": 73.92156862745098
+  },
+  "hex": "#89CFF0",
+  "rgb": {
+    "r": 137,
+    "g": 207,
+    "b": 240
+  },
+  "rgbChannels": "137 207 240",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.7146977191500326,
+  "darkModeContrast": 12.247056589315113,
+  "luminosity": 0.5623528294657556,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

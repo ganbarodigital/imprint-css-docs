@@ -1,0 +1,24 @@
+{
+  "name": "egyptian-blue",
+  "hsl": {
+    "h": 225.60000000000002,
+    "s": 82.41758241758241,
+    "l": 35.68627450980392
+  },
+  "hex": "#1034A6",
+  "rgb": {
+    "r": 16,
+    "g": 52,
+    "b": 166
+  },
+  "rgbChannels": "16 52 166",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.17509316739084,
+  "darkModeContrast": 2.063863166118306,
+  "luminosity": 0.0531931583059153,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

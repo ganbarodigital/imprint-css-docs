@@ -1,0 +1,24 @@
+{
+  "name": "trad-phlox",
+  "hsl": {
+    "h": 292.47058823529414,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#DF00FF",
+  "rgb": {
+    "r": 223,
+    "g": 0,
+    "b": 255
+  },
+  "rgbChannels": "223 0 255",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.7623653778893593,
+  "darkModeContrast": 5.581595058101652,
+  "luminosity": 0.2290797529050826,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

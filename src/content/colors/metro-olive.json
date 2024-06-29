@@ -1,0 +1,24 @@
+{
+  "name": "metro-olive",
+  "hsl": {
+    "h": 104.57142857142856,
+    "s": 14.893617021276595,
+    "l": 46.07843137254902
+  },
+  "hex": "#6D8764",
+  "rgb": {
+    "r": 109,
+    "g": 135,
+    "b": 100
+  },
+  "rgbChannels": "109 135 100",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.9623754080272997,
+  "darkModeContrast": 5.299851184584001,
+  "luminosity": 0.21499255922920008,
+  "shades": [
+    "green"
+  ],
+  "group": "metro"
+}

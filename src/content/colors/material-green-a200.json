@@ -1,0 +1,22 @@
+{
+  "name": "material-green-a200",
+  "hsl": {
+    "h": 150.66666666666663,
+    "s": 81.81818181818181,
+    "l": 67.64705882352942
+  },
+  "hex": "#69F0AE",
+  "rgb": {
+    "r": 105,
+    "g": 240,
+    "b": 174
+  },
+  "rgbChannels": "105 240 174",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.4309187873357436,
+  "darkModeContrast": 14.675885302407918,
+  "luminosity": 0.6837942651203959,
+  "shades": [],
+  "group": "material-design"
+}

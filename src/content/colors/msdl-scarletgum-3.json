@@ -1,0 +1,24 @@
+{
+  "name": "msdl-scarletgum-3",
+  "hsl": {
+    "h": 291.74311926605503,
+    "s": 73.15436241610739,
+    "l": 29.2156862745098
+  },
+  "hex": "#721481",
+  "rgb": {
+    "r": 114,
+    "g": 20,
+    "b": 129
+  },
+  "rgbChannels": "114 20 129",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.847413533252434,
+  "darkModeContrast": 2.1325396693342737,
+  "luminosity": 0.056626983466713694,
+  "shades": [
+    "magenta"
+  ],
+  "group": "msdl"
+}

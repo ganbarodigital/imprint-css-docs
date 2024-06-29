@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-orange-100",
+  "hsl": {
+    "h": 34.588235294117624,
+    "s": 100,
+    "l": 66.66666666666666
+  },
+  "hex": "#FFB755",
+  "rgb": {
+    "r": 255,
+    "g": 183,
+    "b": 85
+  },
+  "rgbChannels": "255 183 85",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.7274609600551223,
+  "darkModeContrast": 12.156569951849969,
+  "luminosity": 0.5578284975924984,
+  "shades": [
+    "yellow"
+  ],
+  "group": "ganbaro"
+}

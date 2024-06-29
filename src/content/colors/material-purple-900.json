@@ -1,0 +1,24 @@
+{
+  "name": "material-purple-900",
+  "hsl": {
+    "h": 267,
+    "s": 75.00000000000001,
+    "l": 31.372549019607842
+  },
+  "hex": "#4A148C",
+  "rgb": {
+    "r": 74,
+    "g": 20,
+    "b": 140
+  },
+  "rgbChannels": "74 20 140",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 11.864933160583838,
+  "darkModeContrast": 1.7699214749699148,
+  "luminosity": 0.03849607374849574,
+  "shades": [
+    "blue"
+  ],
+  "group": "material-design"
+}

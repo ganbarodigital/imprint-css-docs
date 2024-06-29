@@ -1,0 +1,24 @@
+{
+  "name": "web-darkslategrey",
+  "hsl": {
+    "h": 180,
+    "s": 25.396825396825395,
+    "l": 24.705882352941178
+  },
+  "hex": "#2F4F4F",
+  "rgb": {
+    "r": 47,
+    "g": 79,
+    "b": 79
+  },
+  "rgbChannels": "47 79 79",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 8.927952550792769,
+  "darkModeContrast": 2.3521630385608714,
+  "luminosity": 0.06760815192804356,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

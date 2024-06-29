@@ -1,0 +1,24 @@
+{
+  "name": "pantone-blue",
+  "hsl": {
+    "h": 231.42857142857144,
+    "s": 100,
+    "l": 32.94117647058823
+  },
+  "hex": "#0018A8",
+  "rgb": {
+    "r": 0,
+    "g": 24,
+    "b": 168
+  },
+  "rgbChannels": "0 24 168",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 12.381460533997712,
+  "darkModeContrast": 1.6960842335471664,
+  "luminosity": 0.034804211677358324,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "web-lightsalmon",
+  "hsl": {
+    "h": 17.142857142857167,
+    "s": 100,
+    "l": 73.92156862745098
+  },
+  "hex": "#FFA07A",
+  "rgb": {
+    "r": 255,
+    "g": 160,
+    "b": 122
+  },
+  "rgbChannels": "255 160 122",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.9883820822535951,
+  "darkModeContrast": 10.56135045041192,
+  "luminosity": 0.47806752252059603,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

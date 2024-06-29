@@ -1,0 +1,24 @@
+{
+  "name": "crayola-orange",
+  "hsl": {
+    "h": 18.391959798995003,
+    "s": 100,
+    "l": 60.98039215686275
+  },
+  "hex": "#FF7538",
+  "rgb": {
+    "r": 255,
+    "g": 117,
+    "b": 56
+  },
+  "rgbChannels": "255 117 56",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.6739259372425783,
+  "darkModeContrast": 7.853620665969434,
+  "luminosity": 0.3426810332984717,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "imprint-palegreen",
+  "hsl": {
+    "h": 102.5,
+    "s": 44.444444444444436,
+    "l": 89.41176470588235
+  },
+  "hex": "#DFF0D8",
+  "rgb": {
+    "r": 223,
+    "g": 240,
+    "b": 216
+  },
+  "rgbChannels": "223 240 216",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.1936427323171201,
+  "darkModeContrast": 17.59320392227784,
+  "luminosity": 0.8296601961138921,
+  "shades": [
+    "green"
+  ],
+  "group": "imprint"
+}

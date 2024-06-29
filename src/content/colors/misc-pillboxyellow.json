@@ -1,0 +1,24 @@
+{
+  "name": "misc-pillboxyellow",
+  "hsl": {
+    "h": 54.19354838709677,
+    "s": 32.97872340425532,
+    "l": 63.13725490196078
+  },
+  "hex": "#C0BA82",
+  "rgb": {
+    "r": 192,
+    "g": 186,
+    "b": 130
+  },
+  "rgbChannels": "192 186 130",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.9835278550611768,
+  "darkModeContrast": 10.58719692109003,
+  "luminosity": 0.47935984605450144,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "web-hotpink",
+  "hsl": {
+    "h": 330,
+    "s": 100,
+    "l": 70.58823529411764
+  },
+  "hex": "#FF69B4",
+  "rgb": {
+    "r": 255,
+    "g": 105,
+    "b": 180
+  },
+  "rgbChannels": "255 105 180",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.6476080462539113,
+  "darkModeContrast": 7.93168763394295,
+  "luminosity": 0.3465843816971475,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

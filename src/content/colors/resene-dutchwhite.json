@@ -1,0 +1,25 @@
+{
+  "name": "resene-dutchwhite",
+  "hsl": {
+    "h": 41.53846153846155,
+    "s": 61.904761904761905,
+    "l": 83.52941176470587
+  },
+  "hex": "#EFDFBB",
+  "rgb": {
+    "r": 239,
+    "g": 223,
+    "b": 187
+  },
+  "rgbChannels": "239 223 187",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.3172101621303114,
+  "darkModeContrast": 15.94278620355988,
+  "luminosity": 0.747139310177994,
+  "shades": [
+    "orange",
+    "yellow"
+  ],
+  "group": "misc"
+}

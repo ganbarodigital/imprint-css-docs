@@ -1,0 +1,24 @@
+{
+  "name": "metro-yellow",
+  "hsl": {
+    "h": 52.86343612334804,
+    "s": 100,
+    "l": 44.509803921568626
+  },
+  "hex": "#E3C800",
+  "rgb": {
+    "r": 227,
+    "g": 200,
+    "b": 0
+  },
+  "rgbChannels": "227 200 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.676260022775661,
+  "darkModeContrast": 12.527889298002123,
+  "luminosity": 0.5763944649001062,
+  "shades": [
+    "yellow"
+  ],
+  "group": "metro"
+}

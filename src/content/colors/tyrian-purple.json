@@ -1,0 +1,24 @@
+{
+  "name": "tyrian-purple",
+  "hsl": {
+    "h": 325.20000000000005,
+    "s": 96.15384615384616,
+    "l": 20.392156862745097
+  },
+  "hex": "#66023C",
+  "rgb": {
+    "r": 102,
+    "g": 2,
+    "b": 60
+  },
+  "rgbChannels": "102 2 60",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 12.813564064419932,
+  "darkModeContrast": 1.638888282325115,
+  "luminosity": 0.03194441411625574,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ncs-green",
+  "hsl": {
+    "h": 160.37735849056605,
+    "s": 100,
+    "l": 31.176470588235293
+  },
+  "hex": "#009F6B",
+  "rgb": {
+    "r": 0,
+    "g": 159,
+    "b": 107
+  },
+  "rgbChannels": "0 159 107",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.4027041025802456,
+  "darkModeContrast": 6.17156219492487,
+  "luminosity": 0.2585781097462435,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

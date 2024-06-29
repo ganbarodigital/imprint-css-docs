@@ -1,0 +1,24 @@
+{
+  "name": "munsell-yellow",
+  "hsl": {
+    "h": 51.213389121338935,
+    "s": 100,
+    "l": 46.86274509803921
+  },
+  "hex": "#EFCC00",
+  "rgb": {
+    "r": 239,
+    "g": 204,
+    "b": 0
+  },
+  "rgbChannels": "239 204 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.5780823032620095,
+  "darkModeContrast": 13.307290726593594,
+  "luminosity": 0.6153645363296797,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "misc-palatinate",
+  "hsl": {
+    "h": 307.5,
+    "s": 44.44444444444444,
+    "l": 28.235294117647058
+  },
+  "hex": "#682860",
+  "rgb": {
+    "r": 104,
+    "g": 40,
+    "b": 96
+  },
+  "rgbChannels": "104 40 96",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 10.189062440807184,
+  "darkModeContrast": 2.0610335957796297,
+  "luminosity": 0.05305167978898148,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

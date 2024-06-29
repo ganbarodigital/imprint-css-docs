@@ -1,0 +1,24 @@
+{
+  "name": "material-pink-a100",
+  "hsl": {
+    "h": 339.6850393700788,
+    "s": 100,
+    "l": 75.09803921568627
+  },
+  "hex": "#FF80AB",
+  "rgb": {
+    "r": 255,
+    "g": 128,
+    "b": 171
+  },
+  "rgbChannels": "255 128 171",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.3522233965908317,
+  "darkModeContrast": 8.92772345961532,
+  "luminosity": 0.39638617298076606,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

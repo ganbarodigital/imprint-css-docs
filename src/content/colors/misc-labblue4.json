@@ -1,0 +1,25 @@
+{
+  "name": "misc-labblue4",
+  "hsl": {
+    "h": 260,
+    "s": 7.894736842105261,
+    "l": 29.803921568627455
+  },
+  "hex": "#4A4652",
+  "rgb": {
+    "r": 74,
+    "g": 70,
+    "b": 82
+  },
+  "rgbChannels": "74 70 82",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.174023410273628,
+  "darkModeContrast": 2.2890719873771985,
+  "luminosity": 0.06445359936885993,
+  "shades": [
+    "gray",
+    "blue"
+  ],
+  "group": "misc"
+}

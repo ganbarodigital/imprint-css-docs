@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-purpureus",
+  "hsl": {
+    "h": 287.5,
+    "s": 38.095238095238095,
+    "l": 49.411764705882355
+  },
+  "hex": "#9A4EAE",
+  "rgb": {
+    "r": 154,
+    "g": 78,
+    "b": 174
+  },
+  "rgbChannels": "154 78 174",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.1534259098921344,
+  "darkModeContrast": 4.074959137316781,
+  "luminosity": 0.15374795686583909,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

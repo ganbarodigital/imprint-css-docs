@@ -1,0 +1,25 @@
+{
+  "name": "material-red-100",
+  "hsl": {
+    "h": 354,
+    "s": 100,
+    "l": 90.19607843137256
+  },
+  "hex": "#FFCDD2",
+  "rgb": {
+    "r": 255,
+    "g": 205,
+    "b": 210
+  },
+  "rgbChannels": "255 205 210",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.4079636955698542,
+  "darkModeContrast": 14.915157305601218,
+  "luminosity": 0.6957578652800609,
+  "shades": [
+    "red",
+    "pink"
+  ],
+  "group": "material-design"
+}

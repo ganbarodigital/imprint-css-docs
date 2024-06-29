@@ -1,0 +1,24 @@
+{
+  "name": "apple-lime",
+  "hsl": {
+    "h": 89.88235294117646,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#80FF00",
+  "rgb": {
+    "r": 128,
+    "g": 255,
+    "b": 0
+  },
+  "rgbChannels": "128 255 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2945511417499536,
+  "darkModeContrast": 16.2218388464843,
+  "luminosity": 0.761091942324215,
+  "shades": [
+    "yellow"
+  ],
+  "group": "apple"
+}

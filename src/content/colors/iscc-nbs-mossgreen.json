@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-mossgreen",
+  "hsl": {
+    "h": 75.23809523809524,
+    "s": 25.71428571428571,
+    "l": 48.0392156862745
+  },
+  "hex": "#8A9A5B",
+  "rgb": {
+    "r": 138,
+    "g": 154,
+    "b": 91
+  },
+  "rgbChannels": "138 154 91",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.0639215575411014,
+  "darkModeContrast": 6.8539613712738765,
+  "luminosity": 0.29269806856369385,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

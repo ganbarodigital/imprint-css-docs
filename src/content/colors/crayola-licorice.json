@@ -1,0 +1,25 @@
+{
+  "name": "crayola-licorice",
+  "hsl": {
+    "h": 6,
+    "s": 23.809523809523807,
+    "l": 8.235294117647058
+  },
+  "hex": "#1A1110",
+  "rgb": {
+    "r": 26,
+    "g": 17,
+    "b": 16
+  },
+  "rgbChannels": "26 17 16",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 18.558056024303003,
+  "darkModeContrast": 1.131584039432746,
+  "luminosity": 0.006579201971637306,
+  "shades": [
+    "black",
+    "red"
+  ],
+  "group": "misc"
+}

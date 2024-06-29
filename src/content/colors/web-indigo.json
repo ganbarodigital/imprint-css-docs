@@ -1,0 +1,25 @@
+{
+  "name": "web-indigo",
+  "hsl": {
+    "h": 274.6153846153845,
+    "s": 100,
+    "l": 25.49019607843137
+  },
+  "hex": "#4B0082",
+  "rgb": {
+    "r": 75,
+    "g": 0,
+    "b": 130
+  },
+  "rgbChannels": "75 0 130",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 12.950873104933951,
+  "darkModeContrast": 1.6215122972673972,
+  "luminosity": 0.031075614863369856,
+  "shades": [
+    "purple",
+    "magenta"
+  ],
+  "group": "misc"
+}

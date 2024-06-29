@@ -1,0 +1,24 @@
+{
+  "name": "social-line",
+  "hsl": {
+    "h": 120,
+    "s": 100,
+    "l": 38.23529411764706
+  },
+  "hex": "#00C300",
+  "rgb": {
+    "r": 0,
+    "g": 195,
+    "b": 0
+  },
+  "rgbChannels": "0 195 0",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.3847261166331144,
+  "darkModeContrast": 8.806042695439148,
+  "luminosity": 0.3903021347719574,
+  "shades": [
+    "green"
+  ],
+  "group": "social"
+}

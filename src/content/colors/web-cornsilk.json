@@ -1,0 +1,24 @@
+{
+  "name": "web-cornsilk",
+  "hsl": {
+    "h": 48,
+    "s": 100,
+    "l": 93.13725490196079
+  },
+  "hex": "#FFF8DC",
+  "rgb": {
+    "r": 255,
+    "g": 248,
+    "b": 220
+  },
+  "rgbChannels": "255 248 220",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.065318098432285,
+  "darkModeContrast": 19.712422074592986,
+  "luminosity": 0.9356211037296494,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

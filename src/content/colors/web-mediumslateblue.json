@@ -1,0 +1,24 @@
+{
+  "name": "web-mediumslateblue",
+  "hsl": {
+    "h": 248.50746268656712,
+    "s": 79.76190476190477,
+    "l": 67.05882352941177
+  },
+  "hex": "#7B68EE",
+  "rgb": {
+    "r": 123,
+    "g": 104,
+    "b": 238
+  },
+  "rgbChannels": "123 104 238",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.152720533945104,
+  "darkModeContrast": 5.056925894324486,
+  "luminosity": 0.20284629471622434,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

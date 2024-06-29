@@ -1,0 +1,24 @@
+{
+  "name": "web-darkblue",
+  "hsl": {
+    "h": 240,
+    "s": 100,
+    "l": 27.254901960784313
+  },
+  "hex": "#00008B",
+  "rgb": {
+    "r": 0,
+    "g": 0,
+    "b": 139
+  },
+  "rgbChannels": "0 0 139",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 15.297024068739367,
+  "darkModeContrast": 1.3728160396187843,
+  "luminosity": 0.018640801980939217,
+  "shades": [
+    "blue"
+  ],
+  "group": "misc"
+}

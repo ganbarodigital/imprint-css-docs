@@ -1,0 +1,25 @@
+{
+  "name": "iscc-nbs-taupegray",
+  "hsl": {
+    "h": 320,
+    "s": 2.521008403361335,
+    "l": 53.333333333333336
+  },
+  "hex": "#8B8589",
+  "rgb": {
+    "r": 139,
+    "g": 133,
+    "b": 137
+  },
+  "rgbChannels": "139 133 137",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.611950242016782,
+  "darkModeContrast": 5.814033581003697,
+  "luminosity": 0.24070167905018483,
+  "shades": [
+    "gray",
+    "magenta"
+  ],
+  "group": "misc"
+}

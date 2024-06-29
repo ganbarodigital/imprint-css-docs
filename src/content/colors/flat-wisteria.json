@@ -1,0 +1,24 @@
+{
+  "name": "flat-wisteria",
+  "hsl": {
+    "h": 282.2857142857142,
+    "s": 43.568464730290465,
+    "l": 47.25490196078431
+  },
+  "hex": "#8E44AD",
+  "rgb": {
+    "r": 142,
+    "g": 68,
+    "b": 173
+  },
+  "rgbChannels": "142 68 173",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.865214811189068,
+  "darkModeContrast": 3.580431523145292,
+  "luminosity": 0.12902157615726462,
+  "shades": [
+    "magenta"
+  ],
+  "group": "flat"
+}

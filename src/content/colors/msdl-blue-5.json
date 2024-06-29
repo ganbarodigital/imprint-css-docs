@@ -1,0 +1,24 @@
+{
+  "name": "msdl-blue-5",
+  "hsl": {
+    "h": 221.32653061224494,
+    "s": 100,
+    "l": 61.568627450980394
+  },
+  "hex": "#3B78FF",
+  "rgb": {
+    "r": 59,
+    "g": 120,
+    "b": 255
+  },
+  "rgbChannels": "59 120 255",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.9499301799077116,
+  "darkModeContrast": 5.316549671389548,
+  "luminosity": 0.2158274835694774,
+  "shades": [
+    "blue"
+  ],
+  "group": "msdl"
+}

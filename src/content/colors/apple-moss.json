@@ -1,0 +1,24 @@
+{
+  "name": "apple-moss",
+  "hsl": {
+    "h": 150,
+    "s": 100,
+    "l": 25.098039215686274
+  },
+  "hex": "#008040",
+  "rgb": {
+    "r": 0,
+    "g": 128,
+    "b": 64
+  },
+  "rgbChannels": "0 128 64",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.046012798750922,
+  "darkModeContrast": 4.161701691521332,
+  "luminosity": 0.15808508457606663,
+  "shades": [
+    "green"
+  ],
+  "group": "apple"
+}

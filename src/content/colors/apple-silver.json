@@ -1,0 +1,25 @@
+{
+  "name": "apple-silver",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 80
+  },
+  "hex": "#CCCCCC",
+  "rgb": {
+    "r": 204,
+    "g": 204,
+    "b": 204
+  },
+  "rgbChannels": "204 204 204",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.6059285649300714,
+  "darkModeContrast": 13.076546777106755,
+  "luminosity": 0.6038273388553377,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "apple"
+}

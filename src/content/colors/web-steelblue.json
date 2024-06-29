@@ -1,0 +1,24 @@
+{
+  "name": "web-steelblue",
+  "hsl": {
+    "h": 207.27272727272725,
+    "s": 44,
+    "l": 49.01960784313726
+  },
+  "hex": "#4682B4",
+  "rgb": {
+    "r": 70,
+    "g": 130,
+    "b": 180
+  },
+  "rgbChannels": "70 130 180",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.107556611212924,
+  "darkModeContrast": 5.112528441524971,
+  "luminosity": 0.20562642207624857,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

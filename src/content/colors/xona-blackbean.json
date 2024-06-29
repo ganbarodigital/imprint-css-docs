@@ -1,0 +1,24 @@
+{
+  "name": "xona-blackbean",
+  "hsl": {
+    "h": 10.169491525423723,
+    "s": 93.65079365079364,
+    "l": 12.352941176470589
+  },
+  "hex": "#3D0C02",
+  "rgb": {
+    "r": 61,
+    "g": 12,
+    "b": 2
+  },
+  "rgbChannels": "61 12 2",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 16.77469981001369,
+  "darkModeContrast": 1.2518852937960778,
+  "luminosity": 0.012594264689803887,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

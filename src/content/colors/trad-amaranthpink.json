@@ -1,0 +1,24 @@
+{
+  "name": "trad-amaranthpink",
+  "hsl": {
+    "h": 338.11764705882354,
+    "s": 75.22123893805308,
+    "l": 77.84313725490196
+  },
+  "hex": "#F19CBB",
+  "rgb": {
+    "r": 241,
+    "g": 156,
+    "b": 187
+  },
+  "rgbChannels": "241 156 187",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.056180238689886,
+  "darkModeContrast": 10.213112452330707,
+  "luminosity": 0.46065562261653537,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

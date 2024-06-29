@@ -1,0 +1,24 @@
+{
+  "name": "material-teal-a700",
+  "hsl": {
+    "h": 171.83246073298426,
+    "s": 100,
+    "l": 37.450980392156865
+  },
+  "hex": "#00BFA5",
+  "rgb": {
+    "r": 0,
+    "g": 191,
+    "b": 165
+  },
+  "rgbChannels": "0 191 165",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.3344634251039125,
+  "darkModeContrast": 8.995643184713952,
+  "luminosity": 0.3997821592356976,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

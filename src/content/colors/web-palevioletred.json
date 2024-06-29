@@ -1,0 +1,24 @@
+{
+  "name": "web-palevioletred",
+  "hsl": {
+    "h": 340.37383177570086,
+    "s": 59.77653631284916,
+    "l": 64.90196078431372
+  },
+  "hex": "#DB7093",
+  "rgb": {
+    "r": 219,
+    "g": 112,
+    "b": 147
+  },
+  "rgbChannels": "219 112 147",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.110650816092227,
+  "darkModeContrast": 6.750998823577817,
+  "luminosity": 0.2875499411788909,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

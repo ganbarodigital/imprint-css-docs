@@ -1,0 +1,24 @@
+{
+  "name": "web-khaki",
+  "hsl": {
+    "h": 54,
+    "s": 76.92307692307692,
+    "l": 74.50980392156863
+  },
+  "hex": "#F0E68C",
+  "rgb": {
+    "r": 240,
+    "g": 230,
+    "b": 140
+  },
+  "rgbChannels": "240 230 140",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.2802950830877908,
+  "darkModeContrast": 16.40246867882411,
+  "luminosity": 0.7701234339412055,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

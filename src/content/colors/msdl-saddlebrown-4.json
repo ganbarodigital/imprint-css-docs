@@ -1,0 +1,24 @@
+{
+  "name": "msdl-saddlebrown-4",
+  "hsl": {
+    "h": 22.212765957446777,
+    "s": 93.62549800796815,
+    "l": 50.78431372549019
+  },
+  "hex": "#F7630C",
+  "rgb": {
+    "r": 247,
+    "g": 99,
+    "b": 12
+  },
+  "rgbChannels": "247 99 12",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.1134744343418,
+  "darkModeContrast": 6.744876324780061,
+  "luminosity": 0.2872438162390031,
+  "shades": [
+    "red"
+  ],
+  "group": "msdl"
+}

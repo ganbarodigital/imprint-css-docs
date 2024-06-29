@@ -1,0 +1,24 @@
+{
+  "name": "crayola-junglegreen",
+  "hsl": {
+    "h": 163.38461538461536,
+    "s": 61.32075471698113,
+    "l": 41.56862745098039
+  },
+  "hex": "#29AB87",
+  "rgb": {
+    "r": 41,
+    "g": 171,
+    "b": 135
+  },
+  "rgbChannels": "41 171 135",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.8888608632605095,
+  "darkModeContrast": 7.269301290024185,
+  "luminosity": 0.31346506450120926,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

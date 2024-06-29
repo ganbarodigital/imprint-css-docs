@@ -1,0 +1,107 @@
+---
+
+import { getCollection, getEntry } from 'astro:content';
+import imprintConfig from "../../imprint.config";
+
+const allDocs = await getCollection('docs');
+
+type NavItems = string[];
+
+function getNavSection(navList: Map<string, NavItems>, sectionName: string) {
+    const existingNavList = navList.get(sectionName);
+    if (existingNavList) {
+        return existingNavList;
+    }
+
+    // section does not exist, so create it and add it to the map
+    const newNavItem: NavItems = [];
+    navList.set(sectionName, newNavItem);
+    return newNavItem;
+}
+
+// this will hold all of our nav sections, and the pages inside them
+const navList = new Map<string, NavItems>();
+
+// this will hold all of our docs
+const docList = new Map<string, object>();
+
+async function buildNavList() {
+    for (const navSectionName of imprintConfig.navSections) {
+
+        // this is the list that we are going to populate
+        const navItems: NavItems = [];
+
+        // this is all the docs that are in this section
+        const docs = await getCollection('docs', ({data}) => data.navSection === navSectionName );
+
+        // some robustness checks!
+        if (docs.length === 0) {
+            // nothing to see here
+            navList.set(navSectionName, navItems);
+            return;
+        }
+        const firstDocs = docs.filter((doc) => doc.data.prev === undefined);
+        if (firstDocs.length > 1) {
+            throw new Error("section " + navSectionName + " has " + firstDocs.length + " items with no 'prev' frontmatter defined");
+        }
+        const firstDoc = firstDocs[0];
+        if (firstDoc === undefined) {
+            throw new Error("section " + navSectionName + " has no item with 'prev' undefined");
+        }
+
+        const lastDocs = docs.filter((doc) => doc.data.next === undefined);
+        if (lastDocs.length > 1) {
+            throw new Error("section " + navSectionName + " has " + lastDocs.length + " items with no 'next' frontmatter defined");
+        }
+        const lastDoc = lastDocs[0];
+        if (lastDoc === undefined) {
+            throw new Error("section " + navSectionName + " has no item with 'next' undefined");
+        }
+
+        // we always want this
+        navItems.push(firstDoc.slug);
+        docList.set(firstDoc.slug, firstDoc);
+
+        // this will track our next doc
+        let nextDoc = firstDoc;
+        while(nextDoc.data.next !== undefined) {
+            const nextSlug = nextDoc.data.next.slug;
+            nextDoc = docs.find((doc) => doc.slug === nextSlug);
+            if (nextDoc === undefined) {
+                throw new Error("section " + navSectionName + ": cannot find " + nextSlug);
+            }
+            navItems.push(nextDoc.slug);
+            docList.set(nextDoc.slug, nextDoc);
+        }
+
+        // we just need to add this to the final list
+        navList.set(navSectionName, navItems);
+    }
+};
+
+await buildNavList();
+// console.log(navList);
+
+// what is the current page?
+const currentUrl = new URL(Astro.request.url);
+const currentSlug = currentUrl.pathname.substring(1);
+
+---
+
+<nav role="navigation">
+    {imprintConfig.navSections.map((sectionName) => (
+        <ul>
+            <li class="mt-4su">
+                <h5 class="font-bold text-imprint-nero mb-2su">{sectionName}</h5>
+                <ul class="border-l-2 border-imprint-palegray">
+                {getNavSection(navList, sectionName).map((slug) => (
+                    <li class="">
+                        {slug === currentSlug && <a class="block -ml-[2px] border-l-2 hover:border-[--imprint-primary-color] leading-relaxed pl-4su text-[--imprint-primary] font-semibold" href={"/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                        {slug !== currentSlug && <a class="block -ml-px border-l border-imprint-palegray imprint-link leading-relaxed pl-4su hover:border-imprint-gray hover:-ml-[2px] hover:border-l-2 text-imprint-graphite hover:text-[--imprint-primary]" href={"/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                    </li>
+                ))}
+                </ul>
+            </li>
+        </ul>
+    ))}
+</nav>

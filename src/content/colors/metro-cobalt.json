@@ -1,0 +1,24 @@
+{
+  "name": "metro-cobalt",
+  "hsl": {
+    "h": 219.9163179916318,
+    "s": 100,
+    "l": 46.86274509803921
+  },
+  "hex": "#0050EF",
+  "rgb": {
+    "r": 0,
+    "g": 80,
+    "b": 239
+  },
+  "rgbChannels": "0 80 239",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.187638682761626,
+  "darkModeContrast": 3.393863326005878,
+  "luminosity": 0.11969316630029392,
+  "shades": [
+    "blue"
+  ],
+  "group": "metro"
+}

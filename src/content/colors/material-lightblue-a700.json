@@ -1,0 +1,24 @@
+{
+  "name": "material-lightblue-a700",
+  "hsl": {
+    "h": 202.82051282051282,
+    "s": 100,
+    "l": 45.88235294117647
+  },
+  "hex": "#0091EA",
+  "rgb": {
+    "r": 0,
+    "g": 145,
+    "b": 234
+  },
+  "rgbChannels": "0 145 234",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.3663221077914183,
+  "darkModeContrast": 6.2382622124588405,
+  "luminosity": 0.26191311062294204,
+  "shades": [
+    "cyan"
+  ],
+  "group": "material-design"
+}

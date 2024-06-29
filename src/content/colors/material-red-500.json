@@ -1,0 +1,24 @@
+{
+  "name": "material-red-500",
+  "hsl": {
+    "h": 4.10526315789474,
+    "s": 89.62264150943399,
+    "l": 58.43137254901961
+  },
+  "hex": "#F44336",
+  "rgb": {
+    "r": 244,
+    "g": 67,
+    "b": 54
+  },
+  "rgbChannels": "244 67 54",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.6824341707473893,
+  "darkModeContrast": 5.7027496015598365,
+  "luminosity": 0.23513748007799182,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

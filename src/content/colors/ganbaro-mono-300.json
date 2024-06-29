@@ -1,0 +1,25 @@
+{
+  "name": "ganbaro-mono-300",
+  "hsl": {
+    "h": 0,
+    "s": 0,
+    "l": 56.86274509803921
+  },
+  "hex": "#919191",
+  "rgb": {
+    "r": 145,
+    "g": 145,
+    "b": 145
+  },
+  "rgbChannels": "145 145 145",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.151745369485037,
+  "darkModeContrast": 6.6629748085998415,
+  "luminosity": 0.2831487404299921,
+  "shades": [
+    "gray",
+    "red"
+  ],
+  "group": "ganbaro"
+}

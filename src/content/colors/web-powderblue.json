@@ -1,0 +1,24 @@
+{
+  "name": "web-powderblue",
+  "hsl": {
+    "h": 186.66666666666663,
+    "s": 51.92307692307692,
+    "l": 79.6078431372549
+  },
+  "hex": "#B0E0E6",
+  "rgb": {
+    "r": 176,
+    "g": 224,
+    "b": 230
+  },
+  "rgbChannels": "176 224 230",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.4333573502477208,
+  "darkModeContrast": 14.650917300121051,
+  "luminosity": 0.6825458650060525,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

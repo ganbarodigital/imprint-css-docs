@@ -1,0 +1,24 @@
+{
+  "name": "pantone-pinklavender",
+  "hsl": {
+    "h": 311.0526315789474,
+    "s": 32.75862068965518,
+    "l": 77.25490196078431
+  },
+  "hex": "#D8B2D1",
+  "rgb": {
+    "r": 216,
+    "g": 178,
+    "b": 209
+  },
+  "rgbChannels": "216 178 209",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.873555735956966,
+  "darkModeContrast": 11.208633720882458,
+  "luminosity": 0.5104316860441229,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

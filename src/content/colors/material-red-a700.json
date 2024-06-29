@@ -1,0 +1,24 @@
+{
+  "name": "material-red-a700",
+  "hsl": {
+    "h": 0,
+    "s": 100,
+    "l": 41.76470588235294
+  },
+  "hex": "#D50000",
+  "rgb": {
+    "r": 213,
+    "g": 0,
+    "b": 0
+  },
+  "rgbChannels": "213 0 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.484135868433954,
+  "darkModeContrast": 3.829226792296221,
+  "luminosity": 0.14146133961481105,
+  "shades": [
+    "red"
+  ],
+  "group": "material-design"
+}

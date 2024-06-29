@@ -1,0 +1,25 @@
+{
+  "name": "misc-vividviolet",
+  "hsl": {
+    "h": 277.4117647058823,
+    "s": 100,
+    "l": 50
+  },
+  "hex": "#9F00FF",
+  "rgb": {
+    "r": 159,
+    "g": 0,
+    "b": 255
+  },
+  "rgbChannels": "159 0 255",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 5.359623532067044,
+  "darkModeContrast": 3.918185647621586,
+  "luminosity": 0.1459092823810793,
+  "shades": [
+    "purple",
+    "magenta"
+  ],
+  "group": "misc"
+}

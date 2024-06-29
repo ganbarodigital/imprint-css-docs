@@ -1,0 +1,24 @@
+{
+  "name": "crayola-hotmagenta",
+  "hsl": {
+    "h": 313.0088495575221,
+    "s": 100,
+    "l": 55.68627450980392
+  },
+  "hex": "#FF1DCE",
+  "rgb": {
+    "r": 255,
+    "g": 29,
+    "b": 206
+  },
+  "rgbChannels": "255 29 206",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.3233147496871966,
+  "darkModeContrast": 6.3189922055913,
+  "luminosity": 0.26594961027956504,
+  "shades": [
+    "magenta"
+  ],
+  "group": "misc"
+}

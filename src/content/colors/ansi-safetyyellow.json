@@ -1,0 +1,24 @@
+{
+  "name": "ansi-safetyyellow",
+  "hsl": {
+    "h": 52.881355932203405,
+    "s": 98.33333333333334,
+    "l": 47.05882352941176
+  },
+  "hex": "#EED202",
+  "rgb": {
+    "r": 238,
+    "g": 210,
+    "b": 2
+  },
+  "rgbChannels": "238 210 2",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.5157045913191387,
+  "darkModeContrast": 13.854942526579938,
+  "luminosity": 0.6427471263289969,
+  "shades": [
+    "yellow"
+  ],
+  "group": "misc"
+}

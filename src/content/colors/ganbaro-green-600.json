@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-green-600",
+  "hsl": {
+    "h": 92.77777777777777,
+    "s": 53.99999999999999,
+    "l": 60.78431372549019
+  },
+  "hex": "#96D165",
+  "rgb": {
+    "r": 150,
+    "g": 209,
+    "b": 101
+  },
+  "rgbChannels": "150 209 101",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.8095790609363094,
+  "darkModeContrast": 11.604908817376685,
+  "luminosity": 0.5302454408688343,
+  "shades": [
+    "green"
+  ],
+  "group": "ganbaro"
+}

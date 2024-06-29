@@ -1,0 +1,24 @@
+{
+  "name": "apple-honeydew",
+  "hsl": {
+    "h": 80,
+    "s": 100,
+    "l": 70
+  },
+  "hex": "#CCFF66",
+  "rgb": {
+    "r": 204,
+    "g": 255,
+    "b": 102
+  },
+  "rgbChannels": "204 255 102",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.1625759686611263,
+  "darkModeContrast": 18.06333570113661,
+  "luminosity": 0.8531667850568304,
+  "shades": [
+    "yellow"
+  ],
+  "group": "apple"
+}

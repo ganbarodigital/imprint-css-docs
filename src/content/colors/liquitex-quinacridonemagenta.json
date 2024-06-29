@@ -1,0 +1,24 @@
+{
+  "name": "liquitex-quinacridonemagenta",
+  "hsl": {
+    "h": 337.8571428571429,
+    "s": 42.00000000000001,
+    "l": 39.21568627450981
+  },
+  "hex": "#8E3A59",
+  "rgb": {
+    "r": 142,
+    "g": 58,
+    "b": 89
+  },
+  "rgbChannels": "142 58 89",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 7.242296363633395,
+  "darkModeContrast": 2.89963278849645,
+  "luminosity": 0.09498163942482249,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "material-green-900",
+  "hsl": {
+    "h": 124.47761194029852,
+    "s": 55.37190082644627,
+    "l": 23.725490196078432
+  },
+  "hex": "#1B5E20",
+  "rgb": {
+    "r": 27,
+    "g": 94,
+    "b": 32
+  },
+  "rgbChannels": "27 94 32",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 7.869469697765064,
+  "darkModeContrast": 2.6685406776474427,
+  "luminosity": 0.08342703388237216,
+  "shades": [
+    "green"
+  ],
+  "group": "material-design"
+}

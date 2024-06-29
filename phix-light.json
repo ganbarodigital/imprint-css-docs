@@ -1,0 +1,320 @@
+{
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "#fdfdfd",
+				"foreground": "#3b3c40",
+				"findHighlight": "#FFE792",
+				"findHighlightForeground": "#000000",
+				"selectionBorder": "#1c1c1c"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
+			"settings": {
+				"foreground": "#646b70"
+			}
+		},
+		{
+			"name": "String",
+			"scope": [
+				"string",
+				"punctuation.definition.string"
+			],
+			"settings": {
+				"foreground": "#2e67ab"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#905"
+			}
+		},
+        {
+            "name": "Start Block",
+            "scope": "punctuation.definition.block",
+            "settings": {
+                "foreground": "#e6e0db"
+            }
+        },
+        {
+            "name": "Keyword Operator Assignment",
+            "scope": "keyword.operator.assignment",
+            "settings": {
+                "foreground": "#e09146"
+            }
+        },
+		{
+			"name": "Inline punctuation",
+			"scope": "punctuation",
+			"settings": {
+				"foreground": "#5f6364"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": [
+				"constant.language",
+				"punctuation.section.embedded",
+				"punctuation.definition.expression",
+				"constant.class"
+			],
+			"settings": {
+				"foreground": "#905"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": [
+				"constant.character",
+				"constant.other"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": [
+				"variable",
+				"punctuation.definition.variable"
+			],
+			"settings": {
+				"foreground": "#a67f59"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#905"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage.blah",
+			"settings": {
+				"foreground": "#2e67ab"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#2e67ab"
+			}
+		},
+		{
+			"name": "Storage modifier",
+			"scope": "storage.modifier",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#2e67ab"
+			}
+		},
+		{
+			"name": "Entity",
+			"scope": "entity",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": [
+				"entity.name.type",
+				"support.other.namespace"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "meta.namespace",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"fontStyle": "italic underline",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "meta.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#a67f59"
+			}
+		},
+		{
+			"name": "Function call",
+			"scope": [
+				"meta.function-call.method",
+				"variable.function"
+			],
+			"settings": {
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#905"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#4b7924"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"foreground": "#a67f59"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"background": "#F92672",
+				"fontStyle": "",
+				"foreground": "#F8F8F0"
+			}
+		},
+		{
+			"name": "Invalid deprecated",
+			"scope": "invalid.deprecated",
+			"settings": {
+				"background": "#AE81FF",
+				"foreground": "#F8F8F0"
+			}
+		},
+		{
+			"name": "JSON String",
+			"scope": "meta.structure.dictionary.json string.quoted.double.json",
+			"settings": {
+				"foreground": "#CFCFC2"
+			}
+		},
+		{
+			"name": "diff.header",
+			"scope": [
+				"meta.diff",
+				"meta.diff.header"
+			],
+			"settings": {
+				"foreground": "#75715E"
+			}
+		},
+		{
+			"name": "diff.deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "diff.inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "diff.changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#E6DB74"
+			}
+		},
+		{
+			"name": "SublimeLinter Error",
+			"scope": "sublimelinter.mark.error",
+			"settings": {
+				"foreground": "#D02000"
+			}
+		},
+		{
+			"name": "SublimeLinter Warning",
+			"scope": "sublimelinter.mark.warning",
+			"settings": {
+				"foreground": "#DDB700"
+			}
+		},
+		{
+			"name": "SublimeLinter Gutter Mark",
+			"scope": "sublimelinter.gutter-mark",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		}
+	],
+	"colors": {
+		"editor.background": "#fdfdfd",
+		"editorCursor.foreground": "#FFFF00",
+		"editor.foreground": "#3b3c40",
+		"editorWhitespace.foreground": "#3B3A32",
+		"editor.lineHighlightBackground": "#323232",
+		"editor.selectionBackground": "#503d30"
+	},
+	"name": "Phix Dark"
+}

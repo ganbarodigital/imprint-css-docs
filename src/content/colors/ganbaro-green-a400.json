@@ -1,0 +1,24 @@
+{
+  "name": "ganbaro-green-a400",
+  "hsl": {
+    "h": 127.05882352941177,
+    "s": 13.492063492063494,
+    "l": 49.411764705882355
+  },
+  "hex": "#6D8F71",
+  "rgb": {
+    "r": 109,
+    "g": 143,
+    "b": 113
+  },
+  "rgbChannels": "109 143 113",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 3.6096880982848893,
+  "darkModeContrast": 5.81767715885978,
+  "luminosity": 0.24088385794298903,
+  "shades": [
+    "green"
+  ],
+  "group": "ganbaro"
+}

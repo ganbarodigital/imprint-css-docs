@@ -1,0 +1,24 @@
+{
+  "name": "sharpie-aeroblue",
+  "hsl": {
+    "h": 151.1111111111111,
+    "s": 100,
+    "l": 89.41176470588235
+  },
+  "hex": "#C9FFE5",
+  "rgb": {
+    "r": 201,
+    "g": 255,
+    "b": 229
+  },
+  "rgbChannels": "201 255 229",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.1099993496323985,
+  "darkModeContrast": 18.91893000383705,
+  "luminosity": 0.8959465001918526,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

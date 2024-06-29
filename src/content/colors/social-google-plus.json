@@ -1,0 +1,24 @@
+{
+  "name": "social-google-plus",
+  "hsl": {
+    "h": 6.585365853658516,
+    "s": 70.68965517241381,
+    "l": 54.50980392156863
+  },
+  "hex": "#DD4B39",
+  "rgb": {
+    "r": 221,
+    "g": 75,
+    "b": 57
+  },
+  "rgbChannels": "221 75 57",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 4.085648610310358,
+  "darkModeContrast": 5.139942761353816,
+  "luminosity": 0.20699713806769082,
+  "shades": [
+    "red"
+  ],
+  "group": "social"
+}

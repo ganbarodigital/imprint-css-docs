@@ -1,0 +1,24 @@
+{
+  "name": "apple-bubblegum",
+  "hsl": {
+    "h": 300,
+    "s": 100,
+    "l": 70
+  },
+  "hex": "#FF66FF",
+  "rgb": {
+    "r": 255,
+    "g": 102,
+    "b": 255
+  },
+  "rgbChannels": "255 102 255",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.4428408761500933,
+  "darkModeContrast": 8.59654847150581,
+  "luminosity": 0.3798274235752906,
+  "shades": [
+    "magenta"
+  ],
+  "group": "apple"
+}

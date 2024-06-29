@@ -1,0 +1,24 @@
+{
+  "name": "iscc-nbs-cameopink",
+  "hsl": {
+    "h": 340.38461538461536,
+    "s": 61.904761904761905,
+    "l": 83.52941176470587
+  },
+  "hex": "#EFBBCC",
+  "rgb": {
+    "r": 239,
+    "g": 187,
+    "b": 204
+  },
+  "rgbChannels": "239 187 204",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.6600527122830673,
+  "darkModeContrast": 12.65020071026464,
+  "luminosity": 0.582510035513232,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

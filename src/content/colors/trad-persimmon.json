@@ -1,0 +1,24 @@
+{
+  "name": "trad-persimmon",
+  "hsl": {
+    "h": 22.37288135593218,
+    "s": 100,
+    "l": 46.27450980392157
+  },
+  "hex": "#EC5800",
+  "rgb": {
+    "r": 236,
+    "g": 88,
+    "b": 0
+  },
+  "rgbChannels": "236 88 0",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 3.5220345458108446,
+  "darkModeContrast": 5.962462811438827,
+  "luminosity": 0.24812314057194135,
+  "shades": [
+    "red"
+  ],
+  "group": "misc"
+}

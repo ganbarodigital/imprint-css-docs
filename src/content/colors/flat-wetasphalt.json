@@ -1,0 +1,24 @@
+{
+  "name": "flat-wetasphalt",
+  "hsl": {
+    "h": 210,
+    "s": 28.767123287671236,
+    "l": 28.627450980392155
+  },
+  "hex": "#34495E",
+  "rgb": {
+    "r": 52,
+    "g": 73,
+    "b": 94
+  },
+  "rgbChannels": "52 73 94",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 9.289319666827613,
+  "darkModeContrast": 2.2606607107075356,
+  "luminosity": 0.06303303553537679,
+  "shades": [
+    "cyan"
+  ],
+  "group": "flat"
+}

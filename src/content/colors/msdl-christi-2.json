@@ -1,0 +1,24 @@
+{
+  "name": "msdl-christi-2",
+  "hsl": {
+    "h": 77.81818181818181,
+    "s": 77.46478873239437,
+    "l": 41.76470588235294
+  },
+  "hex": "#8CBD18",
+  "rgb": {
+    "r": 140,
+    "g": 189,
+    "b": 24
+  },
+  "rgbChannels": "140 189 24",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 2.232304730060183,
+  "darkModeContrast": 9.407317790091247,
+  "luminosity": 0.4203658895045624,
+  "shades": [
+    "yellow"
+  ],
+  "group": "msdl"
+}

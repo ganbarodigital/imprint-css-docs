@@ -1,0 +1,24 @@
+{
+  "name": "web-mediumturquoise",
+  "hsl": {
+    "h": 177.81021897810217,
+    "s": 59.82532751091703,
+    "l": 55.09803921568628
+  },
+  "hex": "#48D1CC",
+  "rgb": {
+    "r": 72,
+    "g": 209,
+    "b": 204
+  },
+  "rgbChannels": "72 209 204",
+  "isLight": true,
+  "isDark": false,
+  "lightModeContrast": 1.8637416934066753,
+  "darkModeContrast": 11.267655852895984,
+  "luminosity": 0.5133827926447992,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}

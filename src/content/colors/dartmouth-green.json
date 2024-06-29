@@ -1,0 +1,24 @@
+{
+  "name": "dartmouth-green",
+  "hsl": {
+    "h": 155.42857142857144,
+    "s": 100,
+    "l": 20.588235294117645
+  },
+  "hex": "#00693E",
+  "rgb": {
+    "r": 0,
+    "g": 105,
+    "b": 62
+  },
+  "rgbChannels": "0 105 62",
+  "isLight": false,
+  "isDark": true,
+  "lightModeContrast": 6.795698139125601,
+  "darkModeContrast": 3.090190230654074,
+  "luminosity": 0.10450951153270369,
+  "shades": [
+    "cyan"
+  ],
+  "group": "misc"
+}
