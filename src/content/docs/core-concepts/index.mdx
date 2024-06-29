@@ -5,5 +5,13 @@ description: How Imprint CSS aims to deliver on its goals.
 next: core-concepts/zero-effort-typography
 ---
 
+import SectionNavigation from "../../../components/SectionNavigation.astro";
+
 # Core Concepts
 
+<div class="imprint-panel imprint-alert">
+    <h4>In This Section</h4>
+    <div class="imprint-inner">
+        <SectionNavigation navSection={frontmatter.navSection}/>
+    </div>
+</div>

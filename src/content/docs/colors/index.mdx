@@ -4,6 +4,8 @@ navSection: Colors
 description: Color palettes included with Imprint CSS.
 ---
 
+import SectionNavigation from "../../../components/SectionNavigation.astro";
+
 # Colors
 
 ## What's In This Section?
@@ -55,3 +57,10 @@ In English, there are two different spellings for the color grey:
 (Isn't English fun?)
 
 In computing, _gray_ is the accepted spelling. ([Wikipedia says that this stems from the X11 color names list](https://en.wikipedia.org/wiki/X11_color_names)). That's why ImprintCSS uses _gray_ and not _grey_.
+
+<div class="imprint-panel imprint-alert">
+    <h4>In This Section</h4>
+    <div class="imprint-inner">
+        <SectionNavigation navSection={frontmatter.navSection}/>
+    </div>
+</div>

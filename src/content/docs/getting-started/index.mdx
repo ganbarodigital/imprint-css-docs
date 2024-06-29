@@ -3,6 +3,9 @@ title: Getting Started
 navSection: Getting Started
 description: How to install Imprint CSS.
 ---
+
+import SectionNavigation from "../../../components/SectionNavigation.astro";
+
 # Getting Started
 
 ImprintCSS is a plugin for [Tailwind CSS](https://tailwindcss.com).
@@ -13,3 +16,10 @@ To use it:
 2. add `@stuartherbert/imprint-css` as a plugin to your `tailwind.config.js` file
 
 You should be good to go.
+
+<div class="imprint-panel imprint-alert">
+    <h4>In This Section</h4>
+    <div class="imprint-inner">
+        <SectionNavigation navSection={frontmatter.navSection}/>
+    </div>
+</div>

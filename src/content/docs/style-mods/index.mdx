@@ -5,7 +5,7 @@ description: Utilities to add some style to your documents.
 next: style-mods/block-styling
 ---
 
-# Style Mods
+import SectionNavigation from "../../../components/SectionNavigation.astro";
 
 ## What Are Style Mods?
 
@@ -17,6 +17,9 @@ All style mods have a `--<style-mod>` suffix (e.g. `table--striped`).
 
 SOMETHING HERE
 
-* [Block style mods](./block-styling) change how `display: block` elements look.
-* [Context style mods](./context-styling) apply semantic changes to elements.
-* [Data style mods](./data-styling) allow you to mod blocks of data (e.g. tables).
+<div class="imprint-panel imprint-alert">
+    <h4>In This Section</h4>
+    <div class="imprint-inner">
+        <SectionNavigation navSection={frontmatter.navSection}/>
+    </div>
+</div>
