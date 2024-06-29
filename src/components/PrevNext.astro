@@ -1,0 +1,12 @@
+---
+
+const { prev, next } = Astro.props;
+
+---
+
+<nav class="border-t prevnext mt-8su border-imprint-graphite">
+    <ul class="flex flex-row flex-shrink-0 w-full pt-2su">
+        <li class="prev justify-self-start">{prev && <a href={"/" + prev.slug} class="group text-imprint-graphite hover:text-[--imprint-link-hover-color]"><span class="text-imprint-gray group-hover:text-[--imprint-link-hover-color]">&lt;</span> {prev.data.title}</a>}</li>
+        <li class="ml-auto next justify-self-end">{next && <a href={"/" + next.slug} class="group text-imprint-graphite hover:text-[--imprint-link-hover-color]">{next.data.title} <span class="text-imprint-gray group-hover:text-[--imprint-link-hover-color]">&gt;</span></a>}</li>
+    </ul>
+</nav>

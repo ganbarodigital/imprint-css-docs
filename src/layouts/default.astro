@@ -1,9 +1,14 @@
 ---
 
+import { getEntry } from "astro:content";
 import Navigation from "../components/Navigation.astro";
+import PrevNext from "../components/PrevNext.astro";
 
 const {frontmatter} = Astro.props;
 import "../styles/global.css";
+
+const prev = frontmatter.prev ? await getEntry(frontmatter.prev) : undefined;
+const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
 
 ---
 
@@ -27,6 +32,7 @@ import "../styles/global.css";
                     </header>
                     <slot />
                 </div>
+                <PrevNext prev={prev} next={next}/>
             </main>
         </div>
     </body>

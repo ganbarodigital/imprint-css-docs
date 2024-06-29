@@ -1,9 +1,7 @@
 ---
 
-import { getCollection, getEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import imprintConfig from "../../imprint.config";
-
-const allDocs = await getCollection('docs');
 
 type NavItems = string[];
 
@@ -97,7 +95,7 @@ const currentSlug = currentUrl.pathname.substring(1);
                 {getNavSection(navList, sectionName).map((slug) => (
                     <li class="">
                         {slug === currentSlug && <a class="block -ml-[2px] border-l-2 hover:border-[--imprint-primary-color] leading-relaxed pl-4su text-[--imprint-primary] font-semibold" href={"/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
-                        {slug !== currentSlug && <a class="block -ml-px border-l border-imprint-palegray imprint-link leading-relaxed pl-4su hover:border-imprint-gray hover:-ml-[2px] hover:border-l-2 text-imprint-graphite hover:text-[--imprint-primary]" href={"/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                        {slug !== currentSlug && <a class="block -ml-px border-l border-imprint-palegray leading-relaxed pl-4su hover:border-imprint-gray hover:-ml-[2px] hover:border-l-2 text-imprint-graphite hover:text-[--imprint-link-hover-color]" href={"/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
                     </li>
                 ))}
                 </ul>
