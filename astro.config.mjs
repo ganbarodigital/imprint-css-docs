@@ -23,6 +23,7 @@ export default defineConfig({
       // Find common transformers: https://shiki.style/packages/transformers
       transformers: [],
     },
+    gfm: true,
   },
   integrations: [
     mdx(),
