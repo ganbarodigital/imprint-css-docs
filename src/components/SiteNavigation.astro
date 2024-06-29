@@ -1,0 +1,30 @@
+---
+
+import imprintConfig from "../../imprint.config";
+import { getNavSection, navList, docList, buildNavList } from "./SiteNavigation";
+
+// what is the current page?
+const currentUrl = new URL(Astro.request.url);
+const currentSlug = currentUrl.pathname.substring(1);
+
+await buildNavList(navList, docList);
+
+---
+
+<nav class="site-navigation" role="navigation">
+    {imprintConfig.navSections.map((sectionName) => (
+        <ul>
+            <li class="mt-4su">
+                <h5 class="font-bold text-imprint-nero mb-2su">{sectionName}</h5>
+                <ul class="border-l-2 border-imprint-palegray">
+                {getNavSection(navList, sectionName).map((slug) => (
+                    <li class="">
+                        {slug === currentSlug && <a class="block -ml-[2px] border-l-2 hover:border-[--imprint-primary-color] leading-relaxed pl-4su text-[--imprint-primary] font-semibold" href={"/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                        {slug !== currentSlug && <a class="block -ml-px border-l border-imprint-palegray leading-relaxed pl-4su hover:border-imprint-gray hover:-ml-[2px] hover:border-l-2 text-imprint-graphite hover:text-[--imprint-link-hover-color]" href={"/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                    </li>
+                ))}
+                </ul>
+            </li>
+        </ul>
+    ))}
+</nav>

@@ -1,0 +1,16 @@
+---
+
+const { slug } = Astro.props;
+
+import { docList } from "./SiteNavigation";
+
+// what is the requested doc?
+const doc = docList.get(slug);
+if (doc === undefined) {
+    throw new Error("unable to find doc for slug '" + slug + "'");
+}
+const page = doc;
+
+---
+
+<div class="inline internal-link"><a class="imprint-link" href={"/" + slug}><span class="doc-title">{page.data.title}</span>: <span class="doc-description">{page.data.description}</span></a></div>

@@ -1,0 +1,22 @@
+---
+
+const { navSection } = Astro.props;
+
+import { getNavSection, navList, docList, buildNavList } from "./SiteNavigation";
+import InternalLink from "./InternalLink.astro";
+
+await buildNavList(navList, docList);
+
+const currentSection = getNavSection(navList, navSection);
+
+---
+
+<nav class="section-navigation">
+    <ul class="mt-4su imprint-ul">
+        {currentSection.map((slug) => (
+            <li>
+                <InternalLink slug={slug}/>
+            </li>
+        ))}
+    </ul>
+</nav>

@@ -1,7 +1,7 @@
 ---
 
 import { getEntry } from "astro:content";
-import Navigation from "../components/Navigation.astro";
+import SiteNavigation from "../components/SiteNavigation.astro";
 import PrevNextNavigation from "../components/PrevNextNavigation.astro";
 
 const {frontmatter} = Astro.props;
@@ -20,7 +20,7 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
     </head>
     <body class="">
         <div class="hidden c:block fixed inset-0 right-auto w-[19rem] pl-8 pr-6 overflow-y-auto border-r border-imprint-graphite pb-8su">
-            <Navigation/>
+            <SiteNavigation/>
         </div>
         <div class="imprint c:pl-[21rem] pb-8su pt-2su">
             <main role="main" class="mx-auto imprint-container c:mx-0">
