@@ -16,7 +16,7 @@ await buildNavList(navList, docList);
         <ul>
             <li class="mt-4su">
                 <h5 class="font-bold text-imprint-nero mb-2su">{sectionName}</h5>
-                <ul class="border-l-2 border-imprint-palegray">
+                <ul class="border-l-2 border-imprint-gray/35">
                 {getNavSection(navList, sectionName).map((slug) => (
                     <li class="">
                         {slug === currentSlug && <a class="block -ml-[2px] border-l-2 hover:border-[--imprint-primary-color] leading-relaxed pl-4su text-[--imprint-primary] font-semibold" href={"/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
