@@ -7,9 +7,9 @@ html {
     @apply imprint-fontsize-px-bodycopy;
 }
 
-body {
+#content {
     display: grid;
-    grid-template-columns: 20rem 1fr;
+    grid-template-columns: 19rem 1fr;
     gap: 2rem;
 }
 

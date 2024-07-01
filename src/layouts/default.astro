@@ -19,21 +19,38 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
         <title>{frontmatter.title}</title>
     </head>
     <body class="">
-        <div class="hidden c:block fixed inset-0 right-auto w-[19rem] pl-8 pr-6 overflow-y-auto border-r border-imprint-graphite pb-8su">
-            <SiteNavigation/>
+        <div id="header" class="flex items-center text-imprint-white bg-ganbaro-blue-500 p-4su">
+            <span>
+                Imprint CSS - Tailwind CSS plugin for content-oriented websites
+            </span>
+            <nav class="ml-auto">
+                <ul class="flex flex-row gap-4">
+                    <li><a href="/docs" class="hover:underline hover:underline-offset-4">Docs</a></li>
+                    <li><a href="https://oohshiny.dev" class="hover:underline hover:underline-offset-4">Blog</a></li>
+                    <li><a href="https://github.com/stuartherbert/imprint-css" class="hover:underline hover:underline-offset-4">GitHub</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="imprint c:pl-[21rem] pb-8su pt-2su">
-            <main role="main" class="mx-auto imprint-container c:mx-0">
-                <div class="imprint-prose">
-                    <header class="mt-2su mb-8su">
-                        <p class="!imprint-block-greatprimer !imprint-fontweight-greatprimer text-imprint-graphite">{frontmatter.navSection}</p>
-                        <h1 class="!mt-2su">{frontmatter.title}</h1>
-                        {frontmatter.description && <p class="!imprint-block-greatprimer mt-2su font-light">{frontmatter.description}</p>}
-                    </header>
-                    <slot />
-                </div>
-                <PrevNextNavigation prev={prev} next={next}/>
-            </main>
+        <div id="content" class="my-4su">
+            <div class="sticky top-0 pl-8 pr-6 overflow-y-auto border-r max-h-svh border-imprint-graphite pb-2su">
+                <SiteNavigation/>
+            </div>
+            <div class="imprint pb-2su pt-2su">
+                <main role="main" class="mx-auto imprint-container c:mx-0">
+                    <div class="imprint-prose">
+                        <header class="mt-2su mb-8su">
+                            <p class="!imprint-block-greatprimer !imprint-fontweight-greatprimer text-imprint-graphite">{frontmatter.navSection}</p>
+                            <h1 class="!mt-2su">{frontmatter.title}</h1>
+                            {frontmatter.description && <p class="!imprint-block-greatprimer mt-2su font-light">{frontmatter.description}</p>}
+                        </header>
+                        <slot />
+                    </div>
+                    <PrevNextNavigation prev={prev} next={next}/>
+                </main>
+            </div>
+        </div>
+        <div id="footer" class="flex justify-center text-white bg-ganbaro-blue-500 px-4su py-4su">
+            <p>Copyright (c) 2023-present Stuart Herbert.</p>
         </div>
     </body>
 </html>
