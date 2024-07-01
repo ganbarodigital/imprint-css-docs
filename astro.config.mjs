@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import mdx from "@astrojs/mdx";
+import remarkSectionize from "remark-sectionize";
 
 import tailwind from "@astrojs/tailwind";
 
@@ -24,6 +25,7 @@ export default defineConfig({
       transformers: [],
     },
     gfm: true,
+    remarkPlugins: [remarkSectionize],
   },
   integrations: [
     mdx(),

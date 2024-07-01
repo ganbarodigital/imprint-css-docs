@@ -7,12 +7,6 @@ html {
     @apply imprint-fontsize-px-bodycopy;
 }
 
-#content {
-    display: grid;
-    grid-template-columns: 19rem 1fr;
-    gap: 2rem;
-}
-
 span.icon::before {
     content: "-LINK-";
 }
@@ -21,4 +15,25 @@ span.icon::before {
     @apply p-4su;
     background-image: url("/assets/blueprint-moz.png");
     background-repeat: repeat;
+}
+
+li.pagetoc {
+    display: list-item;
+    @apply mt-2su;
+}
+
+li.pagetoc a {
+    @apply leading-relaxed hover:text-[--imprint-link-hover-color] !important;
+}
+
+li.pagetoc a.active {
+    @apply text-[--imprint-primary];
+}
+
+li.pagetoc-2 {
+
+}
+
+li.pagetoc-3 {
+    @apply font-light pl-4su mt-1su text-imprint-nero text-[0.95em];
 }

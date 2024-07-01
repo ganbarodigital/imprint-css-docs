@@ -1,0 +1,15 @@
+---
+
+interface Props {
+    heading: {
+        depth: number;
+        text: string;
+        slug: string;
+    }
+}
+
+const { heading } = Astro.props;
+
+---
+
+<a href={"#" + heading.slug}>{heading.text}</a>

@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import DefaultLayout from "../layouts/default.astro";
+import MdxLayout from "../layouts/mdx.astro";
 
 export async function getStaticPaths() {
   const allDocs = await getCollection("docs");
@@ -14,10 +14,10 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await entry.render();
+const { Content, headings } = await entry.render();
 
 ---
 
-<DefaultLayout frontmatter={entry.data}>
+<MdxLayout frontmatter={entry.data} headings={headings}>
   <Content />
-</DefaultLayout>
+</MdxLayout>

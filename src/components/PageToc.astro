@@ -1,0 +1,50 @@
+---
+
+import PageTocHeading2 from "./PageTocHeading2.astro";
+import PageTocHeading3 from "./PageTocHeading3.astro";
+
+const { headings } = Astro.props;
+
+---
+
+<script is:inline>
+    document.addEventListener("DOMContentLoaded", () => {
+        const obOpts = {
+            threshold: [0, 0.1],
+        }
+        const obFunc = (entries) => {
+            entries.forEach((entry) => {
+                const heading = entry.target.querySelector("h2,h3");
+                if (!heading) {
+                    return;
+                }
+                const id = heading.getAttribute("id");
+                if (!id) {
+                    return;
+                }
+
+                const link = document.querySelector(`#pagetoc a[href="#${id}"]`);
+                if (!link) {
+                    return;
+                }
+
+                const addRemove = entry.intersectionRatio > 0 ? "add" : "remove";
+                link.classList[addRemove]("active");
+            });
+        }
+        const observer = new IntersectionObserver(obFunc, obOpts);
+
+        const headings = Array.from(document.querySelectorAll("main section"));
+        headings.forEach((heading) => observer.observe(heading));
+    });
+</script>
+<nav id="pagetoc" class="text-imprint-graphite">
+    <ol>
+        {headings.map((heading) => (
+            <li class={"pagetoc-" + heading.depth + " pagetoc"}>
+                {heading.depth === 2 && <PageTocHeading2 heading={heading}/>}
+                {heading.depth === 3 && <PageTocHeading3 heading={heading}/>}
+            </li>
+        ))}
+    </ol>
+</nav>

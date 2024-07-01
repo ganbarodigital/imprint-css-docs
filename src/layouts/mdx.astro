@@ -1,10 +1,20 @@
 ---
+import type { MarkdownLayoutProps } from 'astro';
 
 import { getEntry } from "astro:content";
 import SiteNavigation from "../components/SiteNavigation.astro";
 import PrevNextNavigation from "../components/PrevNextNavigation.astro";
+import PageToc from "../components/PageToc.astro";
 
-const {frontmatter} = Astro.props;
+type Props = MarkdownLayoutProps<{
+    title: string;
+    description: string;
+    navSection: string;
+    prev: string | undefined;
+    next: string | undefined;
+}>;
+
+const {frontmatter,headings} = Astro.props;
 import "../styles/global.css";
 
 const prev = frontmatter.prev ? await getEntry(frontmatter.prev) : undefined;
@@ -31,8 +41,8 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                 </ul>
             </nav>
         </div>
-        <div id="content" class="my-4su">
-            <div class="sticky top-0 pl-8 pr-6 overflow-y-auto border-r max-h-svh border-imprint-graphite pb-2su">
+        <div id="content" class="my-4su c:grid c:grid-cols-[19rem_1fr_19rem] c:gap-[2rem]">
+            <div class="sticky top-0 hidden pl-8 pr-6 overflow-y-auto border-r c:block max-h-svh border-imprint-graphite pb-2su">
                 <SiteNavigation/>
             </div>
             <div class="imprint pb-2su pt-2su">
@@ -47,6 +57,12 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                     </div>
                     <PrevNextNavigation prev={prev} next={next}/>
                 </main>
+            </div>
+            <div class="sticky top-0 order-3 hidden overflow-y-auto border-l c:block pl-4su pt-4su border-imprint-palegray text-pica max-h-svh">
+                <aside>
+                    <h5 class="font-semibold">On This Page</h5>
+                    <PageToc headings={headings} class=""/>
+                </aside>
             </div>
         </div>
         <div id="footer" class="flex justify-center text-white bg-ganbaro-blue-500 px-4su py-4su">
