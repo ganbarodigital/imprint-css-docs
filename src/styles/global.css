@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    font-family: var(--imprint-sans-serif);
+html {
+    font-family: sans-serif;
+    @apply imprint-fontsize-px-bodycopy;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 20rem 1fr;
+    gap: 2rem;
 }
 
 span.icon::before {

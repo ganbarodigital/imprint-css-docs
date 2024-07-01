@@ -26,9 +26,9 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
             <main role="main" class="mx-auto imprint-container c:mx-0">
                 <div class="imprint-prose">
                     <header class="mt-2su mb-8su">
-                        <p class="p--leader">{frontmatter.navSection}</p>
-                        <h1 class="mt-2su">{frontmatter.title}</h1>
-                        {frontmatter.description && <p class="longprimer-block longprimer-fonts mt-2su">{frontmatter.description}</p>}
+                        <p class="!imprint-block-greatprimer !imprint-fontweight-greatprimer text-imprint-graphite">{frontmatter.navSection}</p>
+                        <h1 class="!mt-2su">{frontmatter.title}</h1>
+                        {frontmatter.description && <p class="!imprint-block-greatprimer mt-2su font-light">{frontmatter.description}</p>}
                     </header>
                     <slot />
                 </div>
