@@ -33,4 +33,7 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
   ],
+  server: {
+    host: true,
+  }
 });

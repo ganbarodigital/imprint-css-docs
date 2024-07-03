@@ -38,7 +38,7 @@ const { headings } = Astro.props;
         headings.forEach((heading) => observer.observe(heading));
     });
 </script>
-<nav id="pagetoc" class="text-imprint-graphite">
+<nav class="pagetoc" class="text-imprint-graphite">
     <ol>
         {headings.map((heading) => (
             <li class={"pagetoc-" + heading.depth + " pagetoc"}>

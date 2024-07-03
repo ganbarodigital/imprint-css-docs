@@ -1,0 +1,54 @@
+---
+
+import { getEntry } from "astro:content";
+
+import InlineSvg from "./InlineSvg.astro";
+import chevonRight from 'heroicons/16/solid/chevron-right.svg?raw';
+
+// what is the current page?
+const currentUrl = new URL(Astro.request.url);
+const currentSlug = currentUrl.pathname.substring(1);
+
+const slugParts = currentSlug == '' ? [] : currentSlug.split('/');
+const breadcrumbs = [
+{
+        slug: '',
+        entry: {
+            data: {
+                title: 'Home',
+            }
+        },
+        isEnd: true,
+    }
+];
+
+const navPath: string[] = [];
+
+async function buildBreadcrumbs() {
+    for(const pathSegment of slugParts) {
+        navPath.push(pathSegment);
+
+        let currentPath = navPath.join('/');
+        const currentEntry = await getEntry('docs', currentPath);
+        const isEnd = true;
+
+        breadcrumbs[breadcrumbs.length - 1].isEnd = false;
+
+        breadcrumbs.push({
+            slug: currentPath,
+            entry: currentEntry,
+            isEnd,
+        });
+    };
+}
+await buildBreadcrumbs();
+
+---
+
+<nav class="flex items-center breadcrumb" role="navigation">
+    <ol class="flex align-middle">
+        {breadcrumbs.map((breadcrumb) => (
+            <li class="inline"><a href={"/" + breadcrumb.slug} class="text-imprint-graphite hover:text-[--imprint-link-hover-color]">{breadcrumb.entry.data.title}</a>{!breadcrumb.isEnd && <InlineSvg icon={chevonRight} class="mx-1su w-[16px] h-[16px] text-imprint-gray inline"/>}</li>
+        ))}
+    </ol>
+</nav>

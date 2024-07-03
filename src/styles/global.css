@@ -4,7 +4,7 @@
 
 html {
     font-family: sans-serif;
-    @apply imprint-fontsize-px-bodycopy;
+    @apply imprint-fontsize-root;
 }
 
 span.icon::before {
@@ -36,4 +36,25 @@ li.pagetoc-2 {
 
 li.pagetoc-3 {
     @apply font-light pl-4su mt-1su text-imprint-nero text-[0.95em];
+}
+
+#show-hide-nav:checked ~ * #sidebar {
+    display: block !important;
+    transition: all 0.5secs ease;
+}
+
+#show-hide-nav:checked ~ * #open-show-hide-nav {
+    display: none !important;
+}
+
+#show-hide-nav:not(:checked) ~ * #open-show-hide-nav {
+    display: block;
+}
+
+#show-hide-nav:not(:checked) ~ * #close-show-hide-nav {
+    display: none !important;
+}
+
+#show-hide-nav:checked ~ * #close-show-hide-nav {
+    display: block;
 }

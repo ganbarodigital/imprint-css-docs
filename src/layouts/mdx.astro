@@ -1,10 +1,16 @@
 ---
 import type { MarkdownLayoutProps } from 'astro';
-
 import { getEntry } from "astro:content";
+
+import bars3 from 'heroicons/24/solid/bars-3.svg?raw';
+import xCircle from 'heroicons/24/outline/x-circle.svg?raw';
+
+import Breadcrumb from "../components/Breadcrumb.astro";
+import SectionNavigation from "../components/SectionNavigation.astro";
 import SiteNavigation from "../components/SiteNavigation.astro";
 import PrevNextNavigation from "../components/PrevNextNavigation.astro";
 import PageToc from "../components/PageToc.astro";
+import InlineSvg from "../components/InlineSvg.astro";
 
 type Props = MarkdownLayoutProps<{
     title: string;
@@ -29,9 +35,10 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
         <title>{frontmatter.title}</title>
     </head>
     <body class="">
+        <input id="show-hide-nav" type="checkbox" class="hidden"/>
         <div id="header" class="flex items-center text-imprint-white bg-ganbaro-blue-500 p-4su">
             <span>
-                Imprint CSS - Tailwind CSS plugin for content-oriented websites
+                <a href="/" class="hover:underline hover:underline-offset-4">Imprint CSS<span class="hidden c:inline"> - Tailwind CSS plugin for content-oriented websites</span></a>
             </span>
             <nav class="ml-auto">
                 <ul class="flex flex-row gap-4">
@@ -41,31 +48,55 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                 </ul>
             </nav>
         </div>
-        <div id="content" class="c:grid c:grid-cols-[19rem_1fr_19rem] c:gap-[2rem]">
-            <div class="sticky top-0 hidden pl-8 pr-6 border-r c:overflow-y-auto py-2su c:block max-h-svh border-imprint-palegray pb-2su bg-imprint-palegray/35">
+        <div class="flex items-center pb-2 border-b shadow-sm imprint pt-2su px-4su border-imprint-gray/40 bg-imprint-palegray/40">
+            <div class="border-r d:hidden mr-4su border-imprint-gray/40 pr-4su">
+                <label for="show-hide-nav"><InlineSvg id="open-show-hide-nav" icon={bars3} class="cursor-pointer w-6su h-6su"/><InlineSvg id="close-show-hide-nav" icon={xCircle} class="cursor-pointer w-6su h-6su"/></label>
+            </div>
+            <Breadcrumb/>
+        </div>
+        <div id="content" class="d:grid d:grid-cols-[19rem_1fr] d:gap-2">
+            <div id="sidebar" class="hidden pl-8 pr-6 border-b border-r shadow-sm d:shadow-none d:border-b-0 d:overflow-y-auto d:sticky d:top-0 d:block pt-2su pb-4su d:pb-2su d:max-h-dvh border-imprint-palegray bg-imprint-palegray/35">
                 <SiteNavigation/>
             </div>
-            <div class="imprint my-4su">
-                <main role="main" class="mx-auto imprint-container c:mx-0">
-                    <div class="imprint-prose">
-                        <header class="mt-2su mb-8su">
-                            <p class="!imprint-block-greatprimer !imprint-fontweight-greatprimer text-imprint-graphite">{frontmatter.navSection}</p>
-                            <h1 class="!mt-2su">{frontmatter.title}</h1>
-                            {frontmatter.description && <p class="!imprint-block-greatprimer mt-2su font-light">{frontmatter.description}</p>}
-                        </header>
-                        <slot />
+            <div class="page">
+                <div class="page-container grid e:grid-cols-[1fr_17rem] e:gap-2 e:grid mx-4su">
+                    <div class="imprint my-4su">
+                        <main role="main" class="imprint-article">
+                            <div class="imprint-prose">
+                                <header class="mt-2su mb-8su">
+                                    <p class="!imprint-block-greatprimer !imprint-fontweight-greatprimer text-imprint-graphite">{frontmatter.navSection}</p>
+                                    <h1 class="!mt-2su">{frontmatter.title}</h1>
+                                    {frontmatter.description && <p class="!imprint-block-greatprimer mt-2su font-light">{frontmatter.description}</p>}
+                                </header>
+                                <slot />
+                            </div>
+                            <PrevNextNavigation prev={prev} next={next}/>
+                        </main>
                     </div>
-                    <PrevNextNavigation prev={prev} next={next}/>
-                </main>
-            </div>
-            <div class="sticky top-0 order-3 hidden overflow-y-auto border-l c:block pl-4su pt-4su border-imprint-palegray text-pica max-h-svh">
-                <aside>
-                    <h5 class="font-semibold">On This Page</h5>
-                    <PageToc headings={headings} class=""/>
-                </aside>
+                    <div id="compact" class="imprint mb-4su d:hidden">
+                        <div class="imprint-panel --subtle mb-4su bg-imprint-palegray/75">
+                            <div class="imprint-inner imprint-prose">
+                                <aside class="border-b c:hidden pb-4su border-imprint-gray mt-2su">
+                                    <h5 class="!text-5su !font-semibold mb-4su">In This Section</h5>
+                                    <SectionNavigation navSection={frontmatter.navSection}/>
+                                </aside>
+                                <aside class="pt-2su c:pt-0 c:mt-2su">
+                                    <h5 class="!text-5su !font-semibold">On This Page</h5>
+                                    <PageToc headings={headings} class=""/>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="pagetoc" class="sticky top-0 order-3 hidden overflow-y-auto border-l e:block pl-4su pt-4su border-imprint-palegray text-pica max-h-dvh">
+                        <aside>
+                            <h5 class="font-semibold">On This Page</h5>
+                            <PageToc headings={headings} class=""/>
+                        </aside>
+                    </div>
+                </div>
             </div>
         </div>
-        <div id="footer" class="flex justify-center text-white bg-ganbaro-blue-500 px-4su py-4su">
+        <div id="footer" class="flex justify-center text-white shadow bg-ganbaro-blue-500 px-4su py-4su">
             <p>Copyright (c) 2023-present Stuart Herbert.</p>
         </div>
     </body>
