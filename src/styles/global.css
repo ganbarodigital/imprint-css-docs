@@ -11,6 +11,18 @@ span.icon::before {
     content: "-LINK-";
 }
 
+.docs-margin {
+    @apply mx-6su b-d:mx-4su;
+}
+
+.docs-padding {
+    @apply px-6su b-d:px-4su;
+}
+
+.docs-padding-left {
+    @apply pl-6su b-d:pl-4su;
+}
+
 .astro-code {
     @apply p-4su;
     background-image: url("/assets/blueprint-moz.png");

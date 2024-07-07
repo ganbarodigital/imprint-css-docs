@@ -48,7 +48,7 @@ await buildBreadcrumbs();
 <nav class="flex items-center breadcrumb" role="navigation">
     <ol class="flex align-middle">
         {breadcrumbs.map((breadcrumb) => (
-            <li class="inline"><a href={"/" + breadcrumb.slug} class="text-imprint-graphite hover:text-[--imprint-link-hover-color]">{breadcrumb.entry.data.title}</a>{!breadcrumb.isEnd && <InlineSvg icon={chevonRight} class="mx-1su w-[16px] h-[16px] text-imprint-gray inline"/>}</li>
+            <li class="flex items-center"><a href={"/" + breadcrumb.slug} class="text-imprint-graphite hover:text-[--imprint-link-hover-color]">{breadcrumb.entry.data.title}</a>{!breadcrumb.isEnd && <InlineSvg icon={chevonRight} class="mx-1su w-[24px] h-[24px] text-imprint-gray inline"/>}</li>
         ))}
     </ol>
 </nav>

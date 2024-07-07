@@ -1,12 +1,16 @@
 ---
 
+import InlineSvg from "./InlineSvg.astro";
+import chevonRight from 'heroicons/16/solid/chevron-right.svg?raw';
+import chevonLeft from 'heroicons/16/solid/chevron-left.svg?raw';
+
 const { prev, next } = Astro.props;
 
 ---
 
 <nav class="border-t prevnext mt-8su border-imprint-graphite">
-    <ul class="flex flex-row flex-shrink-0 w-full pt-2su">
-        <li class="prev justify-self-start">{prev && <a href={"/" + prev.slug} class="group text-imprint-graphite hover:text-[--imprint-link-hover-color]"><span class="text-imprint-gray group-hover:text-[--imprint-link-hover-color]">&lt;</span> {prev.data.title}</a>}</li>
-        <li class="ml-auto next justify-self-end">{next && <a href={"/" + next.slug} class="group text-imprint-graphite hover:text-[--imprint-link-hover-color]">{next.data.title} <span class="text-imprint-gray group-hover:text-[--imprint-link-hover-color]">&gt;</span></a>}</li>
+    <ul class="grid grid-cols-[1fr_1fr] gap-2 pt-2su items-center">
+        <li class="mr-auto prev">{prev && <a href={"/" + prev.slug} class="group text-imprint-graphite hover:text-[--imprint-link-hover-color] flex items-center justify-start"><InlineSvg icon={chevonLeft} class="-ml-[8px] w-auto h-[24px] text-imprint-gray inline group-hover:text-[--imprint-link-hover-color]"/><span>{prev.data.title}</span></a>}</li>
+        <li class="ml-auto next">{next && <a href={"/" + next.slug} class="group text-imprint-graphite hover:text-[--imprint-link-hover-color] flex items-center justify-end"><span class="text-right">{next.data.title}</span><InlineSvg icon={chevonRight} class="-mr-[8px] w-auto h-[24px] text-imprint-gray inline group-hover:text-[--imprint-link-hover-color]"/></a>}</li>
     </ul>
 </nav>

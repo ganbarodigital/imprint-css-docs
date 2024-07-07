@@ -35,8 +35,31 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
         <title>{frontmatter.title}</title>
     </head>
     <body class="">
+        <div class="max-w-full text-center text-white bg-indigo p-4su">
+            <p>Active device group(s):
+                <span class="">&lt;default group&gt;,</span>
+                <span class="hidden a:inline-block">a,</span>
+                <span class="hidden a-t:inline-block">a-t,</span>
+                <span class="hidden a-d:inline-block">a-d,</span>
+                <span class="hidden b:inline-block">b,</span>
+                <span class="hidden b-t:inline-block">b-t,</span>
+                <span class="hidden b-d:inline-block">b-d,</span>
+                <span class="hidden c:inline-block">c,</span>
+                <span class="hidden c-t:inline-block">c-t,</span>
+                <span class="hidden c-d:inline-block">c-d,</span>
+                <span class="hidden d:inline-block">d,</span>
+                <span class="hidden d-t:inline-block">d-t,</span>
+                <span class="hidden d-d:inline-block">d-d,</span>
+                <span class="hidden e:inline-block">e,</span>
+                <span class="hidden e-t:inline-block">e-t,</span>
+                <span class="hidden e-d:inline-block">e-d,</span>
+                <span class="hidden f:inline-block">f,</span>
+                <span class="hidden f-t:inline-block">f-t,</span>
+                <span class="hidden f-d:inline-block">f-d,</span>
+            </p>
+        </div>
         <input id="show-hide-nav" type="checkbox" class="hidden"/>
-        <div id="header" class="flex items-center text-imprint-white bg-ganbaro-blue-500 p-4su">
+        <div id="header" class="flex items-center text-imprint-white bg-ganbaro-blue-500 py-4su docs-padding">
             <span>
                 <a href="/" class="hover:underline hover:underline-offset-4">Imprint CSS<span class="hidden c:inline"> - Tailwind CSS plugin for content-oriented websites</span></a>
             </span>
@@ -48,22 +71,22 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                 </ul>
             </nav>
         </div>
-        <div class="flex items-center pb-2 border-b shadow-sm imprint pt-2su px-4su border-imprint-gray/40 bg-imprint-palegray/40">
+        <div class="flex items-center pb-2 border-b shadow-sm imprint pt-2su docs-padding border-imprint-gray/40 bg-imprint-palegray/40">
             <div class="border-r d:hidden mr-4su border-imprint-gray/40 pr-4su">
                 <label for="show-hide-nav"><InlineSvg id="open-show-hide-nav" icon={bars3} class="cursor-pointer w-6su h-6su"/><InlineSvg id="close-show-hide-nav" icon={xCircle} class="cursor-pointer w-6su h-6su"/></label>
             </div>
             <Breadcrumb/>
         </div>
-        <div id="content" class="d:grid d:grid-cols-[19rem_1fr] d:gap-2">
-            <div id="sidebar" class="hidden pl-8 pr-6 border-b border-r shadow-sm d:shadow-none d:border-b-0 d:overflow-y-auto d:sticky d:top-0 d:block pt-2su pb-4su d:pb-2su d:max-h-dvh border-imprint-palegray bg-imprint-palegray/35">
+        <div id="content" class="d:grid d-t:grid-cols-[17rem_1fr] d-d:grid-cols-[19rem_1fr]">
+            <div id="sidebar" class="hidden border-b shadow-sm border-imprint-gray/40 d:border-r docs-padding d:shadow-none d:border-b-0 d:overflow-y-auto d:sticky d:top-0 d:block pt-2su pb-4su d:pb-2su d:max-h-dvh d:border-imprint-palegray bg-imprint-palegray/35">
                 <SiteNavigation/>
             </div>
             <div class="page">
-                <div class="page-container grid e:grid-cols-[1fr_17rem] e:gap-2 e:grid mx-4su">
-                    <div class="imprint my-4su">
-                        <main role="main" class="imprint-article">
+                <div class="page-container2 e:grid e:grid-cols-[1fr_17rem] e:gap-2 docs-padding d:pt-2su e:pt-0">
+                    <div class="imprint my-4su max-w-[50rem]">
+                        <main role="main" class="">
                             <div class="imprint-prose">
-                                <header class="mt-2su mb-8su">
+                                <header class="mt-2su mb-4su">
                                     <p class="!imprint-block-greatprimer !imprint-fontweight-greatprimer text-imprint-graphite">{frontmatter.navSection}</p>
                                     <h1 class="!mt-2su">{frontmatter.title}</h1>
                                     {frontmatter.description && <p class="!imprint-block-greatprimer mt-2su font-light">{frontmatter.description}</p>}
@@ -72,18 +95,18 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                             </div>
                             <PrevNextNavigation prev={prev} next={next}/>
                         </main>
-                    </div>
-                    <div id="compact" class="imprint mb-4su d:hidden">
-                        <div class="imprint-panel --subtle mb-4su bg-imprint-palegray/75">
-                            <div class="imprint-inner imprint-prose">
-                                <aside class="border-b c:hidden pb-4su border-imprint-gray mt-2su">
-                                    <h5 class="!text-5su !font-semibold mb-4su">In This Section</h5>
-                                    <SectionNavigation navSection={frontmatter.navSection}/>
-                                </aside>
-                                <aside class="pt-2su c:pt-0 c:mt-2su">
-                                    <h5 class="!text-5su !font-semibold">On This Page</h5>
-                                    <PageToc headings={headings} class=""/>
-                                </aside>
+                        <div id="compact" class="imprint mb-4su e:hidden mt-4su">
+                            <div class="imprint-panel --subtle mb-4su bg-imprint-palegray/75 border-imprint-gray/40">
+                                <div class="imprint-inner imprint-prose">
+                                    <aside class="border-b d:hidden pb-4su border-imprint-gray mt-2su">
+                                        <h5 class="!text-5su !font-semibold mb-4su">In This Section</h5>
+                                        <SectionNavigation navSection={frontmatter.navSection}/>
+                                    </aside>
+                                    <aside class="pt-2su d:pt-0 d:mt-2su">
+                                        <h5 class="!text-5su !font-semibold">On This Page</h5>
+                                        <PageToc headings={headings} class=""/>
+                                    </aside>
+                                </div>
                             </div>
                         </div>
                     </div>
