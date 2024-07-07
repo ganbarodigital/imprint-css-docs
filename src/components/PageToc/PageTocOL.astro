@@ -1,0 +1,38 @@
+---
+
+import  PageTocOLHeading2 from "./PageTocOLHeading2.astro";
+
+const { headings } = Astro.props;
+const nested = [];
+
+headings.forEach(
+    function(heading) {
+        if (heading.depth === 2) {
+            heading.children = [];
+            nested.push(heading);
+            return;
+        }
+
+        // robustness!
+        if (nested.length === 0) {
+            return;
+        }
+
+        if (heading.depth === 3) {
+            nested[nested.length -1].children.push(heading);
+            return;
+        }
+    }
+);
+
+---
+
+<nav class="pagetoc-ol" class="text-imprint-graphite">
+    <ol class="">
+        {nested.map((heading) => (
+            <li>
+                <PageTocOLHeading2 heading={heading}/>
+            </li>
+        ))}
+    </ol>
+</nav>

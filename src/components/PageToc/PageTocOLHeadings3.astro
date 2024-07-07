@@ -1,0 +1,24 @@
+---
+
+type Heading = {
+    depth: number;
+    text: string;
+    slug: string;
+    children: Heading[];
+}
+
+interface Props {
+    heading: Heading;
+}
+
+const { heading } = Astro.props;
+
+---
+
+{heading.children.length > 0 &&
+    <ol>
+        {heading.children.map((subHeading) => (
+            <li><a href={"#" + subHeading.slug}>{subHeading.text}</a></li>
+        ))}
+    </ol>
+}

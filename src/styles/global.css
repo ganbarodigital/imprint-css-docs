@@ -50,6 +50,20 @@ li.pagetoc-3 {
     @apply font-light pl-4su mt-1su text-imprint-nero text-[0.95em];
 }
 
+nav.pagetoc-ol {
+    @apply mt-4su;
+}
+
+.pagetoc-ol ol {
+    list-style-type: decimal;
+    padding-left: var(--imprint-list-indent);
+}
+
+.pagetoc-ol li {
+    display: list-item;
+    list-style-position: outside;
+}
+
 #show-hide-nav:checked ~ * #sidebar {
     display: block !important;
     transition: all 0.5secs ease;

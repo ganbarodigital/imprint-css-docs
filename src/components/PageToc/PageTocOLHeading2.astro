@@ -1,0 +1,21 @@
+---
+
+import PageTocOLHeadings3 from "./PageTocOLHeadings3.astro";
+
+type Heading = {
+    depth: number;
+    text: string;
+    slug: string;
+    children: Heading[];
+}
+
+interface Props {
+    heading: Heading;
+}
+
+const { heading } = Astro.props;
+
+---
+
+<a href={"#" + heading.slug}>{heading.text}</a>
+<PageTocOLHeadings3 heading={heading}/>

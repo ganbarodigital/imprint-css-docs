@@ -9,7 +9,8 @@ import Breadcrumb from "../components/Breadcrumb.astro";
 import SectionNavigation from "../components/SectionNavigation.astro";
 import SiteNavigation from "../components/SiteNavigation.astro";
 import PrevNextNavigation from "../components/PrevNextNavigation.astro";
-import PageToc from "../components/PageToc.astro";
+import PageToc from "../components/PageToc/PageToc.astro";
+import PageTocOL from "../components/PageToc/PageTocOL.astro";
 import InlineSvg from "../components/InlineSvg.astro";
 
 type Props = MarkdownLayoutProps<{
@@ -104,7 +105,7 @@ const next = frontmatter.next ? await getEntry(frontmatter.next) : undefined;
                                     </aside>
                                     <aside class="pt-2su d:pt-0 d:mt-2su">
                                         <h5 class="!text-5su !font-semibold">On This Page</h5>
-                                        <PageToc headings={headings} class=""/>
+                                        <PageTocOL headings={headings} class=""/>
                                     </aside>
                                 </div>
                             </div>
