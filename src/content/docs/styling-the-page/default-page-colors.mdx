@@ -1,0 +1,75 @@
+---
+title: Default Page Colors
+navSection: Styling The Page
+description: Utility class for setting the default foreground and background colors
+prev: styling-the-page/default-font-size
+---
+
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro"
+import CssStylesTable from "../../../components/CssStylesTable.astro"
+import CssVarsTable from "../../../components/CssVarsTable.astro"
+import InlineCssVarLink from "../../../components/InlineCssVarLink.astro";
+import InlineCssVarExplainedValue from "../../../components/InlineCssVarExplainedValue.astro";
+
+## Quick Reference
+
+### CSS Classes
+
+<CssStylesTable styleName="imprint"/>
+
+### CSS Variables
+
+<CssVarsTable styleName="imprint"/>
+
+## Basic Usage
+
+### For The Whole Page
+
+Add the `imprint` class to your `<body>` element to set the foreground and background color of the whole page.
+
+<BasicExample>
+```html
+<html>
+    <head>...</head>
+    <body class="imprint">
+        ...
+    </body>
+</html>
+```
+</BasicExample>
+
+This will set the default text color to <InlineCssVarExplainedValue name="imprint-color"/>, and the default background color to <InlineCssVarExplainedValue name="imprint-background-color"/>.
+
+## Customising The Default Colors
+
+### In Your Main CSS File
+
+You can override the default colors by setting the CSS variables in your main CSS file.
+
+<BasicExample>
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /** override default text color */
+    --imprint-color: black;
+
+    /** override default background color */
+    --imprint-background-color: #fefefe;
+}
+```
+</BasicExample>
+
+## Discussion
+
+### Why These Default Colors?
+
+_a.k.a. why no dark mode support?_
+
+The default colors are an off-black (<InlineCssVarLink name="imprint-color"/>) on a <InlineCssVarLink name="imprint-background-color"/> background. These choices are driven by accessibility.
+
+Some partially-sighted people cannot read content presented in a "dark mode" color scheme, even if that color scheme uses high-contrast colors. Light-colored text on dark backgrounds can cause eye-strain and headaches.
+
+Pure black on pure white is an extreme contrast (arguably _the_ extreme contrast for light mode themes), and that too can cause eye-strain over time. Using an off-black color helps to reduce that, making it less tiring to read long-form content.

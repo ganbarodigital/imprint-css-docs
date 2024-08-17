@@ -1,0 +1,30 @@
+---
+---
+
+<script is:inline>
+    document.addEventListener("DOMContentLoaded", () => {
+        function incFont() {
+            const root = document.querySelector(':root');
+            root.style.setProperty("--imprint-fontsize-root-zoom", "2px");
+            console.log('FIRED');
+        }
+
+        function updateFontSize() {
+            const root = document.querySelector(':root');
+            const baseFontSize = getComputedStyle(root).getPropertyValue('--imprint-fontsize-root');
+            console.log(baseFontSize);
+            const actualFontSize = getComputedStyle(root).getPropertyValue('font-size');
+            console.log(actualFontSize);
+
+            const p = document.querySelector('#font-size');
+            p.innerHTML = "MY FONT SIZE IS " + baseFontSize;
+        }
+
+        document.querySelectorAll("#inc-font").forEach( el => el.addEventListener("click", incFont));
+        document.querySelectorAll("#refresh").forEach(el => el.addEventListener("click", updateFontSize));
+    });
+</script>
+
+<button id="inc-font">CLICK ME</button>
+<button id="refresh">UPDATE FONT SIZE</button>
+<p id="font-size">MY FONT SIZE IS</p>

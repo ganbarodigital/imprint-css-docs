@@ -1,26 +1,28 @@
 ---
-title: Welcome To ImprintCSS
-navSection: Welcome To ImprintCSS!
-description: Home is where the guitar is.
-next: license
+title: Welcome To Imprint CSS
+navSection: Welcome To Imprint CSS!
+description: Zero-effort, reader-first typography for content-oriented websites.
+next: goals
 slug: /
 ---
 
-# Welcome To ImprintCSS
+import ExternalLink from "../../components/ExternalLink.astro"
 
 ## Introduction
 
-ImprintCSS is a simple responsive CSS toolkit from Stuart Herbert. It has [clearly defined goals](goals). It draws [heavy inspiration](inspirations) from existing toolkits and leading content websites.
+Imprint CSS is a plugin for <ExternalLink name="Tailwind CSS v3.x"/> that adds easy-to-read typgraphy CSS styles to your Tailwind CSS project.
 
 It is [licensed under the 3-clause BSD license](license). [Contributions](contributing) are welcome.
 
-## Why Use ImprintCSS?
+## Why Use Imprint CSS?
 
-The benefits of using ImprintCSS include:
+Tailwind CSS is a popular <ExternalLink name="Tailwind CSS Utility-First" text="utility-first CSS framework"/>. It provides a large number of CSS classes that you can apply directly to your HTML elements, so that you can quickly style individual elements in your HTML.
 
-* [beautiful typography](typography) for easy reading whether you're on the smallest or the largest of devices
-* [convenient components](components) to enhance your content even further and provide nuanced navigation
-* [semantic markup](structure) that describes your content and not your layout, based on HTML5 tags
-* [utility classes](utilities) when you need to be pragmatic
+It's a great choice for web-based applications, where individual components may be defined separately. And it's also a great choice for content-oriented websites (blogs, project documentation, teaching material, etc etc). It just needs a bit of help to make it easy to use with your content.
 
-ImprintCSS is a plugin for Tailwind v3. You can import it into your own `tailwind.config.js`, and quickly build on top of it to get the look and feel that you want for your own websites and content.
+Tailwind CSS comes with its own CSS reset rules. These reset rules strip even the most basic styling from the HTML elements that we use when writing content (such as headings, paragraphs, links, pre-formatted text, and so on).
+
+That's a bit of a problem, especially if you're generating content from something like Markdown.
+
+Imprint CSS gives you easy-to-read typography that works well on a range of devices. Add a couple of CSS classes, and you're done.
+

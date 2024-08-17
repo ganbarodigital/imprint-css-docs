@@ -1,0 +1,16 @@
+---
+
+import { getEntry } from "astro:content";
+
+const { name } = Astro.props;
+
+const entry = await getEntry("CssVars", name);
+if (entry === undefined) {
+    throw new Error("no such CSS var '" + name + "'found in collection 'CssVars'");
+}
+
+---
+
+{entry.data.type === "color" && <a href={"/colors/" + entry.data.valueDescription}><var class="cssVar">{entry.data.valueDescription}</var></a>}
+{entry.data.type === "font-family" && <code>{entry.data.value}</code>}
+{entry.data.type === "size" && <code>{entry.data.value}</code>}

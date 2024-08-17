@@ -1,0 +1,66 @@
+---
+
+import { objectMap } from "../helpers/objectMap.js";
+import { trimFirst } from "../helpers/trimFirst.js";
+import { getEntry } from "astro:content";
+import InlineCssStyle from "./InlineCssStyle.astro";
+
+export interface Props {
+    styleName: string;
+    wrapNames?: boolean;
+    mediaQueriesOnly?: boolean;
+    excMediaQueries?: boolean;
+}
+const { styleName, wrapNames = true, mediaQueriesOnly = false, excMediaQueries = true } = Astro.props;
+
+const payload = await getEntry("CssStyles", styleName);
+
+let cssSelectors: { selector: string; definition: string|object }[] = [];
+
+objectMap(
+    payload.data,
+    function (value: string, key: string) {
+        cssSelectors.push({
+            selector: key,
+            definition: value,
+        });
+    }
+)
+cssSelectors = cssSelectors.filter(value => (mediaQueriesOnly ? value.selector.startsWith("@") : true))
+cssSelectors = cssSelectors.filter(value => (excMediaQueries ? !value.selector.startsWith("@") : true))
+
+const varNameClasses = wrapNames ? "" : "d:!whitespace-nowrap";
+
+---
+
+<table class="hidden d:table table-modern">
+    <thead>
+        <tr>
+            {mediaQueriesOnly ? <th>Media Query</th> : <th>CSS Class</th> }
+            <th>Properties</th>
+        </tr>
+    </thead>
+    <tbody>
+        {cssSelectors.map((entry) => (
+            <tr>
+                <td><span class="cssClassname"><code class={varNameClasses}>{trimFirst(entry.selector, ".")}</code></span></td>
+                <td><InlineCssStyle css={entry.definition}/></td>
+            </tr>
+        ))}
+    </tbody>
+</table>
+
+<table class="d:hidden table-modern">
+    <tbody>
+        {cssSelectors.map((entry) => (
+            <tr>
+                {mediaQueriesOnly ? <th>Media Query</th> : <th>CSS Class</th> }
+                <td><span class="cssClassname"><code>{trimFirst(entry.selector, ".")}</code></span></td>
+            </tr>
+            <tr class="last-row">
+                <th>Properties</th>
+                <td><InlineCssStyle css={entry.definition}/></td>
+            </tr>
+        ))}
+    </tbody>
+</table>

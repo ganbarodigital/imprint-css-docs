@@ -1,0 +1,88 @@
+---
+title: Using Imprint CSS
+navSection: Getting Started
+description: Adding classes to use Imprint CSS's default typography.
+prev: getting-started
+next: getting-started/configuring-imprint-css
+---
+
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro";
+import Callout from "../../../components/Callouts/Callout.astro";
+
+## Introduction
+
+Imprint CSS provides:
+
+* default styling for the entire page,
+* styling for typography,
+* styling for tables,
+* and a large collection of colors
+
+## Setting Default Styling For The Entire Page
+
+In your CSS file, add the following CSS rules.
+
+<BasicExample>
+```css
+html {
+    @apply imprint-font-sans-serif imprint-fontsize-root;
+}
+
+body {
+    @apply imprint;
+}
+```
+</BasicExample>
+
+This will set:
+
+* the default font for the entire page,
+* the right value for `1 rem` for the reader's device, and
+* the default colors for text and page background.
+
+See [Styling The Page](/styling-the-page/) for in-depth details about this.
+
+## Adding Styling For Typography
+
+### Typography Choices
+
+Imprint CSS comes with two different styles of typography:
+
+CSS Class        | Style                                  | Description
+-----------------|----------------------------------------|----------------------------------------------------------------
+`imprint-modern` | [modern styling](/modern-typography/)  | Easy-to-read styling for the web.
+`imprint-formal` | [formal styling](/formal-typography/)  | A more classical style for white papers and other formal works.
+
+Imprint CSS doesn't automatically apply either of these styles to your project. You need to pick which one you want to use.
+
+### Applying Your Choice Of Typography
+
+You can add the CSS class to the `<body>` element:
+
+<BasicExample>
+```html
+<body class="imprint-modern">
+    ...
+</body>
+```
+</BasicExample>
+
+This will apply default your preferred typography style to every element in your HTML document.
+
+If you want more fine-grained control, you can add the CSS class just to the parts of the page where you want the typography styles to apply:
+
+<BasicExample>
+```html
+<article class="imprint-modern">
+    ...
+</article>
+```
+</BasicExample>
+
+## Adding Styling For Tables
+
+COME BACK TO THIS WHEN EVERYTHING ELSE IS DONE.
+
+## The Color Collection
+
+COME BACK TO THIS WHEN EVERYTHING ELSE IS DONE.

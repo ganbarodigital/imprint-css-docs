@@ -8,9 +8,9 @@ const { prev, next } = Astro.props;
 
 ---
 
-<nav class="border-t prevnext mt-8su border-imprint-graphite">
-    <ul class="grid grid-cols-[1fr_1fr] gap-2 pt-2su items-center">
-        <li class="mr-auto prev">{prev && <a href={"/" + prev.slug} class="group text-imprint-graphite hover:text-[--imprint-link-hover-color] flex items-center justify-start"><InlineSvg icon={chevonLeft} class="-ml-[8px] w-auto h-[24px] text-imprint-gray inline group-hover:text-[--imprint-link-hover-color]"/><span>{prev.data.title}</span></a>}</li>
-        <li class="ml-auto next">{next && <a href={"/" + next.slug} class="group text-imprint-graphite hover:text-[--imprint-link-hover-color] flex items-center justify-end"><span class="text-right">{next.data.title}</span><InlineSvg icon={chevonRight} class="-mr-[8px] w-auto h-[24px] text-imprint-gray inline group-hover:text-[--imprint-link-hover-color]"/></a>}</li>
+<nav class="border-t prevnext border-imprint-graphite">
+    <ul class="grid grid-cols-[1fr_1fr] gap-2 pt-2 items-center">
+        <li class="mr-auto prev">{prev && <a href={"/" + prev.slug} class="group text-imprint-graphite hover:text-[--imprint-default-link-hover-color] flex items-center justify-start"><InlineSvg svg={chevonLeft} class="-ml-8rpx w-auto h-24rpx text-imprint-gray inline group-hover:text-[--imprint-default-link-hover-color]"/><span>{prev.data.title}</span></a>}</li>
+        <li class="ml-auto next">{next && <a href={"/" + next.slug} class="group text-imprint-graphite hover:text-[--imprint-default-link-hover-color] flex items-center justify-end"><span class="text-right">{next.data.title}</span><InlineSvg svg={chevonRight} class="-mr-8rpx w-auto h-24rpx text-imprint-gray inline group-hover:text-[--imprint-default-link-hover-color]"/></a>}</li>
     </ul>
 </nav>

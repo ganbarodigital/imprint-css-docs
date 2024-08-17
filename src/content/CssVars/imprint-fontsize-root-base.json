@@ -1,0 +1,7 @@
+{
+    "name": "--imprint-fontsize-root-base",
+    "value": "16px",
+    "type": "size",
+    "description": "default font size for the whole HTML document",
+    "valueDescription": "1rem"
+}

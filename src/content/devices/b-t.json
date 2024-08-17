@@ -1,0 +1,14 @@
+{
+    "name": "b-t",
+    "breakpoint": {
+        "name": "b-t",
+        "tailwindDefinition": {
+            "raw": "(min-width: 641px) and (hover:none)"
+        },
+        "screenWidth": "641px and above",
+        "targetDevices": "smart phones (in landscape) & small tablets (in portrait)",
+        "mediaQuery": "@media ((min-width: 641px) and (hover:none))"
+    },
+    "remPx": "20px",
+    "articleMaxWidth": "100%"
+}

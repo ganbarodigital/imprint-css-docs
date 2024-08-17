@@ -1,25 +1,38 @@
 ---
-title: Getting Started
+title: Installation
 navSection: Getting Started
 description: How to install Imprint CSS.
+next: getting-started/using-imprint-css
 ---
 
-import SectionNavigation from "../../../components/SectionNavigation.astro";
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro"
+import ExternalLink from "../../../components/ExternalLink.astro"
 
-# Getting Started
+## Requirements
 
-ImprintCSS is a plugin for [Tailwind CSS](https://tailwindcss.com).
+Imprint CSS is a plugin for <ExternalLink name="Tailwind CSS v3.x"/>.
 
-To use it:
+You'll need to <ExternalLink name="Tailwind CSS Installation" text="install and configure Tailwind CSS"/> before adding Imprint CSS to your project.
 
-1. `npm require @stuartherbert/imprint-css`
-2. add `@stuartherbert/imprint-css` as a plugin to your `tailwind.config.js` file
+## Installation
 
-You should be good to go.
+Follow these steps:
 
-<div class="imprint-panel imprint-alert">
-    <h4>In This Section</h4>
-    <div class="imprint-inner">
-        <SectionNavigation navSection={frontmatter.navSection}/>
-    </div>
-</div>
+1. `npm install @imprintcss/imprint-css`
+2. add `@imprintcss/imprint-css` as a plugin to your `tailwind.config.js` file
+
+and you should be good to go.
+
+### Example Tailwind CSS Config File
+
+<BasicExample>
+```js
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+    plugins: [
+        require('@imprintcss/imprint-css'),
+    ],
+};
+```
+</BasicExample>

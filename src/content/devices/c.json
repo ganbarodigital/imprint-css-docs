@@ -1,0 +1,14 @@
+{
+    "name": "c",
+    "breakpoint": {
+        "name": "c",
+        "tailwindDefinition": {
+            "raw": "(min-width: 769px)"
+        },
+        "screenWidth": "769px and above",
+        "targetDevices": "regular tablets (in portrait)",
+        "mediaQuery": "@media (min-width: 769px)"
+    },
+    "remPx": "16px",
+    "articleMaxWidth": "100%"
+}

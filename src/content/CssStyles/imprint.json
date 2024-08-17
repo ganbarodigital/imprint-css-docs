@@ -1,0 +1,6 @@
+{
+    ".imprint": {
+        "color": "var(--imprint-color)",
+        "background-color": "var(--imprint-background-color)"
+    }
+}

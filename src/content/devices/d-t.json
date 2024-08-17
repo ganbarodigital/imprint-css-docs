@@ -1,0 +1,14 @@
+{
+    "name": "d-t",
+    "breakpoint": {
+        "name": "d-t",
+        "tailwindDefinition": {
+            "raw": "(min-width: 1025px) and (hover:none)"
+        },
+        "screenWidth": "1025px and above",
+        "targetDevices": "large tablets (in portrait)",
+        "mediaQuery": "@media ((min-width: 1025px) and (hover:none))"
+    },
+    "remPx": "18px",
+    "articleMaxWidth": "60rem"
+}

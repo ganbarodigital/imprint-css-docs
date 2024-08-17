@@ -1,0 +1,11 @@
+{
+    ".imprint-font-sans-serif": {
+        "font-family": "var(--imprint-font-sans-serif)"
+    },
+    ".imprint-font-serif": {
+        "font-family": "var(--imprint-font-serif)"
+    },
+    ".imprint-font-monospace": {
+        "font-family": "var(--imprint-font-monospace)"
+    }
+}

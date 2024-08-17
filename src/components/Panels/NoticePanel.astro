@@ -1,0 +1,18 @@
+---
+
+interface Props {
+    heading: string;
+    [name: string]: string;
+}
+
+const { heading, ...attributes } = Astro.props;
+attributes.class = "imprint-alert imprint-panel " + attributes.class;
+
+---
+
+<div {...attributes}>
+    <h4>{heading}</h4>
+    <div class="imprint-inner">
+        <slot/>
+    </div>
+</div>

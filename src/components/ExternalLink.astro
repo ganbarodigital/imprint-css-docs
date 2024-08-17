@@ -1,8 +1,15 @@
 ---
 
+import InlineSvg from "./InlineSvg.astro";
+import svgIcon from 'heroicons/24/outline/arrow-top-right-on-square.svg?raw';
+
+export interface Props {
+    name: string;
+    text?: string;
+}
 const { name, text } = Astro.props;
 
 import imprintConfig from "../../imprint.config";
 
 ---
-<span class="inline external-link"><a href={imprintConfig.externalLinks[name]}>{text ? <span>{text}</span>:<span>{name}</span>}</a></span>
+<span class="inline external-link"><a href={imprintConfig.externalLinks[name]} target="_blank">{text ? <span>{text}</span>:<span>{name}</span>}</a> <InlineSvg svg={svgIcon} class="inline h-auto align-text-top w-18rpx"/></span>

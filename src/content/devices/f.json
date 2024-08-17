@@ -1,0 +1,14 @@
+{
+    "name": "f",
+    "breakpoint": {
+        "name": "f",
+        "tailwindDefinition": {
+            "raw": "(min-width: 1920px)"
+        },
+        "screenWidth": "1920px and above",
+        "targetDevices": "full-size windows",
+        "mediaQuery": "@media (min-width: 1920px)"
+    },
+    "remPx": "16px",
+    "articleMaxWidth": "60rem"
+}

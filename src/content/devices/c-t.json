@@ -1,0 +1,14 @@
+{
+    "name": "c-t",
+    "breakpoint": {
+        "name": "c-t",
+        "tailwindDefinition": {
+            "raw": "(min-width: 769px) and (hover:none)"
+        },
+        "screenWidth": "769px and above",
+        "targetDevices": "regular tablets (in portrait)",
+        "mediaQuery": "@media ((min-width: 769px) and (hover:none))"
+    },
+    "remPx": "18px",
+    "articleMaxWidth": "100%"
+}

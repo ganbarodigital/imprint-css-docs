@@ -1,28 +1,88 @@
 ---
-title: ImprintCSS Project Goals
-navSection: Welcome To ImprintCSS!
-description: What Imprint CSS is trying to achieve.
-prev: license
-next: inspirations
+title: Project Goals & Scope
+navSection: Welcome To Imprint CSS!
+description: What Imprint CSS aims to achieve.
+prev: /
+next: changelog
 ---
-# Goals
+
+import ExternalLink from "../../components/ExternalLink.astro"
 
 ## Introduction
 
-ImprintCSS is a responsive CSS toolkit for styling and building content-oriented websites.
+Imprint CSS provides zero-effort, reader-first typography for content-oriented websites.
 
-It is designed and developed by Stuart Herbert, and built as a plugin for Tailwind v3.4.
+It's built in a way to minimise the effort needed to get up and running, _and_ provide the maximum convenience when anything needs tweaking / overriding.
 
 ## Project Goals
 
-### High-Quality Presentation For Web-based Docs Wherever You're Reading
+### Zero-Effort Typography
 
-When someone wants to read about something, they're going to use the device that's in front of them / in their hand there and then. They're very unlikely to seek out the 'right' device just to read a website.
+Websites typically fall into two major camps:
 
-First and foremost, ImprintCSS delivers CSS styling that works just as well on mobile, tablet, laptop or desktop.
+- web-based applications
+- content publishing
 
-### High-Quality Presentation For Web-based Docs For Whoever Is Reading
+Modern CSS frameworks (like Tailwind) have the first camp well and truly covered. Apps are sexy, while content is not. But content is important too.
 
-Today, we live in a society where just about everyone is expected to use the web. The web needs to work for everyone, regardless of age or disability.
+If you are trying to attract an audience, it's your content that pulls people in:
 
-ImprintCSS delivers CSS styling that works just as well for people who are partially sighted.
+* search engines index and catalog content, not functionality;
+* people search for knowledge and information, not functionality;
+* people share links to pages on websites, not screens in an app.
+
+The web was invented as a way to easily share knowledge with strangers. It should be just as easy to make your content look readable too.
+
+### Reader-First Typography
+
+There's no point going to all the effort of writing content if your audience can't read it. The best way to do that is to put the needs of the reader first.
+
+**When someone wants to read your content, they're going to use the device that's in front of them / in their hand there and then.** They might be on their phone while out and about, a tablet if commuting by train or loughing around the house, or a laptop or desktop when sat at their desk.
+
+If they can't read your content on that device, what do you think they'll do about it? Are they going to go and grab a different device, where your content is easier to read? Or are they going to go and read something else? The vast majority of the time, they'll go and read something else.
+
+**We also live in a society where just about everyone needs to use the web.** The web needs to work for everyone, regardless of age or disability. When it doesn't, people get excluded.
+
+The web already works great for people with normal eyesight. Accessibility standards such as <ExternalLink name="Mozilla MDN ARIA" text="ARIA"/> cover folks who need to use reading aids such as screen readers. But what about everyone in between? What about those readers who are partially-sighted, or whose vision simply isn't what it once was?
+
+That's why Imprint CSS delivers CSS typography that looks just as good on mobile, tablet, laptop or desktop; CSS styling that works just as well for people who are partially sighted; and a comprehensive description of colors to help you choose what works for everyone.
+
+### Convenience Framework
+
+Although it's built on top of a utility-first framework (the excellent <ExternalLink name="Tailwind CSS"/>), don't think of Imprint CSS as a utility-first framework. Think of it as a "convenience-first" framework:
+
+* it's easy to get up and running, and
+* it's easy to customise whenever you need to.
+
+First off, to style your content, [all you need to do is to add two bits of CSS, and you're done](getting-started/using-imprint-css).
+
+Secondly, whether it's CSS or code, we hate _hate_ **hate** working with "convention over configuration" frameworks that can't be adapted to suit the product or project we're working on. They're a creative straight-jacket, forcing the project to be designed around their baked-in limitations.
+
+That's why all of Imprint CSS's styles are driven by CSS variables. Every one of them is documented, and you're free to override them whenever you need to.
+
+Prefer to simply override the styles inside your HTML, by applying Tailwind CSS utility classes? You can do that too. Just add the `!` marker (the <ExternalLink name="Tailwind CSS Important Modifier"/>) in front of the class names, and they'll override any default typography applied by Imprint CSS.
+
+## Project Scope
+
+**Imprint CSS isn't trying to be a general-purpose CSS framework.** It's here to solve a specific problem (typography and related UI elements) for certain kinds of websites (content-oriented websites).
+
+It's been engineered so that it should be easy to use Imprint CSS for the typography of a web-based app.
+
+### Content-Oriented Websites
+
+Imprint CSS provides typography, utilities and components for content published on the web:
+
+1. prose (e.g. blog articles, books)
+2. technical documentation (e.g. open-source project docs)
+3. formal content (e.g. white papers, green papers, and research papers)
+
+### Out Of Scope
+
+There are two big things that don't fit inside Imprint CSS:
+
+* general-purpose CSS utility classes, and
+* CSS classes for page layouts.
+
+A general-purpose CSS utility class is anything that isn't specifically designed for typography or styling content that appears on content-oriented websites. These utility classes belong in their own plugin, so that they can be used by web apps and content-oriented websites alike.
+
+Page layout classes are CSS classes that help to control what appears where on the page. Think sidebars, nav bars and the like. Although they're important to content-oriented websites, they're all the bits _around_ the content. And they're exactly the kind of page elements that Tailwind CSS is built to style.

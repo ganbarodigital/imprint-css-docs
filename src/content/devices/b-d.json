@@ -1,0 +1,14 @@
+{
+    "name": "b-d",
+    "breakpoint": {
+        "name": "b-d",
+        "tailwindDefinition": {
+            "raw": "(min-width: 641px) and (hover:hover)"
+        },
+        "screenWidth": "641px and above",
+        "targetDevices": "desktop and laptop",
+        "mediaQuery": "@media ((min-width: 641px) and (hover:hover))"
+    },
+    "remPx": "16px",
+    "articleMaxWidth": "100%"
+}

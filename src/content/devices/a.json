@@ -1,0 +1,14 @@
+{
+    "name": "a",
+    "breakpoint": {
+        "name": "a",
+        "tailwindDefinition": {
+            "raw": "(max-width: 640px)"
+        },
+        "screenWidth": "up to 640px",
+        "targetDevices": "smart phones (in portrait)",
+        "mediaQuery": "@media (max-width: 640px)"
+    },
+    "remPx": "16px",
+    "articleMaxWidth": "100%"
+}

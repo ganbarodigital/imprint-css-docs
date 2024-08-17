@@ -1,0 +1,92 @@
+---
+
+interface Props {
+    heading: string;
+    icon: string;
+    [name: string]: string;
+}
+
+const { icon, ...attributes } = Astro.props;
+attributes.class = "--standout-sm docs-alert rounded-1 " + (attributes.class || "");
+
+import InlineSvg from "../InlineSvg.astro";
+
+import acknowledgementSvg from 'heroicons/24/outline/academic-cap.svg?raw';
+import bugSvg from 'heroicons/24/outline/bug-ant.svg?raw';
+// import dangerSvg from 'heroicons/24/outline/no-symbol.svg?raw';
+import dangerSvg from 'heroicons/24/outline/hand-raised.svg?raw';
+import discussionSvg from 'heroicons/24/outline/chat-bubble-left-right.svg?raw';
+import furtherReadingSvg from "heroicons/24/outline/book-open.svg?raw";
+import ideaSvg from 'heroicons/24/outline/light-bulb.svg?raw';
+import infoSvg from 'heroicons/24/outline/information-circle.svg?raw';
+import legalSvg from 'heroicons/24/outline/scale.svg?raw';
+import successSvg from 'heroicons/24/outline/check-circle.svg?raw';
+import warningSvg from 'heroicons/24/outline/exclamation-triangle.svg?raw';
+
+type IconsMap = {
+    [key: string]: {
+        iconSvg: string;
+        class: string;
+    };
+}
+
+const icons: IconsMap = {
+    danger: {
+        iconSvg: dangerSvg,
+        class: "--imprint-danger",
+    },
+    info: {
+        iconSvg: infoSvg,
+        class: "--imprint-info",
+    },
+    success: {
+        iconSvg: successSvg,
+        class: "--imprint-success",
+    },
+    warning: {
+        iconSvg: warningSvg,
+        class: "--imprint-warning",
+    },
+
+    acknowledgement: {
+        iconSvg: acknowledgementSvg,
+        class: "--imprint-info",
+    },
+    bug: {
+        iconSvg: bugSvg,
+        class: "--imprint-warning",
+    },
+    discussion: {
+        iconSvg: discussionSvg,
+        class: "--imprint-info",
+    },
+    furtherReading: {
+        iconSvg: furtherReadingSvg,
+        class: "--imprint-info",
+    },
+    idea: {
+        iconSvg: ideaSvg,
+        class: "--imprint-success",
+    },
+    legal: {
+        iconSvg: legalSvg,
+        class: "--imprint-info",
+    },
+}
+
+const iconSvg = icons[icon] ? icons[icon].iconSvg : icon;
+
+if (icons[icon]) {
+    attributes.class = icons[icon].class + " " + attributes.class;
+}
+
+---
+
+<div {...attributes}>
+    <div class="icon">
+        <InlineSvg svg={iconSvg} class="w-auto h-28rpx"/>
+    </div>
+    <div class="content">
+        <slot/>
+    </div>
+</div>

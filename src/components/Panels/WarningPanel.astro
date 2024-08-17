@@ -1,0 +1,21 @@
+---
+
+interface Props {
+    heading: string;
+    [name: string]: string;
+}
+
+const { heading, ...attributes } = Astro.props;
+attributes.class = "imprint-alert --warning imprint-panel " + attributes.class;
+
+import InlineSvg from "../InlineSvg.astro";
+import symbol from 'heroicons/24/outline/exclamation-triangle.svg?raw';
+
+---
+
+<div {...attributes}>
+    <h4><InlineSvg svg={symbol} class="inline w-auto h-24rpx pr-2su"/>{heading}</h4>
+    <div class="imprint-inner">
+        <slot/>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{
+    "name": "--imprint-background-color",
+    "value": "#f6f6f6",
+    "type": "color",
+    "description": "default background color for the page",
+    "valueDescription": "imprint-offwhite"
+}

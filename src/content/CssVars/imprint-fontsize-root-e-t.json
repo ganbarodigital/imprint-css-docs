@@ -1,0 +1,7 @@
+{
+    "name": "--imprint-fontsize-root-e-t",
+    "value": "16px",
+    "type": "size",
+    "description": "default font size for screen e-t",
+    "valueDescription": "1rem on e-t"
+}

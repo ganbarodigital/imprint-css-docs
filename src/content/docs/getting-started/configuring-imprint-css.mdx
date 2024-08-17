@@ -1,0 +1,29 @@
+---
+title: Configuring Imprint CSS
+navSection: Getting Started
+description: How to configure Imprint CSS when you need to.
+prev: getting-started/using-imprint-css
+next: getting-started/overriding-imprint-css
+---
+
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro"
+
+## Introduction
+
+Out of the box, you don't need to provide any configuration at all.
+
+But if you do find a need to configure something, here's how to do it.
+
+## CSS Variables
+
+<BasicExample>
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --imprint-font-sans-serif: ui-serif;
+}
+```
+</BasicExample>

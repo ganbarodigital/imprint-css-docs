@@ -1,0 +1,7 @@
+{
+    "name": "--imprint-fontsize-root",
+    "value": "calc(var(--imprint-fontsize-root-base) + var(--imprint-fontsize-root-zoom))",
+    "type": "size",
+    "description": "computed value of default font size",
+    "valueDescription": ""
+}

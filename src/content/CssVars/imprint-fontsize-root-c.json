@@ -1,0 +1,7 @@
+{
+    "name": "--imprint-fontsize-root-c",
+    "value": "16px",
+    "type": "size",
+    "description": "default font size for screen c",
+    "valueDescription": "1rem on c"
+}

@@ -12,15 +12,15 @@ await buildNavList(navList, docList);
 ---
 
 <nav class="site-navigation" role="navigation">
-    {imprintConfig.navSections.map((sectionName) => (
+    {imprintConfig.navSections.map((navSection) => (
         <ul>
-            <li class="mt-4su">
-                <h5 class="font-bold text-imprint-nero mb-2su">{sectionName}</h5>
+            <li class="mt-4">
+                <h5 class="mb-2 font-bold text-imprint-nero">{navSection.name}</h5>
                 <ul class="border-l-2 border-imprint-gray/35">
-                {getNavSection(navList, sectionName).map((slug) => (
+                {getNavSection(navList, navSection.name).map((slug) => (
                     <li class="">
-                        {slug === currentSlug && <a class="block -ml-[2px] border-l-2 hover:border-[--imprint-primary-color] leading-relaxed pl-4su text-[--imprint-primary] font-semibold" href={slug == '/' ? slug : "/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
-                        {slug !== currentSlug && <a class="block -ml-px border-l border-imprint-palegray leading-relaxed pl-4su hover:border-imprint-gray hover:-ml-[2px] hover:border-l-2 text-imprint-graphite hover:text-[--imprint-link-hover-color]" href={slug == '/' ? slug : "/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                        {slug === currentSlug && <a class="block -ml-[2px] border-l-2 hover:border-imprint-primary leading-relaxed pl-4 text-imprint-primary font-semibold" href={slug == '/' ? slug : "/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
+                        {slug !== currentSlug && <a class="block -ml-px border-l border-imprint-palegray leading-relaxed pl-4 hover:border-imprint-gray hover:-ml-[2px] hover:border-l-2 text-imprint-graphite hover:text-[--imprint-link-hover-color]" href={slug == '/' ? slug : "/" + slug}><span class="">{docList.get(slug).data.title}</span></a> }
                     </li>
                 ))}
                 </ul>

@@ -1,0 +1,7 @@
+{
+    "name": "--imprint-font-serif",
+    "value": "ui-serif, serif",
+    "type": "font-family",
+    "description": "serif fonts",
+    "valueDescription": ""
+}

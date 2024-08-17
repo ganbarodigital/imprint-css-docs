@@ -1,0 +1,14 @@
+{
+    "name": "f-d",
+    "breakpoint": {
+        "name": "f-d",
+        "tailwindDefinition": {
+            "raw": "(min-width: 1920px) and (hover:hover)"
+        },
+        "screenWidth": "1920px and above",
+        "targetDevices": "desktop and laptop",
+        "mediaQuery": "@media ((min-width: 1920px) and (hover:hover))"
+    },
+    "remPx": "16px",
+    "articleMaxWidth": "60rem"
+}

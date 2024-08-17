@@ -1,0 +1,51 @@
+---
+
+import { buildSorter } from "../helpers/natsort";
+import { objectMap } from "../helpers/objectMap.js";
+import { getEntry } from "astro:content";
+
+const { unitType, sort } = Astro.props;
+
+const payload = await getEntry("sizingUnitSets", unitType);
+
+const sizingUnits: { name: string; definition: string }[] = [];
+
+objectMap(
+    payload.data,
+    function (value: string, key: string) {
+        sizingUnits.push({
+            name: key,
+            definition: value,
+        });
+    }
+)
+
+const sorter = buildSorter();
+
+let sortKey = sort;
+if (sortKey === undefined) {
+    sortKey = 'name';
+}
+
+if (sortKey !== 'none') {
+    sizingUnits.sort(function(a, b) { return sorter(a[sortKey], b[sortKey]); });
+}
+
+---
+
+<table>
+    <thead>
+        <tr>
+            <th>Sizing Unit</th>
+            <th>Definition</th>
+        </tr>
+    </thead>
+    <tbody>
+        {sizingUnits.map((sizingUnit) => (
+            <tr>
+                <td><code class="d:whitespace-nowrap">{sizingUnit.name}</code></td>
+                <td><code>{sizingUnit.definition}</code></td>
+            </tr>
+        ))}
+    </tbody>
+</table>

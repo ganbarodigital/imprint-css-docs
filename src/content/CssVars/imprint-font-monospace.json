@@ -1,0 +1,7 @@
+{
+    "name": "--imprint-font-monospace",
+    "value": "Monaco, Menlo, Consolas, 'Andale Mono', 'Ubuntu Mono', ui-monospace, monospace",
+    "type": "font-family",
+    "description": "monospaced fonts",
+    "valueDescription": ""
+}

@@ -27,7 +27,9 @@ export const navList = new Map<string, NavItems>();
 export const docList = new Map<string, DocItem>();
 
 export async function buildNavList(navList: Map<string, NavItems>, docList: Map<string, DocItem>) {
-    for (const navSectionName of imprintConfig.navSections) {
+    for (const navSection of imprintConfig.navSections) {
+        // shorthand!
+        const navSectionName = navSection.name;
 
         // this is the list that we are going to populate
         const navItems: NavItems = [];

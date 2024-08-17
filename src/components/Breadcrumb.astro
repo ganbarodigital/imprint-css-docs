@@ -1,7 +1,8 @@
 ---
 
-import { getEntry } from "astro:content";
+import imprintConfig from "../../imprint.config";
 
+import { getEntry } from 'astro:content';
 import InlineSvg from "./InlineSvg.astro";
 import chevonRight from 'heroicons/16/solid/chevron-right.svg?raw';
 
@@ -9,46 +10,49 @@ import chevonRight from 'heroicons/16/solid/chevron-right.svg?raw';
 const currentUrl = new URL(Astro.request.url);
 const currentSlug = currentUrl.pathname.substring(1);
 
-const slugParts = currentSlug == '' ? [] : currentSlug.split('/');
 const breadcrumbs = [
-{
+    {
         slug: '',
-        entry: {
-            data: {
-                title: 'Home',
-            }
-        },
+        title: 'Home',
         isEnd: true,
     }
 ];
 
-const navPath: string[] = [];
-
 async function buildBreadcrumbs() {
-    for(const pathSegment of slugParts) {
-        navPath.push(pathSegment);
+    const currentEntry = await getEntry('docs', currentSlug);
+    const navSection = imprintConfig.navSections.find((navSection) => navSection.name === currentEntry?.data.navSection);
 
-        let currentPath = navPath.join('/');
-        const currentEntry = await getEntry('docs', currentPath);
-        const isEnd = true;
-
+    // special case - home page
+    if (currentEntry.slug !== '/') {
         breadcrumbs[breadcrumbs.length - 1].isEnd = false;
+        breadcrumbs.push({
+            slug: navSection?.slug === '/' ? '' : navSection.slug,
+            title: navSection?.name,
+            isEnd: false,
+        })
 
         breadcrumbs.push({
-            slug: currentPath,
-            entry: currentEntry,
-            isEnd,
+            slug: currentSlug,
+            title: currentEntry?.data.title,
+            isEnd: true,
         });
-    };
+    }
 }
-await buildBreadcrumbs();
+
+if (currentSlug != '') {
+    await buildBreadcrumbs();
+}
 
 ---
 
 <nav class="flex items-center breadcrumb" role="navigation">
     <ol class="flex align-middle">
         {breadcrumbs.map((breadcrumb) => (
-            <li class="flex items-center"><a href={"/" + breadcrumb.slug} class="text-imprint-graphite hover:text-[--imprint-link-hover-color]">{breadcrumb.entry.data.title}</a>{!breadcrumb.isEnd && <InlineSvg icon={chevonRight} class="mx-1su w-[24px] h-[24px] text-imprint-gray inline"/>}</li>
+            <li class="flex items-center">
+                {!breadcrumb.isEnd && <a href={"/" + breadcrumb.slug} class="text-imprint-graphite hover:text-[--imprint-default-link-hover-color]">{breadcrumb.title}</a>}
+                {!breadcrumb.isEnd && <InlineSvg svg={chevonRight} class="flex-shrink-0 inline h-auto mx-1 w-24rpx text-imprint-gray"/>}
+                {breadcrumb.isEnd && <span class="text-imprint-primary">{breadcrumb.title}</span>}
+            </li>
         ))}
     </ol>
 </nav>

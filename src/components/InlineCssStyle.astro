@@ -1,0 +1,43 @@
+---
+
+import { objectMap } from "../helpers/objectMap.js";
+
+const { css } = Astro.props;
+
+const styles: string[] = [];
+
+function flattenValue(input: object|string, key: string, depth: number) {
+    let retval = "";
+    let prefix = "    ".repeat(depth);
+
+    if (typeof input === "string") {
+        return prefix + key + ": " + input;
+    }
+    objectMap(
+        input,
+        function (value: any, key: string) {
+            let prefix = "    ".repeat(depth + 1);
+            if (typeof value === "object") {
+                retval += prefix + key + " { \n" + flattenValue(value, key, depth + 1) + ";\n}\n";
+                return;
+            }
+
+            retval += prefix + key + ": " + value + ";";
+        }
+    )
+
+    return prefix + key + " {\n" + retval + "\n}";
+}
+
+objectMap(
+    css,
+    function (value: any, key: string) {
+        styles.push(
+            flattenValue(value, key, 0) + ";"
+        )
+    }
+)
+
+---
+
+<pre>{styles.join("\n")}</pre>

@@ -1,0 +1,93 @@
+---
+title: Font Family
+navSection: Styling The Page
+description: Utility classes for setting the font family.
+prev: styling-the-page/default-page-colors
+next: styling-the-page/default-font-size
+---
+
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro"
+import ExternalLink from "../../../components/ExternalLink.astro"
+import CssStylesTable from "../../../components/CssStylesTable.astro"
+import CssVarsTable from "../../../components/CssVarsTable.astro"
+
+## Quick Reference
+
+### CSS Classes
+
+<CssStylesTable styleName="font-families"/>
+
+### CSS Variables
+
+<CssVarsTable styleName="font-families"/>
+
+## Basic Usage
+
+Use the `imprint-font-*` CSS classes to set the font family on your whole HTML page, or just on any specific element.
+
+### For The Whole Page
+
+Add the following to your main CSS file:
+
+<BasicExample>
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply imprint-font-sans-serif;
+}
+```
+</BasicExample>
+
+### Styling An Individual Element
+
+Add any of the `imprint-font-*` CSS classes to individual HTML elements:
+
+<BasicExample>
+```html
+<div class="imprint-font-monospace">
+    <p>THIS IS IN MONO-SPACED FONT</p>
+</div>
+```
+</BasicExample>
+
+The example code above produces:
+
+<div class="imprint-font-monospace">
+    <p>THIS IS IN MONO-SPACED FONT</p>
+</div>
+
+## Customising The Font Families
+
+### In Your Main CSS File
+
+You can override the default values for the `imprint-font-*` CSS variables in your main CSS file:
+
+<BasicExample>
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --imprint-font-sans-serif: Helvetica;
+}
+```
+</BasicExample>
+
+If you use a third-party font (such as a <ExternalLink name="Google Fonts" text="Google web font"/>), don't forget to also add the necessary `<link>` tags or `@import` CSS directives too!
+
+## Discussion
+
+### Why Do We Need Our Own Font Family Utility Classes?
+
+Tailwind CSS already comes with a set of utility classes to set the font family. Why does Imprint CSS need its own?
+
+There's two main reasons why.
+
+1. Imprint CSS uses <ExternalLink name="Mozilla MDN CSS Variables" text="CSS variables"/> for all customisation. The `imprint-font-*` classes have been added for consistency, so that they can be customised exactly the same way as anything else in Imprint CSS.
+2. Imprint CSS ships with an opinionated preference for which monospaced fonts look best for code examples.
+
+If you'd prefer to stick with <ExternalLink name="Tailwind CSS Font Family" text="Tailwind's font family utility classes"/>, they should work just fine too.

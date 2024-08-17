@@ -1,0 +1,14 @@
+{
+    "name": "e-t",
+    "breakpoint": {
+        "name": "e-t",
+        "tailwindDefinition": {
+            "raw": "(min-width: 1281px) and (hover:none)"
+        },
+        "screenWidth": "1281px and above",
+        "targetDevices": "large tablets (in landscape)",
+        "mediaQuery": "@media ((min-width: 1281px) and (hover:none))"
+    },
+    "remPx": "16px",
+    "articleMaxWidth": "60rem"
+}

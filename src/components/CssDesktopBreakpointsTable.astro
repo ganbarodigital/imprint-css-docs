@@ -1,0 +1,25 @@
+---
+
+import { getCollection } from "astro:content";
+
+const devices = await getCollection("devices", ({ data }) => data.name.endsWith("-d"));
+
+---
+
+<table>
+    <thead>
+        <tr>
+            <th>Breakpoint Prefix</th>
+            <th>Screen Width</th>
+            <th>Target Devices</th>
+    </thead>
+    <tbody>
+        {devices.map((entry) => (
+            <tr>
+                <td><code>{entry.data.name}</code></td>
+                <td>{entry.data.breakpoint.screenWidth}</td>
+                <td>{entry.data.breakpoint.targetDevices}</td>
+            </tr>
+        ))}
+    </tbody>
+</table>

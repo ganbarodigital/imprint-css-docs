@@ -3,10 +3,40 @@ title: Screens & Devices
 navSection: Sizing
 description: Replacement Tailwind screen sizes for targetting specific devices.
 prev: sizing
-next: sizing/relative-units
+next: sizing/root-pixels
 ---
 
-## Introduction
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro"
+import CssBreakpointsTable from "../../../components/CssBreakpointsTable.astro"
+import CssDesktopBreakpointsTable from "../../../components/CssDesktopBreakpointsTable.astro"
+import CssTabletBreakpointsTable from "../../../components/CssTabletBreakpointsTable.astro"
+import DebugCssBreakpoints from "../../../components/DebugCssBreakpoints.astro"
+import ExternalLink from "../../../components/ExternalLink.astro"
+import Callout from "../../../components/Callouts/Callout.astro"
+
+## Quick Reference
+
+### CSS Breakpoints For All Devices
+
+These CSS breakpoints work on all devices: smart phones, tablets, desktop machines and laptops.
+
+<CssBreakpointsTable/>
+
+### CSS Breakpoints Targeting Handheld Devices
+
+These CSS breakpoints only work on mobile and tablet devices. They have no effect on browsers running on desktop machines or on laptops.
+
+<CssTabletBreakpointsTable/>
+
+### CSS Breakpoints Targeting Desktop and Laptop Devices
+
+These CSS breakpoints only work on desktop machines and laptops. They have no effect on browsers running on handheld devices such as smart phones or iPads.
+
+<CssDesktopBreakpointsTable/>
+
+## What Problem Are We Solving Here?
+
+### One Website For Multiple Devices
 
 One of Imprint CSS's goals is to deliver a great reading experience on different devices:
 
@@ -14,57 +44,181 @@ One of Imprint CSS's goals is to deliver a great reading experience on different
 - tablets
 - desktops and laptops
 
-Imprint CSS does that by providing CSS media breakpoints and [default typography](/typography) that's tailored for each of these devices.
+Imprint CSS does that by:
 
-In this section, let's go through the CSS media breakpoints, and explain what they are and how to use them.
+1. providing Tailwind CSS breakpoints that are tailored for each of these devices, and
+2. using these Tailwind CSS breakpoints to set the best font size (ie, to set `1rem`) for each of these devices.
 
-## What Problem Are We Solving Here?
+## Basic Usage
 
-<div class="imprint-callout --info --subtle --shaded">
-    <div class="imprint-inner">
-        If we want our content to be just as readable on all devices, we need to use different font sizes on each device.
+### For Layouts And Styling
+
+<Callout icon="furtherReading">
+<h4>Background Reading</h4>
+
+See <ExternalLink name="Tailwind CSS Responsive Design" text="Tailwind CSS's docs on responsive design"/> to learn how to use CSS breakpoints with Tailwind classes.
+</Callout>
+
+Use Imprint CSS's breakpoints to change your page layouts (and associated styling) on different devices.
+
+For example, this site uses these CSS breakpoints to:
+
+* show the site navigation sidebar when the screen is wide enough
+* to show a narrower sidebar on tablets, and a wider one on desktops and laptops,
+* to move the 'On This Page' sidebar depending on the screen width
+
+Here's a simplified example of that:
+
+<BasicExample>
+```html
+<div id="content" class="d:grid d-t:grid-cols-[17rem_1fr] d-d:grid-cols-[19rem_1fr]">
+    <div id="sidebar" class="hidden d:border-r d:sticky d:top-0 d:block d:pb-2 d:max-h-dvh d:border-imprint-palegray bg-imprint-palegray/35">
+        <!-- site navigation goes here-->
+    </div>
+    <div id="content">
+        <div class="e:grid e:grid-cols-[1fr_17rem] e:gap-8 d:pt-2 e:pt-0 e:mb-4">
+            <!-- main content goes here -->
+            <!-- On This Page sidebar goes here -->
+        </div>
     </div>
 </div>
+```
+</BasicExample>
 
-Historically, websites have gone with a single font size across all devices. Unfortunately, that causes text to look too large on some devices, and too small on others. These sites _do_ still work, they're just not as readable as they could be on all devices.
+Most of the time, you'll want to use the basic CSS breakpoints (`b`, `c`, `d` and so-on) for your layouts. These breakpoints work on all devices, whether they're handheld, desktop machines or laptops.
 
-Yes, readers can increase or decrease their browser's font-size if they want to. Wouldn't it be better if they didn't have to? Wouldn't it be nicer if your content-oriented website was very readable on first load - i.e. it just worked?
+You only need to use the device-aware CSS breakpoints (`b-t`, `c-t`, `d-t` and so on for handheld devices, `b-d`, `c-d`, `d-d` and so on for desktops and laptops) if you want to tweak your layout for specific devices. This is exactly what we've done for this website.
 
-## Device Breakpoints
+## Customising The CSS Breakpoints
 
-### Device Groups
+### Currently Not Supported
 
-ImprintCSS replaces the standard Tailwind CSS media breakpoints with these groups:
+At the moment, you cannot customise the Imprint CSS breakpoints at all. We might add this in the future (no promises!).
 
-Group Name   | Screen Width     | Target Devices
--------------|------------------|---------------
-default      | 0-319px          | Feature phones
-`b`          | 320px and above  | Smart phones
-`c`          | 600px and above  | Any tablet, desktop or TV screen
-`c-t`        | 600px and above  | Tablets (or any laptop that has a touch screen)
-`c-d`        | 600px and above  | Desktops (or any laptop that does **not** have a touch screen)
-`d`          | 1920px and above | TV screens, or full-screen browers on desktops and laptops
+You can add additional definitions to your `tailwind.config.js`'s `theme.screens` section.
 
-Use these instead of Tailwind's `sm:`, `md:`, `lg:` and `xl:` breakpoints modifiers.
+This may allow you to override Imprint CSS's breakpoints. We haven't tested it, and if it works, it may stop working in the future.
 
-### Why Replace The Default Tailwind Breakpoints?
+See <ExternalLink name="Tailwind CSS Screens" text="Tailwind CSS's documentation"/> for details of how to do this.
 
-If you mix Tailwind CSS and Imprint CSS breakpoints on the same site, you'll end up with some CSS that's targetting the device groups, and some CSS that's targetting Tailwind CSS's screen sizes. That's going to cause confusion and errors.
+## How Does This Work?
 
-It's more robust to just have a single set of breakpoints.
+### How We Detect Handheld Devices
 
-## Advice
+<Callout icon="idea">
+CSS media queries can test for the presence (or absence) of <ExternalLink name="Mozilla MDN Media Features" text="media features" />.
+</Callout>
 
-### Only Needed For Layouts
+Imprint CSS uses the <ExternalLink name="Mozilla MDN Hover Media Feature" text="hover CSS media feature" /> to determine if the browser is on a handheld device or not.
 
-Imprint CSS handles all the typography (font sizing, spacing, etc etc) for you for all supported device groups. You only need to use device groups when writing CSS for your layouts.
+<ExternalLink name="W3C CSS Media Queries" text="According to the spec"/>, `hover` evaluates to `true` if the __primary__ input mechanism supports hovering over elements. While "primary input mechanism" isn't formally defined, the spec does then go on to explain that `hover` should evaluate to `false` on a touchscreen tablet, even if there's an optional keyboard and mouse attached.
 
-### Use `c:` To Simplify Your Layouts
+We've tested this on a number of physical devices, and so far it's proven to be a reliable detection mechanism.
 
-<div class="imprint-callout --info --shaded --subtle">
-    <div class="imprint-inner">
-        CSS breakpoints `c-t:` and `c-d:` are special breakpoints for creating CSS specifically for just tablets or just desktops.
-    </div>
+## Discussion
+
+### What Are Device Groups?
+
+Each of these breakpoints (`a`, `b`, `c`, `d`, `e`, and `f`) target a specific __device group__.
+
+<Callout icon="acknowledgement">
+<h4>Inspired By BBC GEL</h4>
+
+The concept of device groups comes from <ExternalLink name="BBC GEL Typography" text="the BBC's Global Experience Language (BBC GEL)"/>.
+
+We've taken that idea, and put together our own device definitions to suit today's devices and screen sizes.
+</Callout>
+
+__Device groups__ are simply a way of targetting different types of devices with a single CSS breakpoint:
+
+* smart phones (Apple and Android phones)
+* small tablets (iPad Mini)
+* regular tablets (10" iPads and iPad Pros)
+* large tablets (12" iPads and iPads Pro)
+* laptops (with or without a touchscreen)
+* desktops
+
+As a result, we don't have to write separate CSS for Apple and Android phones (for example). Instead, we put them into the same __device group__ and then write CSS that will work on both. This simplifies things a lot, and reduces the amount of work we have to do to style and publish our content-oriented websites.
+
+### Why Not Use Tailwind's Default Breakpoints Instead?
+
+There are two main problems with Tailwind CSS v3's default set of breakpoints:
+
+1. the screen widths don't match the dimensions of widely-used devices, and
+2. they're not device-aware, making it impossible to style `1rem` appropriately.
+
+Ever made your browser window narrow, and seen the font size jump up? Or the exact opposite: ever loaded a web page on your tablet and struggled with a font size that's too small?
+
+This happens because Tailwind's default CSS breakpoints don't target different types of devices. They only target __different screen widths__.
+
+Problem is, a narrow browser window might be on a desktop, or it might be on a small tablet. The small tablet needs a larger default font size for readability. The desktop browser needs to stick with the same default font size, regardless of how wide or narrow the browser window is.
+
+If you use Tailwind's default CSS breakpoints, you can't tell which device your reader is reading on.
+
+Imprint CSS doesn't replace Tailwind's default CSS breakpoints in your `tailwind.config.js` file. They're still available if you need them (e.g. for compatibility reasons).
+
+We strongly recommend only using Imprint CSS's breakpoints, though, to avoid confusion and unexpected styling issues on different devices.
+
+### How To Tell Which Breakpoints To Target?
+
+Don't guess. Add the following HTML to your document, and you'll be able to see which Imprint CSS breakpoints are active.
+
+<BasicExample>
+```html
+<div class="max-w-full p-4 text-center text-white bg-indigo">
+    <p>Active Imprint CSS device group(s):
+        <span class="">&lt;default group&gt;,</span>
+        <span class="hidden a:inline-block">a,</span>
+        <span class="hidden a-t:inline-block">a-t,</span>
+        <span class="hidden a-d:inline-block">a-d,</span>
+        <span class="hidden b:inline-block">b,</span>
+        <span class="hidden b-t:inline-block">b-t,</span>
+        <span class="hidden b-d:inline-block">b-d,</span>
+        <span class="hidden c:inline-block">c,</span>
+        <span class="hidden c-t:inline-block">c-t,</span>
+        <span class="hidden c-d:inline-block">c-d,</span>
+        <span class="hidden d:inline-block">d,</span>
+        <span class="hidden d-t:inline-block">d-t,</span>
+        <span class="hidden d-d:inline-block">d-d,</span>
+        <span class="hidden e:inline-block">e,</span>
+        <span class="hidden e-t:inline-block">e-t,</span>
+        <span class="hidden e-d:inline-block">e-d,</span>
+        <span class="hidden f:inline-block">f,</span>
+        <span class="hidden f-t:inline-block">f-t,</span>
+        <span class="hidden f-d:inline-block">f-d,</span>
+    </p>
+    <hr class="my-4 text-material-indigo-300"/>
+    <p>Active Tailwind breakpoint(s):
+        <span class="">&lt;default group&gt;,</span>
+        <span class="hidden sm:inline-block">sm,</span>
+        <span class="hidden md:inline-block">md,</span>
+        <span class="hidden lg:inline-block">lg,</span>
+        <span class="hidden xl:inline-block">xl,</span>
+        <span class="hidden 2xl:inline-block">2xl,</span>
+    </p>
 </div>
+```
+</BasicExample>
 
-Any style applied for `c:` works exactly the same on both tablet and desktop. You only need to use `c-t:` if you're writing CSS just for tablets. Equally, you only need to use `c-d:` if you're writing CSS just for desktops.
+It will show you which CSS breakpoint(s) are currently active:
+
+<DebugCssBreakpoints/>
+
+### Why Not Use Javascript To Detect Device Groups?
+
+Why does Imprint CSS use media queries to determine which device group the reader is using? Why don't we use Javascript instead, and then write CSS rules that depend on a `<body>` attribute set by the Javascript?
+
+There's two reasons for this:
+
+* we're not aware of any Javascript that's able to detect all devices reliably, and
+* Tailwind CSS v3 prefixes only support media queries.
+
+Back in 2014, the community created Javascript packages like browser.js and platform.js to determine (at runtime) which browser was being used. At the time, there were major functionality differences between mobile and desktop browsers, and it was popular to create separate "mobile" versions of websites that offered reduced functionality.
+
+Apple in particular was having none of that, and they put a lot of effort into making it virtually impossible to detect whether the user was using mobile Safari or desktop Safari. (Apple also sorted out the disparity between mobile Safari and desktop Safari, at least to the point where most developers don't need to care about the functionality differences any more.)
+
+At the same time, web developers began to shift towards a "mobile first" design philosophy, with websites encouraged to add support for desktop browsers via progressive enhancement.
+
+Tailwind CSS, in particular, is built on that philosophy.
+
+Imprint CSS, in turn, is built on top of Tailwind CSS. Our philosophy is that we can go beyond Tailwind's approach where it adds convenience / fills a gap, but we're not going to go against Tailwind CSS's approach.

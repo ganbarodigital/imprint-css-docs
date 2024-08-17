@@ -1,0 +1,99 @@
+---
+title: Default Font Size
+navSection: Styling The Page
+description: Utility for setting the default font size for the page.
+prev: styling-the-page/font-faces
+next: styling-the-page/default-page-colors
+---
+
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro"
+import ExternalLink from "../../../components/ExternalLink.astro"
+import HighlightedPassage from "../../../components/HighlightedPassage.astro"
+import CssStylesTable from "../../../components/CssStylesTable.astro"
+import CssVarsTable from "../../../components/CssVarsTable.astro"
+import Callout from "../../../components/Callouts/Callout.astro"
+
+## Quick Reference
+
+### CSS Classes
+
+<CssStylesTable styleName="default-font-size" excMediaQueries={true} wrapNames={false}/>
+
+### CSS Variables
+
+There are three main types of CSS variable used for the default font size CSS styles.
+
+* `--imprint-fontsize-root-base` holds the base value for `1rem`. The media queries above override its default value.
+* `--imprint-fontsize-root-zoom` can be used to implement a font zoom control on your page.
+* `--imprint-fontsize-root-<screen-name>`, where `<screen-name>` is the name of one of Imprint CSS's [custom breakpoints](../sizing/screens), are used by the media queries above.
+
+<CssVarsTable styleName="default-font-size"/>
+
+## What Problem Are We Solving Here?
+
+<Callout icon="idea">
+We want our content to be equally readable on all devices. We achieve that by using different default font sizes on each device.
+</Callout>
+
+Historically, websites have gone with a single font size across all devices. Unfortunately, that causes text to look too large on some devices, and too small on others. These sites _do_ still work, they're just not as readable as they could be on all devices.
+
+Yes, readers can increase or decrease their browser's font-size if they want to. Wouldn't it be better if they didn't have to? Wouldn't it be nicer if your content-oriented website was very readable on first load - i.e. it just worked?
+
+## Basic Usage
+
+### For The Whole Page
+
+Use the `imprint-fontsize-root` class to set the value of `1rem` for your HTML document.
+
+<BasicExample>
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply imprint-fontsize-root;
+}
+```
+</BasicExample>
+
+### For Individual Elements
+
+You can't use `imprint-fontsize-root` to set the base font size for individual parts of your HTML document.
+
+Everything in Imprint CSS uses `rem` (root element) units for sizing. You can only set the value of `1rem` for your whole HTML document.
+
+## Customising The Default Font Size
+
+### In Your Main CSS File
+
+You can override the default values for any of the `imprint-fontsize-root-*` CSS variables in your main CSS file:
+
+<BasicExample>
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* override font size for screen 'c-d' */
+    --imprint-fontsize-root-c-d: 14px;
+}
+```
+</BasicExample>
+
+This will change all font sizes, and all spacing units, whenever the corresponding media query is matched.
+
+### Using A Font Resizing Gadget
+
+SOMETHING HERE
+
+## How Does It Work?
+
+### Different Font Sizes For Different Screens & Devices
+
+Imprint CSS uses <ExternalLink name="Mozilla MDN Media Queries" text="CSS media queries"/> to set the value of `--imprint-fontsize-root-base` for each of the supported [screens and devices](../sizing/screens.mdx).
+
+This is used by `imprint-fontsize-root` to set the value of `1rem` for your HTML page.
+
+<CssStylesTable styleName="default-font-size" mediaQueriesOnly={true} excMediaQueries={false}/>

@@ -1,0 +1,17 @@
+{
+    "canon": "2.5rem",
+    "trafalga": "1.875rem",
+    "paragon": "1.625rem",
+    "doublepica": "1.375rem",
+    "greatprimer": "1.125rem",
+    "bodycopy": "1rem",
+    "pica": "1rem",
+    "longprimer": "0.875rem",
+    "brevier": "0.8125rem",
+    "minion": "0.75rem",
+    "atlas": "8.75rem",
+    "elephant": "7.25rem",
+    "imperial": "6rem",
+    "royal": "4.75rem",
+    "foolscap": "3.5rem"
+}

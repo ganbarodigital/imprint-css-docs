@@ -1,0 +1,90 @@
+{
+    ".imprint-fontsize-root": {
+        "font-size": "calc(var(--imprint-fontsize-root-base) + var(--imprint-fontsize-root-zoom))"
+    },
+    "@media (max-width: 640px)": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-a)"
+        }
+    },
+    "@media ((max-width: 640px) and (hover:none))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-a-t)"
+        }
+    },
+    "@media ((max-width: 640px) and (hover:hover))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-a-d)"
+        }
+    },
+    "@media (min-width: 641px)": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-b)"
+        }
+    },
+    "@media ((min-width: 641px) and (hover:none))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-b-t)"
+        }
+    },
+    "@media ((min-width: 641px) and (hover:hover))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-b-d)"
+        }
+    },
+    "@media (min-width: 769px)": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-c)"
+        }
+    },
+    "@media ((min-width: 769px) and (hover:none))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-c-t)"
+        }
+    },
+    "@media ((min-width: 769px) and (hover:hover))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-c-d)"
+        }
+    },
+    "@media (min-width: 1025px)": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-d)"
+        }
+    },
+    "@media ((min-width: 1025px) and (hover:none))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-d-t)"
+        }
+    },
+    "@media ((min-width: 1025px) and (hover:hover))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-d-d)"
+        }
+    },
+    "@media (min-width: 1281px)": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-e)"
+        }
+    },
+    "@media ((min-width: 1281px) and (hover:none))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-e-t)"
+        }
+    },
+    "@media ((min-width: 1281px) and (hover:hover))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-e-d)"
+        }
+    },
+    "@media (min-width: 1920px)": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-f)"
+        }
+    },
+    "@media ((min-width: 1920px) and (hover:hover))": {
+        ":root": {
+            "--imprint-fontsize-root-base": "var(--imprint-fontsize-root-f-d)"
+        }
+    }
+}

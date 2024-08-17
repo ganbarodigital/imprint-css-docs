@@ -1,0 +1,57 @@
+---
+
+import { getEntry } from "astro:content";
+import { extractVarsFromStyle } from "../helpers/extractVarsFromStyle";
+import InlineCssVarValue from "./InlineCssVarValue.astro";
+
+export interface Props {
+    styleName: string;
+    wrapNames?: boolean;
+}
+const { styleName, wrapNames = false } = Astro.props;
+
+const payload = await getEntry("CssStyles", styleName);
+
+const vars = await extractVarsFromStyle(payload.data);
+
+const varNameClasses = wrapNames ? "" : "d:!whitespace-nowrap";
+
+---
+
+<table class="hidden d:table table-modern">
+    <thead>
+        <tr>
+            <th>Variable</th>
+            <th>Description</th>
+            <th>Default Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        {vars.map((entry) => (
+            <tr>
+                <td><span class="cssVarname"><code class={varNameClasses}>{entry.varName}</code></span></td>
+                <td>{entry.varValue.description}</td>
+                <td><InlineCssVarValue name={entry.varName.substring(2)} breakBetween={true}/></td>
+            </tr>
+        ))}
+    </tbody>
+</table>
+
+<table class="d:hidden table-modern">
+    <tbody>
+        {vars.map((entry) => (
+            <tr>
+                <th>Variable</th>
+                <td><span class="cssVarname"><code>{entry.varName}</code></span></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{entry.varValue.description}</td>
+            </tr>
+            <tr class="last-row">
+                <th>Default Value</th>
+                <td><InlineCssVarValue name={entry.varName.substring(2)} breakBetween={true}/></td>
+            </tr>
+        ))}
+    </tbody>
+</table>

@@ -28,9 +28,35 @@ const colors = defineCollection({
     }),
 });
 
+const devices = defineCollection({
+    type: 'data',
+    schema: z.object({
+        name: z.string(),
+        breakpoint: z.object({
+            name: z.string(),
+            mediaQuery: z.string(),
+            screenWidth: z.string(),
+            targetDevices: z.string(),
+        }),
+        remPx: z.string(),
+        articleMaxWidth: z.string(),
+    }),
+});
+
 const docs = defineCollection({
     type: 'content',
     schema: docsSchema,
 });
 
-export const collections = { colors, docs, };
+const CssVars = defineCollection({
+    type: 'data',
+    schema: z.object({
+        name: z.string(),
+        value: z.string(),
+        type: z.enum(["color", "font-family", "size"]),
+        description: z.string(),
+        valueDescription: z.string(),
+    }),
+});
+
+export const collections = { colors, devices, docs, CssVars };

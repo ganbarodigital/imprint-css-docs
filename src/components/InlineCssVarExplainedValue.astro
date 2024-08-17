@@ -1,0 +1,24 @@
+---
+
+import { getEntry } from "astro:content";
+
+const { name } = Astro.props;
+
+const entry = await getEntry("CssVars", name);
+if (entry === undefined) {
+    throw new Error("no such CSS var '" + name + "'found in collection 'CssVars'");
+}
+
+// do we need to load any additional data?
+let subEntry;
+if (entry.data.type === 'size' && name.endsWith != 'px') {
+    entry.data.type = 'spacing';
+    subEntry = await getEntry("spacing", name);
+}
+
+---
+
+{entry.data.type === "color" && <span><a href={"/colors/" + entry.data.valueDescription}><var class="cssVar">{entry.data.valueDescription}</var></a> (<code>{entry.data.value}</code>)</span>}
+{entry.data.type === "font-family" && <code>{entry.data.value}</code>}
+{entry.data.type === "size" && <code>{entry.data.value}</code>}
+{entry.data.type === "spacing" && <span><code>{entry.data.value}</code> (<code>{subEntry.data.value}</code>)</span>}

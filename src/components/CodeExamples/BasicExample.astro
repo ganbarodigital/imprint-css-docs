@@ -1,0 +1,14 @@
+---
+
+interface Props {
+    [name: string]: string;
+}
+
+const { heading, ...attributes } = Astro.props;
+attributes.class = "imprint-callout --imprint-primary --standout " + attributes.class;
+
+---
+
+<div {...attributes}>
+    <slot/>
+</div>

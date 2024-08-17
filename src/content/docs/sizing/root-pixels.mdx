@@ -1,0 +1,281 @@
+---
+title: Root Pixels (rpx)
+navSection: Sizing
+description: Tailwind CSS spacing units for everything except whitespace.
+prev: sizing
+next: sizing/type-sizes
+---
+
+import BasicExample from "../../../components/CodeExamples/BasicExample.astro"
+import Callout from "../../../components/Callouts/Callout.astro"
+import ExternalLink from "../../../components/ExternalLink.astro";
+import SizingUnitTable from "../../../components/SizingUnitTable.astro"
+
+## Quick Reference
+
+### Root Pixels
+
+<Callout icon="info">
+`16rpx` == `16px` when `1rem` == `16px`
+
+Root pixels scale up and down when `1rem` is larger or smaller than `16px`.
+</Callout>
+
+Imprint CSS has `rpx` equivalents of `px` for `1px`-`40px`, and also all multiples of 2, 3 and 5, all the way up to the equivalent of `800px`.
+
+Here's the full list of `rpx` units.
+
+<SizingUnitTable unitType="relpixels"/>
+
+## What Problem Are We Solving Here?
+
+<Callout icon="idea">
+[Imprint CSS sets `1rem` to different values on different devices](/styling-the-page/default-font-size) to improve readability.
+
+As a result, our content-oriented websites need to use `rem` units for sizing and spacing, so that they scale up and down correctly on different devices.
+
+Imprint CSS makes it easier to convert designs from `px` to `rem`, using the new `rpx` spacing values.
+</Callout>
+
+### A Quick Recap Of CSS Sizing Units
+
+<ExternalLink name="Mozilla MDN CSS Sizing Units" text="There are a lot of different ways in CSS to define the size of a CSS property"/>. Commonly used ones include:
+
+Name              | Unit  | Description
+------------------|-------|------------
+Percentage        | `%`   | `100%` is the maximum possible width of the current HTML element
+Element unit      | `em`  | `1em` is the font size of the current HTML element
+Pixels            | `px`  | `1px` is one screen pixel on non-retina screens
+Root element unit | `rem` | `1rem` is the font size of the top-level HTML element (aka the root element)
+Viewport height   | `vh`  | `100vh` is the size of the viewport height (the initial browser window height)
+Viewport width    | `vw`  | `100vw` is the size of the viewport width (the initial browser window width)
+
+Only two units have a consistent and absolute meaning throughout the entire HTML document:
+
+* `1rem` means the same thing to every HTML element. `1rem` only changes if the page's default font size changes.
+* `1px` is the same for every HTML element. It never changes its meaning.
+
+Most people use pixels to size everything in their CSS. Unfortunately, pixels aren't a great choice for content-oriented websites.
+
+### The Problem With Using Pixels For Spacing And Layouts
+
+Pixel units (`px`) are a fixed size.
+
+* `16px` is always same size on the screen, no matter what the value of `1rem` is,
+* but Imprint CSS uses [a different value of `1rem` on different devices](/styling-the-page/default-font-size).
+
+Any CSS styles that use pixel units (`px`) are going to look different on different devices.
+
+That's not what we want for content-oriented websites. We want (most of!) our CSS styling to be proportional to our font sizes.
+
+That way, as `1rem` changes value, our padding, our margins, our inline SVG icons, the width of things like sidebars, etc etc all scale up (or down) to match.
+
+Most of the time, we want to use `rem` units for our CSS sizing. Unfortunately, we're used to working in pixels, not `rem`. To help bridge that gap, Imprint CSS adds some new sizing units.
+
+## Basic Usage
+
+### Introducing `rpx` Units
+
+Imprint CSS introduces a new Tailwind sizing unit: **root pixels** (`rpx`).
+
+You can use `rpx` units as size suffixes with any Tailwind classes.
+
+<BasicExample>
+```html
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="w-auto h-28rpx">
+  <!-- ... -->
+</svg>
+```
+</BasicExample>
+
+In the example above, we use a `h-28rpx` class to set the width of an inline SVG icon.
+
+### Design In Pixels, Publish In RPX
+
+<Callout icon="info">
+`16rpx` == `16px` when `1rem` == `16px`
+</Callout>
+
+Follow this workflow for designing your pages and CSS styles:
+
+1. set `--imprint-fontsize-root` to `16px` in your CSS file
+2. design everything in pixels as normal
+3. convert to Tailwind CSS utility classes, swapping `px` for `rpx` in your CSS
+4. remove your `--imprint-fontsize-root` setting from your CSS file
+
+Your design will now scale up or down correctly on different devices.
+
+### Special Case: Tiny Sizes Do Not Scale
+
+`1rpx`, `2rpx` and `3rpx` are special: they remain as fixed-size pixels, and do not get converted into `rem` units.
+
+We normally use these tiny sizes for visual design elements like lines (borders, underlines, table grids, and so on). They are too small to scale down any further, and look strange when scaled up to match larger values of `1rem`.
+
+So why do we have `1rpx`, `2rpx` and `3rpx`? We want things to just work if anyone accidentally uses them.
+
+## When Root Pixels Aren't The Best Choice
+
+Some things do not need to scale to match the default font size. Some things need to scale with their parent container. Some things do not need to scale at all.
+
+Here is a (non-exhaustive!) list of design elements and content that should not use `rpx` sizes.
+
+### Lines
+
+<Callout icon="info">
+Use `px` for CSS properties that do not need to scale up or down at all.
+
+These are normally CSS properties that have sizes of `3px` or less.
+</Callout>
+
+Lines (such as borders, underlines, and table grids) aren't part of the page's typography. They're visual design elements, not content.  We normally set their width to `1px` or `2px`.
+
+They are too small to scale down any further, and look strange when scaled up for larger font sizes. It's best to stick to `px` units for them.
+
+### Raster Images
+
+<Callout icon="info">
+Use `px` or `%` for JPEGs, PNGs and other raster image formats that are fixed-sized.
+</Callout>
+
+Raster images (JPEGs, PNGs and the like) also aren't part of the page's typography. Sometimes they are content; sometimes they are visual design elements.
+
+When they are visual design elements, it's best to replace them with SVG images if you can. SVGs scale up or down without losing visual quality.
+
+When they are content, it's best to use either `%` units or a combination of `%` and `px` via <ExternalLink text="the CSS clamp() feature" name="Mozilla MDN CSS Clamp"/>.
+
+### Text Flow
+
+<Callout icon="info">
+Use `em` for vertical whitespace between paragraphs, aka [text flow](/modern-typography/text-flow).
+</Callout>
+
+[Text flow](/modern-typography/text-flow) is the vertical whitespace between headings, paragraphs, lists, and other content in a document.
+
+Aesthetically, text flow looks the nicest when the vertical whitespace is proportional to the text of each piece of content. For example, headings have larger text than paragraphs, and so we're used to seeing a larger gap between a heading and whatever came before the heading.
+
+The easiest way to do that in CSS is to use `em` units.
+
+Imprint CSS includes CSS to manage this text flow for you.
+
+## Customising The Available Root Pixels In Tailwind CSS
+
+### Increasing Full Coverage
+
+By default, Imprint CSS defines all `rpx` values between `1rpx` and `40rpx` inclusive. If you need to increase this, you can override it in your `tailwind.config.js` file:
+
+<BasicExample>
+```js
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+    plugins: [
+        require('@imprintcss/imprint-css')({
+            rootPixels: {
+                fullCoverage: 128,
+            }
+        }),
+    ],
+};
+```
+</BasicExample>
+
+### Changing The Defined Series
+
+<Callout icon="warning">
+If you override `rootPixels.series`, your new value replaces the default set of series.
+
+Make sure you include __all__ of the series of `rpx` units that you need.
+</Callout>
+
+By default, Imprint CSS defines all `rpx` units for multiples of 2, 3 and 5, all the way up to `800rpx`. If you want a different set of series, you can define this in your `tailwind.config.js` file:
+
+<BasicExample>
+```js
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+    plugins: [
+        require('@imprintcss/imprint-css')({
+            rootPixels: {
+                series: [3, 5, 7],
+            }
+        }),
+    ],
+};
+```
+</BasicExample>
+
+### Increasing The Range
+
+By default, the `rpx` units go up to `800rpx`. You can override this limit in your `tailwind.confg.css` file:
+
+<BasicExample>
+```js
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+    plugins: [
+        require('@imprintcss/imprint-css')({
+            rootPixels: {
+                maxRelpixel: 1024,
+            }
+        }),
+    ],
+};
+```
+</BasicExample>
+
+## How Does This Work?
+
+### Root Pixels Are Added To The Tailwind CSS Spacing Scale
+
+Imprint CSS publishes the `rpx` units to Tailwind CSS's spacing scale:
+
+* `theme.extend.spacing`
+
+Some Tailwind CSS utility classes have their own, separate spacing scales. Imprint CSS publishes the `rpx` units into these too, so that `rpx` sizes are available anywhere you want to use them:
+
+* `theme.extend.borderRadius`
+* `theme.extend.fontSize`
+* `theme.extend.lineHeight`
+
+## Discussion
+
+### Why Not Use Tailwind CSS's Default Spacing Scale?
+
+<Callout icon="info">
+Root pixels are __complementary__ to Tailwind CSS's default spacing scale.
+
+You can mix and match both as much as you wish, and you will have zero technical issues.
+</Callout>
+
+<ExternalLink name="Tailwind CSS Default Spacing Scale" text="Tailwind CSS ships with a default spacing scale"/>. It is proportional, and uses `rem` units.
+
+However, it is not comprehensive:
+
+* it only includes a limited number of sizes to use
+* there are gaps in the sequence once you get above the equivalent of `16rem`
+
+On top of that, developers have to translate values when converting a design from `px` to Tailwind's spacing scale. While it's not difficult to do, if you're not a full time frontend developer, it's something you have to keep referring back to every time, which slows down delivery.
+
+Root pixels address all of those concerns:
+
+* it includes a large number of sizes, all the way to `800px`, to support larger layouts
+* the sequence includes all sizes up to `40px` to support more detailed work
+* the sequence includes all multiples of 2, 3 and 5, which should cover all but the most pixel-perfect design scenarios
+
+and there's no translation or transform required. Make sure you're designing for a body font size of `16px` (the default for desktop browsers), and then replace `px` with `rpx` in your CSS.
+
+### Why Not Use Root Pixels For Whitespace Too?
+
+<Callout icon="info">
+You can use root pixels for whitespace too if you want.
+
+Imprint CSS does not stop you from doing so, and never will.
+</Callout>
+
+In our experience, web pages look and feel better when they use consistent sizes for whitespace around components and content. It requires discipline to do that with `rpx` values. There's always the temptation to use arbitrary padding or margin values on individual components, which leads to things not looking quite right from page to page.
+
+You're much more likely to produce a consistent design if you're using a limited number of sizes for your whitespace.
+
+We recommend that you use <ExternalLink name="Tailwind CSS Default Spacing Scale" text="Tailwind CSS's default spacing scale"/> for your padding and margins.

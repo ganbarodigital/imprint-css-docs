@@ -18,7 +18,7 @@ const { heading } = Astro.props;
 {heading.children.length > 0 &&
     <ol>
         {heading.children.map((subHeading) => (
-            <li><a href={"#" + subHeading.slug}>{subHeading.text}</a></li>
+            <li><a class="imprint-link" href={"#" + subHeading.slug}>{subHeading.text}</a></li>
         ))}
     </ol>
 }
