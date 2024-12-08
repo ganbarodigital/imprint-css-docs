@@ -48,7 +48,7 @@ li.pagetoc {
 }
 
 li.pagetoc a {
-    @apply leading-relaxed hover:text-[--imprint-default-link-hover-color] !important;
+    @apply leading-relaxed hover:text-[--imprint-semantic-link-hover-color] !important;
 }
 
 li.pagetoc a.active {

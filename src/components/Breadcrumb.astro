@@ -49,7 +49,7 @@ if (currentSlug != '') {
     <ol class="flex align-middle">
         {breadcrumbs.map((breadcrumb) => (
             <li class="flex items-center">
-                {!breadcrumb.isEnd && <a href={"/" + breadcrumb.slug} class="text-imprint-graphite hover:text-[--imprint-default-link-hover-color]">{breadcrumb.title}</a>}
+                {!breadcrumb.isEnd && <a href={"/" + breadcrumb.slug} class="text-imprint-graphite hover:text-[--imprint-semantic-link-hover-color]">{breadcrumb.title}</a>}
                 {!breadcrumb.isEnd && <InlineSvg svg={chevonRight} class="flex-shrink-0 inline h-auto mx-1 w-24rpx text-imprint-gray"/>}
                 {breadcrumb.isEnd && <span class="text-imprint-primary">{breadcrumb.title}</span>}
             </li>
