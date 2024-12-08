@@ -114,7 +114,7 @@ Imprint CSS comes with a `--shiki-numbered` [style mod](/style-mods/), so that y
 
 Wrap your syntax-highlighted code in a `<div class="--shiki-numbered">` outer `<div>`.
 
-<div class="imprint-callout --imprint-primary --shiki-numbered --standout">
+<div class="imprint-callout --imprint-primary --shiki-numbered --standout" style="--imprint-code-example-line-no-start: 1000; --imprint-code-example-line-no-width: 3rem">
 ```html
 <div class="imprint-callout --imprint-primary --shiki-numbered">
 <!-- start your ``` code fence if using Markdown / MDX -->
@@ -131,11 +131,3 @@ You can customise `--shiki-numbered` by overriding the following CSS variables i
 CSS Variables | Description
 --------------|------------
 `--imprint-code-example-line-no-color` | Sets the color of line numbers added to syntax-highlighted code examples
-
-<Callout icon="bug">
-<h4>Does Not Work In Firefox</h4>
-
-At the time of writing, Firefox does not correctly reset the line number counter.
-
-If you've got any `<ol>` tags on your page before your code example, the line numbers in the code example will be wrong.
-</Callout>
