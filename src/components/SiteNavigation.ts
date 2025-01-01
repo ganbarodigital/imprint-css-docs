@@ -1,10 +1,20 @@
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 import imprintConfig from "../../imprint.config";
 
 type NavItems = string[];
-type DocItem = {
+interface DocItem {
     data: {
-        [key: string]: string,
+        title: string;
+        description: string;
+        navSection: string;
+        prev?: {
+            collection: "docs";
+            id: string;
+        } | undefined;
+        next?: {
+            collection: "docs";
+            id: string;
+        } | undefined;
     }
 }
 
@@ -62,19 +72,25 @@ export async function buildNavList(navList: Map<string, NavItems>, docList: Map<
         }
 
         // we always want this
-        navItems.push(firstDoc.slug);
-        docList.set(firstDoc.slug, firstDoc);
+        navItems.push(firstDoc.id);
+        docList.set(firstDoc.id, firstDoc);
 
         // this will track our next doc
         let nextDoc = firstDoc;
         while(nextDoc.data.next !== undefined) {
-            const nextSlug = nextDoc.data.next.slug;
-            nextDoc = docs.find((doc) => doc.slug === nextSlug);
-            if (nextDoc === undefined) {
+            const nextContent = await getEntry("docs", nextDoc.data.next.id);
+            if (nextContent === undefined) {
+                throw new Error("cannot find docs entry " + nextDoc.data.next);
+            }
+            const nextSlug = nextContent.id;
+            const maybeNextDoc = docs.find((doc) => doc.id === nextSlug);
+            if (maybeNextDoc === undefined) {
                 throw new Error("section " + navSectionName + ": cannot find " + nextSlug);
             }
-            navItems.push(nextDoc.slug);
-            docList.set(nextDoc.slug, nextDoc);
+            // at this point, we know that we have a good document!
+            nextDoc = maybeNextDoc;
+            navItems.push(nextDoc.id);
+            docList.set(nextDoc.id, nextDoc);
         }
 
         // we just need to add this to the final list
