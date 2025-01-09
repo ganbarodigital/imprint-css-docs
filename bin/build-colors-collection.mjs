@@ -35,18 +35,169 @@
 //
 
 import * as fs from 'node:fs';
-import DEFINITION_STORE from "@imprintcss/imprint-css/lib/cjs/definition.js";
+import { DEFINITION_STORE } from "@imprintcss/css-definitions";
+import { isObject } from "@safelytyped/core-types";
+import { contrastRatio, hasClearContrast, hues, isDark, isDull, isLight, luma, makeCssColor, relativeLuminance, shade, wcagContrast } from "@safelytyped/css-color";
+
+// ================================================================
+//
+// HELPER FUNCTIONS
+//
+// ----------------------------------------------------------------
+
+function writeFile(folder, collectionName, collectionData)
+{
+    const path = folder + "/" + collectionName + ".json";
+    const fh = fs.openSync(path, "w+");
+    fs.writeSync(fh, JSON.stringify(collectionData, null, "  "));
+    fs.close(fh);
+}
+
+function writeCollections(folder, collections)
+{
+    Object.getOwnPropertyNames(collections).forEach(collectionName => {
+        writeFile(folder, collectionName, collections[collectionName]);
+    });
+}
+
+function isColorPalette(input)
+{
+    if (isObject(input)) {
+        return true;
+    }
+
+    return false;
+}
+
+function processColor(colorGroupName, colorName, colorDefinition)
+{
+    // console.log(colorGroupName + ": " + colorName + ": " + colorDefinition);
+    // shorthand
+    const cssColor = makeCssColor(colorDefinition);
+    const defaultFg = makeCssColor(DEFINITION_STORE.colorGroups.imprint["imprint-fg-default"]);
+    const defaultBg = makeCssColor(DEFINITION_STORE.colorGroups.imprint["imprint-bg-default"]);
+
+    // work out which color shades this belongs to
+    const colorHues = hues(cssColor);
+    colorHues.forEach(hue => {
+        hueCollections[hue].push(colorName);
+    });
+
+    // analyse the color
+    const colorAnalysis = {
+        hex: cssColor.hex(),
+        general: {
+            hues: hues(cssColor),
+            shade: shade(cssColor),
+            isDark: isDark(cssColor),
+            isMidtone: isDull(cssColor),
+            isLight: isLight(cssColor),
+            luma: luma(cssColor),
+            relativeLuminance: relativeLuminance(cssColor),
+        },
+        asForeground: {
+            clearContrast: hasClearContrast(cssColor, defaultBg),
+            contrastRatio: contrastRatio(cssColor, defaultBg),
+            wcagContrast: wcagContrast(contrastRatio(cssColor, defaultBg)),
+        },
+        asBackground: {
+            clearContrast: hasClearContrast(cssColor, defaultFg),
+            contrastRatio: contrastRatio(cssColor, defaultFg),
+            wcagContrast: wcagContrast(contrastRatio(cssColor, defaultFg)),
+        },
+    }
+
+    // use that data for some additional analysis
+    colorAnalysis.asForeground.useForHeadings = (colorAnalysis.asForeground.wcagContrast.AAA_large && colorAnalysis.asForeground.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.asForeground.useForBodyContent = (colorAnalysis.asForeground.wcagContrast.AA_normal && colorAnalysis.asForeground.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.asBackground.useForHeadings = (colorAnalysis.asBackground.wcagContrast.AAA_large && colorAnalysis.asBackground.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.asBackground.useForBodyContent = (colorAnalysis.asBackground.wcagContrast.AA_normal && colorAnalysis.asBackground.clearContrast && !colorAnalysis.general.isMidtone);
+
+    writeFile(colorFolorPrefix, colorName, colorAnalysis);
+
+    // add the color to any remaining collections
+    colorCollections[colorGroupName].push(colorName);
+}
+
+function processColorPalette(colorGroupName, paletteName, paletteDefinition)
+{
+    // setup our collections
+    colorPaletteCollections[paletteName] = [];
+
+    const paletteContentNames = Object.getOwnPropertyNames(paletteDefinition);
+    paletteContentNames.forEach(paletteContentName => {
+        // shorthand
+        const colorName = paletteName + "-" + paletteContentName;
+        const colorDefinition = paletteDefinition[paletteContentName];
+
+        // add it to our collections
+        colorGroupsCollections[colorGroupName].push(colorName);
+        colorPaletteCollections[paletteName].push(colorName);
+
+        processColor(colorGroupName, colorName, colorDefinition);
+    });
+}
+
+// ================================================================
+//
+// MAIN CODE
+//
+// ----------------------------------------------------------------
 
 // shorthand
+const groupFolderPrefix = "./src/data/colorGroups";
+const colorFolorPrefix = "./src/data/colors";
+const paletteFolderPrefix = "./src/data/colorPalettes";
+const hueFolderPrefix = "./src/data/colorHues";
+
 const colorGroups = DEFINITION_STORE.colorGroups;
 
-const colorNames = Object.getOwnPropertyNames(colorGroups);
-colorNames.forEach(colorName => {
-    const color = colorGroups[colorName];
-    console.log(color);
+// these will hold our colors data sets
+const hueCollections = {
+    black: [],
+    blue: [],
+    cyan: [],
+    gray: [],
+    green: [],
+    magenta: [],
+    orange: [],
+    pink: [],
+    purple: [],
+    red: [],
+    violet: [],
+    white: [],
+    yellow: [],
+}
+const colorGroupsCollections = {};
+const colorCollections = {};
+const colorPaletteCollections = {};
 
-    const path = "./src/content/colors/" + color.name + '.json';
-    const fh = fs.openSync(path, 'w+');
-    fs.writeSync(fh, JSON.stringify(color, null, "  "));
-    fs.close(fh);
+// first pass - organise Imprint CSS's colors into our data sets
+
+const colorGroupNames = Object.getOwnPropertyNames(colorGroups);
+colorGroupNames.forEach(colorGroupName => {
+    // shorthand
+    const colorGroup = colorGroups[colorGroupName];
+
+    // setup our collections
+    colorGroupsCollections[colorGroupName] = [];
+    colorCollections[colorGroupName] = [];
+
+    const paletteOrColorNames = Object.getOwnPropertyNames(colorGroup);
+    paletteOrColorNames.forEach(paletteOrColorName => {
+        // what are we looking at?
+        const paletteOrColor = colorGroup[paletteOrColorName];
+        if (isColorPalette(paletteOrColor)) {
+            processColorPalette(colorGroupName, paletteOrColorName, paletteOrColor);
+        }
+        else {
+            colorGroupsCollections[colorGroupName].push(paletteOrColorName);
+            processColor(colorGroupName, paletteOrColorName, paletteOrColor);
+        }
+    });
 });
+
+writeCollections(groupFolderPrefix, colorGroupsCollections);
+writeCollections(paletteFolderPrefix, colorPaletteCollections);
+writeCollections(hueFolderPrefix, hueCollections);
+

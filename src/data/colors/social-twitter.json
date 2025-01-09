@@ -1,0 +1,42 @@
+{
+  "hex": "#55acee",
+  "general": {
+    "hues": [
+      "cyan"
+    ],
+    "shade": "dull",
+    "isDark": false,
+    "isMidtone": true,
+    "isLight": false,
+    "luma": 153.511,
+    "relativeLuminance": 0.3760938912678501
+  },
+  "asForeground": {
+    "clearContrast": false,
+    "contrastRatio": 2.2,
+    "wcagContrast": {
+      "A_normal": false,
+      "AA_normal": false,
+      "AA_large": false,
+      "AA_ui": false,
+      "AAA_normal": false,
+      "AAA_large": false
+    },
+    "useForHeadings": false,
+    "useForBodyContent": false
+  },
+  "asBackground": {
+    "clearContrast": false,
+    "contrastRatio": 6.4,
+    "wcagContrast": {
+      "A_normal": true,
+      "AA_normal": true,
+      "AA_large": true,
+      "AA_ui": true,
+      "AAA_normal": false,
+      "AAA_large": true
+    },
+    "useForHeadings": false,
+    "useForBodyContent": false
+  }
+}
