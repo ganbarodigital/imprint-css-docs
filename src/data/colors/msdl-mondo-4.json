@@ -12,7 +12,7 @@
     "luma": 118.381,
     "relativeLuminance": 0.181
   },
-  "asForeground": {
+  "againstLightBackground": {
     "clearContrast": false,
     "contrastRatio": 4.2,
     "wcagContrast": {
@@ -26,7 +26,7 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "asBackground": {
+  "againstDarkBackground": {
     "clearContrast": false,
     "contrastRatio": 3.5,
     "wcagContrast": {

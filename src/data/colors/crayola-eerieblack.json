@@ -13,21 +13,21 @@
     "luma": 27,
     "relativeLuminance": 0.01
   },
-  "asForeground": {
+  "againstLightBackground": {
     "clearContrast": true,
     "contrastRatio": 15.9,
     "wcagContrast": {
       "A_normal": true,
-      "AA_normal": false,
+      "AA_normal": true,
       "AA_large": true,
       "AA_ui": true,
-      "AAA_normal": false,
-      "AAA_large": false
+      "AAA_normal": true,
+      "AAA_large": true
     },
-    "useForHeadings": false,
-    "useForBodyContent": false
+    "useForHeadings": true,
+    "useForBodyContent": true
   },
-  "asBackground": {
+  "againstDarkBackground": {
     "clearContrast": false,
     "contrastRatio": 1,
     "wcagContrast": {

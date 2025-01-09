@@ -96,12 +96,12 @@ function processColor(colorGroupName, colorName, colorDefinition)
             luma: roundDown(3, luma(cssColor)),
             relativeLuminance: roundDown(3, relativeLuminance(cssColor)),
         },
-        asForeground: {
+        againstLightBackground: {
             clearContrast: hasClearContrast(cssColor, defaultBg),
             contrastRatio: contrastRatio(cssColor, defaultBg),
-            wcagContrast: wcagContrast(3, contrastRatio(cssColor, defaultBg)),
+            wcagContrast: wcagContrast(contrastRatio(cssColor, defaultBg)),
         },
-        asBackground: {
+        againstDarkBackground: {
             clearContrast: hasClearContrast(cssColor, defaultFg),
             contrastRatio: contrastRatio(cssColor, defaultFg),
             wcagContrast: wcagContrast(contrastRatio(cssColor, defaultFg)),
@@ -109,10 +109,10 @@ function processColor(colorGroupName, colorName, colorDefinition)
     }
 
     // use that data for some additional analysis
-    colorAnalysis.asForeground.useForHeadings = (colorAnalysis.asForeground.wcagContrast.AAA_large && colorAnalysis.asForeground.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.asForeground.useForBodyContent = (colorAnalysis.asForeground.wcagContrast.AA_normal && colorAnalysis.asForeground.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.asBackground.useForHeadings = (colorAnalysis.asBackground.wcagContrast.AAA_large && colorAnalysis.asBackground.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.asBackground.useForBodyContent = (colorAnalysis.asBackground.wcagContrast.AA_normal && colorAnalysis.asBackground.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.againstLightBackground.useForHeadings = (colorAnalysis.againstLightBackground.wcagContrast.AAA_large && colorAnalysis.againstLightBackground.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.againstLightBackground.useForBodyContent = (colorAnalysis.againstLightBackground.wcagContrast.AA_normal && colorAnalysis.againstLightBackground.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.againstDarkBackground.useForHeadings = (colorAnalysis.againstDarkBackground.wcagContrast.AAA_large && colorAnalysis.againstDarkBackground.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.againstDarkBackground.useForBodyContent = (colorAnalysis.againstDarkBackground.wcagContrast.AA_normal && colorAnalysis.againstDarkBackground.clearContrast && !colorAnalysis.general.isMidtone);
 
     writeFile(colorFolorPrefix, colorName, colorAnalysis);
 
