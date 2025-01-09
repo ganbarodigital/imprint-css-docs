@@ -7,6 +7,6 @@ module.exports = {
     ],
     plugins: [
         // require("@imprintcss/css-debugging"),
-        require('@imprintcss/imprint-css'),
+        require('@imprintcss/tailwind-plugin'),
     ],
 };

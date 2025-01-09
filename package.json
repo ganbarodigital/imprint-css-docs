@@ -16,7 +16,7 @@
   "dependencies": {
     "@astrojs/mdx": "^4.0.3",
     "@astrojs/tailwind": "^5.1.4",
-    "@imprintcss/imprint-css": "^1.0",
+    "@imprintcss/tailwind-plugin": "^0.1.0",
     "@safelytyped/core-types": "^0.5.0",
     "@tailwindcss/container-queries": "^0.1.1",
     "astro": "^5.1.1",
