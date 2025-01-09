@@ -10,21 +10,21 @@
     "isMidtone": false,
     "isLight": false,
     "luma": 71.537,
-    "relativeLuminance": 0.06543178824910643
+    "relativeLuminance": 0.065
   },
   "asForeground": {
     "clearContrast": true,
     "contrastRatio": 8.4,
     "wcagContrast": {
       "A_normal": true,
-      "AA_normal": true,
+      "AA_normal": false,
       "AA_large": true,
       "AA_ui": true,
-      "AAA_normal": true,
-      "AAA_large": true
+      "AAA_normal": false,
+      "AAA_large": false
     },
-    "useForHeadings": true,
-    "useForBodyContent": true
+    "useForHeadings": false,
+    "useForBodyContent": false
   },
   "asBackground": {
     "clearContrast": false,

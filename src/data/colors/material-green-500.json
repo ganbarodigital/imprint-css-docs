@@ -9,16 +9,16 @@
     "isMidtone": true,
     "isLight": false,
     "luma": 134.569,
-    "relativeLuminance": 0.32775630966003133
+    "relativeLuminance": 0.327
   },
   "asForeground": {
     "clearContrast": false,
     "contrastRatio": 2.5,
     "wcagContrast": {
-      "A_normal": false,
+      "A_normal": true,
       "AA_normal": false,
-      "AA_large": false,
-      "AA_ui": false,
+      "AA_large": true,
+      "AA_ui": true,
       "AAA_normal": false,
       "AAA_large": false
     },

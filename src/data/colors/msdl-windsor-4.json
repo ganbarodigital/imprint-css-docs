@@ -8,8 +8,8 @@
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
-    "luma": 130.052,
-    "relativeLuminance": 0.21560800789315104
+    "luma": 130.051,
+    "relativeLuminance": 0.215
   },
   "asForeground": {
     "clearContrast": false,

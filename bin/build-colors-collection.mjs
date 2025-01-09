@@ -38,6 +38,7 @@ import * as fs from 'node:fs';
 import { DEFINITION_STORE } from "@imprintcss/css-definitions";
 import { isObject } from "@safelytyped/core-types";
 import { contrastRatio, hasClearContrast, hues, isDark, isDull, isLight, luma, makeCssColor, relativeLuminance, shade, wcagContrast } from "@safelytyped/css-color";
+import { roundDown } from "@safelytyped/math-rounding";
 
 // ================================================================
 //
@@ -92,13 +93,13 @@ function processColor(colorGroupName, colorName, colorDefinition)
             isDark: isDark(cssColor),
             isMidtone: isDull(cssColor),
             isLight: isLight(cssColor),
-            luma: luma(cssColor),
-            relativeLuminance: relativeLuminance(cssColor),
+            luma: roundDown(3, luma(cssColor)),
+            relativeLuminance: roundDown(3, relativeLuminance(cssColor)),
         },
         asForeground: {
             clearContrast: hasClearContrast(cssColor, defaultBg),
             contrastRatio: contrastRatio(cssColor, defaultBg),
-            wcagContrast: wcagContrast(contrastRatio(cssColor, defaultBg)),
+            wcagContrast: wcagContrast(3, contrastRatio(cssColor, defaultBg)),
         },
         asBackground: {
             clearContrast: hasClearContrast(cssColor, defaultFg),
