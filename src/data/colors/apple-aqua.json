@@ -4,15 +4,15 @@
     "hues": [
       "cyan"
     ],
-    "shade": "dull",
-    "isDark": false,
-    "isMidtone": true,
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
     "isLight": false,
     "luma": 104.206,
     "relativeLuminance": 0.226
   },
-  "againstLightBackground": {
-    "clearContrast": false,
+  "pairedWithLightColor": {
+    "clearContrast": true,
     "contrastRatio": 3.5,
     "wcagContrast": {
       "A_normal": true,
@@ -25,7 +25,7 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 4.1,
     "wcagContrast": {

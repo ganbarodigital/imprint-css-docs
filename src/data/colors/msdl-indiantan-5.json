@@ -2,14 +2,14 @@
   "hex": "#bb9167",
   "general": {
     "hues": [],
-    "shade": "dull",
+    "tonality": "midtone",
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
     "luma": 152.77,
     "relativeLuminance": 0.317
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": false,
     "contrastRatio": 2.6,
     "wcagContrast": {
@@ -23,7 +23,7 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 5.5,
     "wcagContrast": {

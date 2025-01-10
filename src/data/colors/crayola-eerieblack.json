@@ -3,17 +3,16 @@
   "general": {
     "hues": [
       "gray",
-      "black",
-      "red"
+      "black"
     ],
-    "shade": "dark",
+    "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
     "luma": 27,
     "relativeLuminance": 0.01
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": true,
     "contrastRatio": 15.9,
     "wcagContrast": {
@@ -27,7 +26,7 @@
     "useForHeadings": true,
     "useForBodyContent": true
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 1,
     "wcagContrast": {

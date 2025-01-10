@@ -37,7 +37,7 @@
 import * as fs from 'node:fs';
 import { DEFINITION_STORE } from "@imprintcss/css-definitions";
 import { isObject } from "@safelytyped/core-types";
-import { contrastRatio, hasClearContrast, hues, isDark, isDull, isLight, luma, makeCssColor, relativeLuminance, shade, wcagContrast } from "@safelytyped/css-color";
+import { contrastRatio, hasClearContrast, hues, isDark, isLight, isMidtone, luma, makeCssColor, relativeLuminance, tonality, wcagContrast } from "@safelytyped/css-color";
 import { roundDown } from "@safelytyped/math-rounding";
 
 // ================================================================
@@ -89,19 +89,19 @@ function processColor(colorGroupName, colorName, colorDefinition)
         hex: cssColor.hex(),
         general: {
             hues: hues(cssColor),
-            shade: shade(cssColor),
+            tonality: tonality(cssColor),
             isDark: isDark(cssColor),
-            isMidtone: isDull(cssColor),
+            isMidtone: isMidtone(cssColor),
             isLight: isLight(cssColor),
             luma: roundDown(3, luma(cssColor)),
             relativeLuminance: roundDown(3, relativeLuminance(cssColor)),
         },
-        againstLightBackground: {
+        pairedWithLightColor: {
             clearContrast: hasClearContrast(cssColor, defaultBg),
             contrastRatio: contrastRatio(cssColor, defaultBg),
             wcagContrast: wcagContrast(contrastRatio(cssColor, defaultBg)),
         },
-        againstDarkBackground: {
+        pairedWithDarkColor: {
             clearContrast: hasClearContrast(cssColor, defaultFg),
             contrastRatio: contrastRatio(cssColor, defaultFg),
             wcagContrast: wcagContrast(contrastRatio(cssColor, defaultFg)),
@@ -109,10 +109,10 @@ function processColor(colorGroupName, colorName, colorDefinition)
     }
 
     // use that data for some additional analysis
-    colorAnalysis.againstLightBackground.useForHeadings = (colorAnalysis.againstLightBackground.wcagContrast.AAA_large && colorAnalysis.againstLightBackground.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.againstLightBackground.useForBodyContent = (colorAnalysis.againstLightBackground.wcagContrast.AA_normal && colorAnalysis.againstLightBackground.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.againstDarkBackground.useForHeadings = (colorAnalysis.againstDarkBackground.wcagContrast.AAA_large && colorAnalysis.againstDarkBackground.clearContrast && !colorAnalysis.general.isMidtone);
-    colorAnalysis.againstDarkBackground.useForBodyContent = (colorAnalysis.againstDarkBackground.wcagContrast.AA_normal && colorAnalysis.againstDarkBackground.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.pairedWithLightColor.useForHeadings = (colorAnalysis.pairedWithLightColor.wcagContrast.AAA_large && colorAnalysis.pairedWithLightColor.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.pairedWithLightColor.useForBodyContent = (colorAnalysis.pairedWithLightColor.wcagContrast.AAA_normal && colorAnalysis.pairedWithLightColor.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.pairedWithDarkColor.useForHeadings = (colorAnalysis.pairedWithDarkColor.wcagContrast.AAA_large && colorAnalysis.pairedWithDarkColor.clearContrast && !colorAnalysis.general.isMidtone);
+    colorAnalysis.pairedWithDarkColor.useForBodyContent = (colorAnalysis.pairedWithDarkColor.wcagContrast.AAA_normal && colorAnalysis.pairedWithDarkColor.clearContrast && !colorAnalysis.general.isMidtone);
 
     writeFile(colorFolorPrefix, colorName, colorAnalysis);
 

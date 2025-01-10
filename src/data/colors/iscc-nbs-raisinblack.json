@@ -7,14 +7,14 @@
       "purple",
       "magenta"
     ],
-    "shade": "dark",
+    "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
     "luma": 34.239,
     "relativeLuminance": 0.015
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": true,
     "contrastRatio": 14.7,
     "wcagContrast": {
@@ -28,7 +28,7 @@
     "useForHeadings": true,
     "useForBodyContent": true
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 1,
     "wcagContrast": {

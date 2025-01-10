@@ -5,14 +5,14 @@
       "blue",
       "violet"
     ],
-    "shade": "light",
+    "tonality": "midtone",
     "isDark": false,
-    "isMidtone": false,
-    "isLight": true,
+    "isMidtone": true,
+    "isLight": false,
     "luma": 163.62,
     "relativeLuminance": 0.347
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": false,
     "contrastRatio": 2.4,
     "wcagContrast": {
@@ -26,8 +26,8 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
-    "clearContrast": true,
+  "pairedWithDarkColor": {
+    "clearContrast": false,
     "contrastRatio": 6,
     "wcagContrast": {
       "A_normal": true,
@@ -37,7 +37,7 @@
       "AAA_normal": false,
       "AAA_large": true
     },
-    "useForHeadings": true,
-    "useForBodyContent": true
+    "useForHeadings": false,
+    "useForBodyContent": false
   }
 }

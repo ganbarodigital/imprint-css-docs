@@ -5,14 +5,14 @@
       "yellow",
       "orange"
     ],
-    "shade": "light",
+    "tonality": "midtone",
     "isDark": false,
-    "isMidtone": false,
-    "isLight": true,
+    "isMidtone": true,
+    "isLight": false,
     "luma": 176.622,
     "relativeLuminance": 0.503
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": false,
     "contrastRatio": 1.7,
     "wcagContrast": {
@@ -26,8 +26,8 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
-    "clearContrast": true,
+  "pairedWithDarkColor": {
+    "clearContrast": false,
     "contrastRatio": 8.3,
     "wcagContrast": {
       "A_normal": true,
@@ -37,7 +37,7 @@
       "AAA_normal": true,
       "AAA_large": true
     },
-    "useForHeadings": true,
-    "useForBodyContent": true
+    "useForHeadings": false,
+    "useForBodyContent": false
   }
 }

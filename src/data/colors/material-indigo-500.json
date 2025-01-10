@@ -4,14 +4,14 @@
     "hues": [
       "blue"
     ],
-    "shade": "dark",
+    "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
     "luma": 87.018,
     "relativeLuminance": 0.102
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": true,
     "contrastRatio": 6.3,
     "wcagContrast": {
@@ -23,9 +23,9 @@
       "AAA_large": true
     },
     "useForHeadings": true,
-    "useForBodyContent": true
+    "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 2.3,
     "wcagContrast": {

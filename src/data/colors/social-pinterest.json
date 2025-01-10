@@ -5,14 +5,14 @@
       "red",
       "pink"
     ],
-    "shade": "dark",
+    "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
     "luma": 64.399,
     "relativeLuminance": 0.11
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": true,
     "contrastRatio": 6,
     "wcagContrast": {
@@ -24,9 +24,9 @@
       "AAA_large": true
     },
     "useForHeadings": true,
-    "useForBodyContent": true
+    "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 2.4,
     "wcagContrast": {

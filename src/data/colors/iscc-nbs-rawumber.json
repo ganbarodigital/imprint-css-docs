@@ -4,15 +4,15 @@
     "hues": [
       "yellow"
     ],
-    "shade": "dull",
-    "isDark": false,
-    "isMidtone": true,
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
     "isLight": false,
     "luma": 106.496,
     "relativeLuminance": 0.146
   },
-  "againstLightBackground": {
-    "clearContrast": false,
+  "pairedWithLightColor": {
+    "clearContrast": true,
     "contrastRatio": 4.9,
     "wcagContrast": {
       "A_normal": true,
@@ -22,10 +22,10 @@
       "AAA_normal": false,
       "AAA_large": true
     },
-    "useForHeadings": false,
+    "useForHeadings": true,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 2.9,
     "wcagContrast": {

@@ -4,14 +4,14 @@
     "hues": [
       "cyan"
     ],
-    "shade": "dull",
+    "tonality": "midtone",
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
     "luma": 139.391,
     "relativeLuminance": 0.294
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": false,
     "contrastRatio": 2.8,
     "wcagContrast": {
@@ -25,7 +25,7 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 5.2,
     "wcagContrast": {

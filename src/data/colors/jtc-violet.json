@@ -4,14 +4,14 @@
     "hues": [
       "magenta"
     ],
-    "shade": "dark",
+    "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
     "luma": 66.363,
     "relativeLuminance": 0.051
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": true,
     "contrastRatio": 9.5,
     "wcagContrast": {
@@ -25,7 +25,7 @@
     "useForHeadings": true,
     "useForBodyContent": true
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 1.5,
     "wcagContrast": {

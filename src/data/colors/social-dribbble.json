@@ -4,14 +4,14 @@
     "hues": [
       "red"
     ],
-    "shade": "dull",
+    "tonality": "midtone",
     "isDark": false,
     "isMidtone": true,
     "isLight": false,
     "luma": 130.196,
     "relativeLuminance": 0.244
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": false,
     "contrastRatio": 3.2,
     "wcagContrast": {
@@ -25,7 +25,7 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 4.4,
     "wcagContrast": {

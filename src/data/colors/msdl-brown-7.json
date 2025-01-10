@@ -6,14 +6,14 @@
       "yellow",
       "orange"
     ],
-    "shade": "light",
+    "tonality": "light",
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
     "luma": 231.416,
     "relativeLuminance": 0.806
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": false,
     "contrastRatio": 1.1,
     "wcagContrast": {
@@ -27,7 +27,7 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": true,
     "contrastRatio": 12.9,
     "wcagContrast": {

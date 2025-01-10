@@ -4,14 +4,14 @@
     "hues": [
       "yellow"
     ],
-    "shade": "light",
+    "tonality": "light",
     "isDark": false,
     "isMidtone": false,
     "isLight": true,
     "luma": 196.892,
     "relativeLuminance": 0.635
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": false,
     "contrastRatio": 1.4,
     "wcagContrast": {
@@ -25,7 +25,7 @@
     "useForHeadings": false,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": true,
     "contrastRatio": 10.3,
     "wcagContrast": {

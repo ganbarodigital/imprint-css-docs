@@ -2,14 +2,14 @@
   "hex": "#964b00",
   "general": {
     "hues": [],
-    "shade": "dark",
+    "tonality": "dark",
     "isDark": true,
     "isMidtone": false,
     "isLight": false,
     "luma": 88.875,
     "relativeLuminance": 0.115
   },
-  "againstLightBackground": {
+  "pairedWithLightColor": {
     "clearContrast": true,
     "contrastRatio": 5.8,
     "wcagContrast": {
@@ -21,9 +21,9 @@
       "AAA_large": true
     },
     "useForHeadings": true,
-    "useForBodyContent": true
+    "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 2.5,
     "wcagContrast": {

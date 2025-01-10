@@ -5,15 +5,15 @@
       "violet",
       "magenta"
     ],
-    "shade": "dull",
-    "isDark": false,
-    "isMidtone": true,
+    "tonality": "dark",
+    "isDark": true,
+    "isMidtone": false,
     "isLight": false,
     "luma": 100.566,
     "relativeLuminance": 0.145
   },
-  "againstLightBackground": {
-    "clearContrast": false,
+  "pairedWithLightColor": {
+    "clearContrast": true,
     "contrastRatio": 4.9,
     "wcagContrast": {
       "A_normal": true,
@@ -23,10 +23,10 @@
       "AAA_normal": false,
       "AAA_large": true
     },
-    "useForHeadings": false,
+    "useForHeadings": true,
     "useForBodyContent": false
   },
-  "againstDarkBackground": {
+  "pairedWithDarkColor": {
     "clearContrast": false,
     "contrastRatio": 2.9,
     "wcagContrast": {
