@@ -18,8 +18,8 @@ type Props = MarkdownLayoutProps<{
     title: string;
     description: string;
     navSection: string;
-    prev: string | undefined;
-    next: string | undefined;
+    prev?: { collection: "docs"; id: string } | undefined;
+    next?: { collection: "docs"; id: string } | undefined;
 }>;
 
 const {frontmatter,headings} = Astro.props;

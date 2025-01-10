@@ -1,6 +1,7 @@
 // Import utilities from `astro:content`
 import { z, defineCollection } from "astro:content";
 import { docsSchema } from "../schemas/doc";
+import { glob } from "astro/loaders";
 
 const colors = defineCollection({
     type: 'data',
@@ -28,6 +29,10 @@ const colors = defineCollection({
     }),
 });
 
+const CssStyles = defineCollection({
+    type: 'data'
+});
+
 const devices = defineCollection({
     type: 'data',
     schema: z.object({
@@ -44,7 +49,7 @@ const devices = defineCollection({
 });
 
 const docs = defineCollection({
-    type: 'content',
+    loader: glob({ pattern: "**/*.mdx", base: "./src/content/docs"}),
     schema: docsSchema,
 });
 
@@ -59,4 +64,4 @@ const CssVars = defineCollection({
     }),
 });
 
-export const collections = { colors, devices, docs, CssVars };
+export const collections = { colors, devices, docs, CssStyles, CssVars };

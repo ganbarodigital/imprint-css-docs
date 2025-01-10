@@ -21,13 +21,17 @@ import SizingUnitTable from "../../../components/SizingUnitTable.astro"
 Root pixels scale up and down when `1rem` is larger or smaller than `16px`.
 </Callout>
 
-Imprint CSS has `rpx` equivalents of `px` for `1px`-`40px`, and also all multiples of 2, 3 and 5, all the way up to the equivalent of `800px`.
+Imprint CSS has `rpx` equivalents of `px` for `1px`-`40px`, and also all multiples of 2, 3 and 5, all the way up to `800rpx`.
 
 Here's the full list of `rpx` units.
 
 <SizingUnitTable unitType="relpixels"/>
 
 ## What Problem Are We Solving Here?
+
+<div class="css-debug">
+This is a test of my sub-plugin.
+</div>
 
 <Callout icon="idea">
 [Imprint CSS sets `1rem` to different values on different devices](/styling-the-page/default-font-size) to improve readability.
@@ -59,16 +63,14 @@ Most people use pixels to size everything in their CSS. Unfortunately, pixels ar
 
 ### The Problem With Using Pixels For Spacing And Layouts
 
-Pixel units (`px`) are a fixed size.
+Pixel units (`px`) are a fixed size, regardless of the screen's actual resolution. This is a problem for content-oriented websites.
 
-* `16px` is always same size on the screen, no matter what the value of `1rem` is,
-* but Imprint CSS uses [a different value of `1rem` on different devices](/styling-the-page/default-font-size).
+* `16px` (your typical text size) looks larger on some screens but smaller on others, because screens have different pixel densities,
+* so we need to [use a different value of `1rem` on different devices](/styling-the-page/default-font-size), so that our text is always readable on every screen.
 
-Any CSS styles that use pixel units (`px`) are going to look different on different devices.
+Any CSS styles that use pixel units (`px`) are going to look different on different devices. That's not what we want for content-oriented websites.
 
-That's not what we want for content-oriented websites. We want (most of!) our CSS styling to be proportional to our font sizes.
-
-That way, as `1rem` changes value, our padding, our margins, our inline SVG icons, the width of things like sidebars, etc etc all scale up (or down) to match.
+**We want (most of!) our CSS styling to be proportional to our font sizes.** That way, as `1rem` changes value, our padding, our margins, our inline SVG icons, the width of things like sidebars, etc etc all scale up (or down) to match.
 
 Most of the time, we want to use `rem` units for our CSS sizing. Unfortunately, we're used to working in pixels, not `rem`. To help bridge that gap, Imprint CSS adds some new sizing units.
 
@@ -90,7 +92,7 @@ You can use `rpx` units as size suffixes with any Tailwind classes.
 
 In the example above, we use a `h-28rpx` class to set the width of an inline SVG icon.
 
-### Design In Pixels, Publish In RPX
+### Workflow: Design In Pixels, Publish In RPX
 
 <Callout icon="info">
 `16rpx` == `16px` when `1rem` == `16px`
@@ -146,7 +148,7 @@ When they are content, it's best to use either `%` units or a combination of `%`
 ### Text Flow
 
 <Callout icon="info">
-Use `em` for vertical whitespace between paragraphs, aka [text flow](/modern-typography/text-flow).
+Use `em` for vertical whitespace (aka [text flow](/modern-typography/text-flow)) between paragraphs.
 </Callout>
 
 [Text flow](/modern-typography/text-flow) is the vertical whitespace between headings, paragraphs, lists, and other content in a document.
@@ -217,7 +219,7 @@ module.exports = {
     plugins: [
         require('@imprintcss/imprint-css')({
             rootPixels: {
-                maxRelpixel: 1024,
+                maxRootPixel: 1024,
             }
         }),
     ],

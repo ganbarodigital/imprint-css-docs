@@ -6,6 +6,7 @@ module.exports = {
         "./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}",
     ],
     plugins: [
-        require('@stuartherbert/imprint-css'),
+        // require("@imprintcss/css-debugging"),
+        require('@imprintcss/tailwind-plugin'),
     ],
 };

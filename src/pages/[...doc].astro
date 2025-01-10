@@ -1,20 +1,21 @@
 ---
 import { getCollection } from "astro:content";
 import MdxLayout from "../layouts/mdx.astro";
+import { render } from "astro:content";
 
 export async function getStaticPaths() {
   const allDocs = await getCollection("docs");
 
   return allDocs.map((entry) => {
     return {
-      params: { doc: entry.slug },
+      params: { doc: entry.id },
       props: { entry }
     };
   });
 }
 
 const { entry } = Astro.props;
-const { Content, headings } = await entry.render();
+const { Content, headings } = await render(entry);
 
 ---
 
